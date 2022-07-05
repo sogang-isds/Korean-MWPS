@@ -1,0 +1,1077 @@
+[
+    {
+        "Question": "25, 85, 39, 46, 78인 5개의 수가 있습니다. 높은 숫자부터 낮은 숫자 순으로 나열했을 때 마지막으로 오는 수는 얼마입니까?",
+        "Answer": 25,
+        "Equation": "func_find_bigorder(seq0, 0)"
+    },
+    {
+        "Question": "36, 48, 72, 11, 106, 2인 6개의 수 가 있습니다. 높은 숫자부터 낮은 숫자 순으로 나열했을 때 제일 뒤에 오는 수는 얼마입니까?",
+        "Answer": 2,
+        "Equation": "func_find_bigorder(seq0, 0)"
+    },
+    {
+        "Question": "9, 105, 36, 72인 4 개의 수 가 있습니다. 높은 숫자 순으로 나열했을 때 2 번째에 오는 수는 얼마입니까?",
+        "Answer": 72,
+        "Equation": "func_find_bigorder(seq0, num1)"
+    },
+    {
+        "Question": "25, 120, 124, 87, 92가 있습니다. 앞의 5개의 수를 오름차순으로 나열했을 때 그 중에서 중간에 있는 수는?",
+        "Answer": 92,
+        "Equation": "func_find_smallorder(seq0, func_middle_idx(seq0, none))"
+    },
+    {
+        "Question": "151,130,26,156,37가 있습니다. 앞의 5개의 수를 작은 순으로 나열했을 때 그 중에서 2 번째에 있는 수는?",
+        "Answer": 37,
+        "Equation": "func_find_smallorder(seq0, num1)"
+    },
+    {
+        "Question": "내림차순으로 5개 수 59,121,136,62,131 를 나열하려고 할 때 처음에 나오는 수를 구하시오",
+        "Answer": 136,
+        "Equation": "func_find_bigorder(seq0, 1)"
+    },
+    {
+        "Question": "작은 순으로  5개의 수 32,92,91,124,36 나열하려고 할 때 꼴등으로 오는 수를 구하시오",
+        "Answer": 124,
+        "Equation": "func_find_smallorder(seq0, 0)"
+    },
+    {
+        "Question": "오름차순으로 나열했을 때 제일 앞에 있는 수는 얼마입니까? 5개의 수 136,105,26,147,87가 있습니다.",
+        "Answer": 26,
+        "Equation": "func_find_smallorder(seq0, 1)"
+    },
+    {
+        "Question": "7개의 수 3, 5, 132,92,91,124,36 가 있습니다. 2 번째로 큰 수는?",
+        "Answer": 124,
+        "Equation": "func_find_bigorder(seq0, num1)"
+    },
+    {
+        "Question": "7개의 수 61,152,103,68,31, 124,36 가 있습니다. 3 번째로 작은 수는?",
+        "Answer": 61,
+        "Equation": "func_find_smallorder(seq0, num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 왼쪽으로 한 자리 옮기면 원래보다 2.7만큼 작아집니다.. 원래의 소수를 구하시오.",
+        "Answer": 3.0,
+        "Equation": "func_OriginNumber(func_movepoint(left, num0),num1)"
+    },
+    {
+        "Question": "6.9에 소수점을 왼쪽으로 한 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 6.21,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "2.3에 소수점을 왼쪽으로 한 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 2.07,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "4.7에 소수점을 왼쪽으로 한 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 4.23,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "5.1에 소수점을 왼쪽으로 한 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 4.59,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "6.7에 소수점을 왼쪽으로 한 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 6.03,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "6.7에 소수점을 오른쪽으로 두 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 663.3,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "2.5에 소수점을 오른쪽으로 두 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 247.5,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "0.25에 소수점을 오른쪽으로 네 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 2499.75,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "3.69에 소수점을 오른쪽으로 세 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 3686.31,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "1.52에 소수점을 오른쪽으로 두 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 150.48,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "1.52에 소수점을 왼쪽으로 두 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 1.5,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "3.75에 소수점을 왼쪽으로 한 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 3.38,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "0.5에 소수점을 왼쪽으로 세 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 0.5,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "4개의 수 53, 98, 69, 84가 있습니다. 그 중에서 가장 큰 수 와 가장 작은 수의 차는 얼마입니까?",
+        "Answer": 45,
+        "Equation": "func_difference(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "5개의 수 2, 11, 6, 8 ,7가 있습니다. 그 중에서 가장 큰 수 와 가장 작은 수의 합은 얼마입니까?",
+        "Answer": 13,
+        "Equation": "func_add(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "5개의 수 53, 98, 69, 84, 2가 있습니다. 그 중에서 가장 큰 수 와 가장 작은 수의 곱은 얼마입니까?",
+        "Answer": 196,
+        "Equation": "func_multiply(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "3개의 수12, 3, 6가 있습니다. 그 중에서 가장 큰 수를 가장 작은 수로 나눌때 값은 얼마입니까?",
+        "Answer": 4.0,
+        "Equation": "func_divide(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "4개의 수 5,7, 9, 11가 있습니다. 그 중에서 가장 큰 수 와 가장 작은 수의 차는 얼마입니까?",
+        "Answer": 6,
+        "Equation": "func_difference(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "5개의 수 15, 9 , 18, 2, 6가 있습니다. 그 중에서 가장 큰 수 와 가장 작은 수의 합은 얼마입니까?",
+        "Answer": 20,
+        "Equation": "func_add(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "7개의 수 2, 11, 6, 8 ,7, 15, 1가 있습니다. 그 중에서 가장 큰 수 와 가장 작은 수의 곱은 얼마입니까?",
+        "Answer": 15,
+        "Equation": "func_multiply(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "5개의 수 7, 8, 1, 5, 9가 있습니다. 오름차순으로 나열했을 때 2 번째 있는 수와 맨 앞에 있는 수의 차는 얼마입니까?",
+        "Answer": 4,
+        "Equation": "func_difference(func_find_smallorder(seq0, num1), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "3개의 수 9, 3, 5가 있습니다. 내림차순으로 나열했을 때 가운데있는 수와 마지막에 있는 수의 차은 얼마입니까?",
+        "Answer": 2,
+        "Equation": "func_difference(func_find_bigorder(seq0, func_middle_idx(seq0, none)), func_find_bigorder(seq0, 0))"
+    },
+    {
+        "Question": "4개의 수 2, 11, 9 ,5가 있습니다. 오름차순으로 나열했을 때 3 번째에 있는 수와 4 번째 있는 수의 곱은 얼마입니까?",
+        "Answer": 99,
+        "Equation": "func_multiply(func_find_smallorder(seq0, num1), func_find_smallorder(seq0, num2))"
+    },
+    {
+        "Question": "5개의 수 2, 11, 9 ,5 ,17가 있습니다. 내림차순으로 나열했을 때 처음에 있는 수와 마지막에 있는 수의 곱은 얼마입니까?",
+        "Answer": 34,
+        "Equation": "func_multiply(func_find_bigorder(seq0, 1), func_find_bigorder(seq0, 0))"
+    },
+    {
+        "Question": "6개의 수 9, 5, 11, 23, 6, 8가 있습니다. 오름차순으로 나열했을 때 가운데 있는 수와 마지막에 있는 수의 합은 얼마입니까?",
+        "Answer": 31,
+        "Equation": "func_add(func_find_smallorder(seq0, func_middle_idx(seq0, none)), func_find_smallorder(seq0, 0))"
+    },
+    {
+        "Question": "3개의 수 35, 71, 63가 있습니다. 내림차순으로 나열했을 때 1 번째에 있는 수와 2 번째 있는 수의 합은 얼마입니까?",
+        "Answer": 134,
+        "Equation": "func_add(func_find_bigorder(seq0, num1), func_find_bigorder(seq0, num2))"
+    },
+    {
+        "Question": "5개의 수 3, 11, 6, 9 ,7가 있습니다. 오름차순으로 나열했을 때 2 번째에 있는 수와 1 번째 있는 수를 나눈 값은 얼마입니까?",
+        "Answer": 2.0,
+        "Equation": "func_divide(func_find_smallorder(seq0, num1), func_find_smallorder(seq0, num2))"
+    },
+    {
+        "Question": "7개의 수 2, 9, 50, 6, 8 ,7,20가 있습니다. 내림차순으로 나열했을 때 맨 앞에 있는 수와 마지막 있는 수를 나눈 값은 얼마입니까?",
+        "Answer": 25.0,
+        "Equation": "func_divide(func_find_bigorder(seq0, 1), func_find_bigorder(seq0, 0))"
+    },
+    {
+        "Question": "5개의 수 5, 1, 6, 2, 9가 있습니다. 내림차순으로 나열했을 때 맨 앞에 있는 수와 오름차순으로 나열했을때 2 번째 있는 수의 차은 얼마입니까?",
+        "Answer": 7,
+        "Equation": "func_difference(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, num1))"
+    },
+    {
+        "Question": "5개의 수 3,1,8,7,9가 있습니다. 내림차순으로 나열했을 때 맨 앞에 있는 수와 오름차순으로 나열했을때 가운데 있는 수의 차는 얼마입니까?",
+        "Answer": 2,
+        "Equation": "func_difference(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, func_middle_idx(seq0, none)))"
+    },
+    {
+        "Question": "5개의 수 1,5,2,9,7가 있습니다. 오름차순으로 나열했을 때 5 번째 수와 내림차순으로 나열했을때 2 번째 있는 수의 합은 얼마입니까?",
+        "Answer": 16,
+        "Equation": "func_add(func_find_smallorder(seq0, num1), func_find_bigorder(seq0, num2))"
+    },
+    {
+        "Question": "6개의 수 2, 11, 6, 8 ,7 , 15가 있습니다.  내림차순으로 나열했을 때 1번째  있는 수와 3번째 수의 차는 얼마입니까?",
+        "Answer": 7,
+        "Equation": "func_difference(func_find_bigorder(seq0, num1), func_find_bigorder(seq0, num2))"
+    },
+    {
+        "Question": "5개의 수 6,9, 3,1, 5가 있습니다. 오름차순으로 나열했을 때 마지막에 있는 수와 처음에 있는 수의 차은 얼마입니까?",
+        "Answer": 8,
+        "Equation": "func_difference(func_find_smallorder(seq0, 0), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "4개의 수 1, 35, 2 ,6가 있습니다. 내림차순으로 나열했을 때 3 번째에 있는 수와 4 번째 있는 수의 곱은 얼마입니까?",
+        "Answer": 2,
+        "Equation": "func_multiply(func_find_bigorder(seq0, num1), func_find_bigorder(seq0, num2))"
+    },
+    {
+        "Question": "5개의 수 1,9, 6, 22, 15가 있습니다. 오름차순으로 나열했을 때 처음에 있는 수와 마지막에 있는 수의 곱은 얼마입니까?",
+        "Answer": 22,
+        "Equation": "func_multiply(func_find_smallorder(seq0, 1), func_find_smallorder(seq0, 0))"
+    },
+    {
+        "Question": "5개의 수 9, 5, 11, 23, 6 가 있습니다. 내림차순으로 나열했을 때 가운데 있는 수와 마지막에 있는 수의 합은 얼마입니까?",
+        "Answer": 14,
+        "Equation": "func_add(func_find_bigorder(seq0, func_middle_idx(seq0, none)), func_find_bigorder(seq0, 0))"
+    },
+    {
+        "Question": "3개의 수 35, 71, 63가 있습니다. 오름차순으로 나열했을 때 1 번째에 있는 수와 3 번째 있는 수의 합은 얼마입니까?",
+        "Answer": 106,
+        "Equation": "func_add(func_find_smallorder(seq0, num1), func_find_smallorder(seq0, num2))"
+    },
+    {
+        "Question": "7개의 수 3, 11, 6, 9 ,7 ,4, 8가 있습니다. 내림차순으로 나열했을 때 2 번째 있는 수와 7 번째 있는 수를 나눈 값은 얼마입니까?",
+        "Answer": 3.0,
+        "Equation": "func_divide(func_find_bigorder(seq0, num1), func_find_bigorder(seq0, num2))"
+    },
+    {
+        "Question": "7개의 수 2, 9, 50, 6, 8 ,7,20가 있습니다. 내림차순으로 나열했을 때 맨 앞에 있는 수와 마지막 있는 수를 나눈 값은 얼마입니까?",
+        "Answer": 25.0,
+        "Equation": "func_divide(func_find_bigorder(seq0, 1), func_find_bigorder(seq0, 0))"
+    },
+    {
+        "Question": "5개의 수 5, 1, 6, 2, 9가 있습니다. 오름차순으로 나열했을 때 마지막에 있는 수와 내림차순으로 나열했을때 2 번째 있는 수의 차은 얼마입니까?",
+        "Answer": 3,
+        "Equation": "func_difference(func_find_smallorder(seq0, 0), func_find_bigorder(seq0, num1))"
+    },
+    {
+        "Question": "5개의 수 3,1,8,7,9가 있습니다. 오름차순으로 나열했을 때 맨 앞에 있는 수와 내림차순으로 나열했을때 가운데 있는 수의 합은 얼마입니까?",
+        "Answer": 8,
+        "Equation": "func_add(func_find_smallorder(seq0, 1), func_find_bigorder(seq0, func_middle_idx(seq0, none)))"
+    },
+    {
+        "Question": "5개의 수 1,5,2,9,7가 있습니다. 내림차순으로 나열했을 때 5 번째 수와 오름차순 나열했을때 2 번째 있는 수의 곱은 얼마입니까?",
+        "Answer": 2,
+        "Equation": "func_multiply(func_find_bigorder(seq0, num1), func_find_smallorder(seq0, num2))"
+    },
+    {
+        "Question": "25, 85, 39, 46, 78인 5개의 수 가 있습니다. 높은 숫자부터 낮은 숫자 순으로 나열했을 때 3번째로 오는 수는 얼마입니까?",
+        "Answer": 46,
+        "Equation": "func_find_bigorder(seq0, num1)"
+    },
+    {
+        "Question": "36, 48, 72, 11, 106, 2인 6개의 수 가 있습니다. 높은 숫자부터 낮은 숫자 순으로 나열했을 때 2 번째 오는 수는 얼마입니까?",
+        "Answer": 11,
+        "Equation": "func_find_smallorder(seq0, num1)"
+    },
+    {
+        "Question": "9, 105, 36, 72인 4개의 수를 높은 숫자 순으로 나열했을 때 제일 처음에 오는 수는 얼마입니까?",
+        "Answer": 105,
+        "Equation": "func_find_bigorder(seq0, 1)"
+    },
+    {
+        "Question": "25, 120, 124, 87, 92가 있습니다. 앞의 5개의 수를 오름차순으로 나열했을 때 그 중에서 마지막에 있는 수는?",
+        "Answer": 124,
+        "Equation": "func_find_smallorder(seq0, 0)"
+    },
+    {
+        "Question": "151,130,26,156,37가 있습니다. 앞의 5개의 수를 작은 순으로 나열했을 때 그 중에서 중간에 있는 수는?",
+        "Answer": 130,
+        "Equation": "func_find_bigorder(seq0, func_middle_idx(seq0, none))"
+    },
+    {
+        "Question": "5 개 수를 내림차순으로 59,121,136,62,131 나열하려고 할 때 중간에 나오는 수를 구하시오",
+        "Answer": 121,
+        "Equation": "func_find_bigorder(seq0, func_middle_idx(seq0, none))"
+    },
+    {
+        "Question": "5 개 수를 작은 순으로 32,92,91,124,36 나열하려고 할 때 3 번째로 오는 수를 구하시오",
+        "Answer": 91,
+        "Equation": "func_find_smallorder(seq0, num1)"
+    },
+    {
+        "Question": "오름차순으로 나열했을 때 4 번째에 있는 수는 얼마입니까? 5개의 수 136,105,26,147,87가 있습니다.",
+        "Answer": 136,
+        "Equation": "func_find_smallorder(seq0, num0)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 왼쪽으로 두 자리 옮기면 원래보다 2.5만큼 작아집니다.. 원래의 소수를 구하시오.",
+        "Answer": 2.53,
+        "Equation": "func_OriginNumber(func_movepoint(left, num0),num1)"
+    },
+    {
+        "Question": "6.9에 소수점을 왼쪽으로 세 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 6.89,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "0.23에 소수점을 왼쪽으로 한 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 0.21,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "3.9에 소수점을 왼쪽으로 두 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 3.86,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "6.7에 소수점을 왼쪽으로 두 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 6.63,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "6.7에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 60.3,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "3.5에 소수점을 오른쪽으로 1자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 31.5,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "0.2에 소수점을 오른쪽으로 2자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 19.8,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "3.69에 소수점을 오른쪽으로 2자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 365.31,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "1.52에 소수점을 오른쪽으로 1자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 13.68,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "1.51에 소수점을 왼쪽으로 2자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 1.49,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "2.75에 소수점을 왼쪽으로 1 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 2.48,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "0.5에 소수점을 왼쪽으로 2 자리 옮기면 A만큼 작아집니다. A를 구하시오.",
+        "Answer": 0.49,
+        "Equation": "func_diff_Numbers(func_movepoint(left, num1),num0)"
+    },
+    {
+        "Question": "5개의 수 31, 53, 98, 69, 84가 있습니다. 그 중에서 가장 큰 수 와 가장 작은 수의 합은 얼마입니까?",
+        "Answer": 129,
+        "Equation": "func_add(func_find_bigorder(seq0, 1), func_find_bigorder(seq0, 0))"
+    },
+    {
+        "Question": "5개의 수 2, 9, 6, 8 ,7가 있습니다. 그 중에서 가장 큰 수 와 가장 작은 수의 차는 얼마입니까?",
+        "Answer": 7,
+        "Equation": "func_difference(func_find_bigorder(seq0, 1), func_find_bigorder(seq0, 0))"
+    },
+    {
+        "Question": "3개의 수 9, 3, 5가 있습니다. 내림차순으로 나열했을 때 처음 수와 가운데에 있는 수의 나눈값은 얼마입니까?",
+        "Answer": 1.8,
+        "Equation": "func_divide(func_find_bigorder(seq0, 1), func_find_bigorder(seq0, func_middle_idx(seq0, none)))"
+    },
+    {
+        "Question": "5개의 수 2, 11, 9 ,5 ,17가 있습니다. 내림차순으로 나열했을 때 처음에 있는 수와 마지막에 있는 수를 빼면 얼마입니까?",
+        "Answer": 15,
+        "Equation": "func_minus(func_find_bigorder(seq0, 1), func_find_bigorder(seq0, 0))"
+    },
+    {
+        "Question": "6개의 수 9, 5, 11, 23, 6가 있습니다. 오름차순으로 나열했을 때 가운데 있는 수와 마지막에 있는 수의 곱은 얼마입니까?",
+        "Answer": 207,
+        "Equation": "func_multiply(func_find_smallorder(seq0, func_middle_idx(seq0, none)), func_find_smallorder(seq0, 0))"
+    },
+    {
+        "Question": "3개의 수 35, 71, 3가 있습니다. 내림차순으로 나열했을 때 1 번째에 있는 수와 2 번째 있는 수의 곱은 얼마입니까?",
+        "Answer": 2485,
+        "Equation": "func_multiply(func_find_bigorder(seq0, num1), func_find_bigorder(seq0, num2))"
+    },
+    {
+        "Question": "5개의 수 3, 11, 6, 9 ,7가 있습니다. 오름차순으로 나열했을 때 2 번째에 있는 수와 1 번째 있는 수를 합은 얼마입니까?",
+        "Answer": 9,
+        "Equation": "func_add(func_find_smallorder(seq0, num1), func_find_smallorder(seq0, num2))"
+    },
+    {
+        "Question": "7개의 수 2, 9, 50, 6, 8 ,7,20가 있습니다. 내림차순으로 나열했을 때 맨 앞에 있는 수와 마지막 있는 수를 뺀 값은 얼마입니까?",
+        "Answer": 48,
+        "Equation": "func_minus(func_find_bigorder(seq0, 1), func_find_bigorder(seq0, 0))"
+    },
+    {
+        "Question": "5개의 수5, 1, 6, 2, 9가 있습니다. 내림차순으로 나열했을 때 맨 앞에 있는 수와 오름차순으로 나열했을때 마지막에 있는 수의 차은 얼마입니까?",
+        "Answer": 0,
+        "Equation": "func_difference(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, 0))"
+    },
+    {
+        "Question": "5개의 수 3,1,8,7,9가 있습니다. 내림차순으로 나열했을 때 맨 앞에 있는 수와 오름차순으로 나열했을때 가운데 있는 수의 합은 얼마입니까?",
+        "Answer": 16,
+        "Equation": "func_add(func_find_bigorder(seq0, 1), func_find_smallorder(seq0, func_middle_idx(seq0, none)))"
+    },
+    {
+        "Question": "5개의 수 1,5,2,9,7가 있습니다. 오름차순으로 나열했을 때 5 번째 수와 내림차순으로 나열했을때 2 번째 있는 수의 곱은 얼마입니까?",
+        "Answer": 63,
+        "Equation": "func_multiply(func_find_smallorder(seq0, num1), func_find_bigorder(seq0, num2))"
+    },
+    {
+        "Question": "6개의 수 2, 11, 6, 8 ,7 , 15가 있습니다.  내림차순으로 나열했을 때 3 번째  있는 수와 1 번째 수의 합은 얼마입니까?",
+        "Answer": 23,
+        "Equation": "func_add(func_find_bigorder(seq0, num1), func_find_bigorder(seq0, num2))"
+    },
+    {
+        "Question": "5개의 수 6,9, 3,1, 5가 있습니다. 오름차순으로 나열했을 때 마지막에 있는 수와 처음에 있는 수의 곱은 얼마입니까?",
+        "Answer": 9,
+        "Equation": "func_multiply(func_find_smallorder(seq0, 0), func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "5개의 수 105,62,116,89,43가 있습니다. 내림차순으로 나열했을 때 마지막으로 오는 수는 얼마입니까?",
+        "Answer": 43,
+        "Equation": "func_find_bigorder(seq0, 0)"
+    },
+    {
+        "Question": "5개의 수 120,124,87,119,92가 있습니다. 오름차순으로 나열했을 때 그 중에서 가운데 있는 수는?",
+        "Answer": 119,
+        "Equation": "func_find_smallorder(seq0, func_middle_idx(seq0, none))"
+    },
+    {
+        "Question": "5개의 수 151,130,26,156,37가 있습니다. 내림차순으로 나열했을 때 3번째 수는?",
+        "Answer": 130,
+        "Equation": "func_find_bigorder(seq0, num1)"
+    },
+    {
+        "Question": "5개의 수 88,115,90,168,32가 있습니다. 내림차순으로 나열했을 때 맨 앞에 있는 수는 얼마입니까?",
+        "Answer": 168,
+        "Equation": "func_find_bigorder(seq0, 1)"
+    },
+    {
+        "Question": "5개의 수 79,75,76,71,112가 있습니다. 내림차순으로 나열했을 때 3번째 수는 얼마입니까?",
+        "Answer": 76,
+        "Equation": "func_find_bigorder(seq0, num1)"
+    },
+    {
+        "Question": "5개의 수 81,38,127,98,53가 있습니다. 내림차순으로 나열했을 때 맨 앞에 있는 수는?",
+        "Answer": 127,
+        "Equation": "func_find_bigorder(seq0, 1)"
+    },
+    {
+        "Question": "5개의 수 59,121,136,62,131가 있습니다. 오름차순으로 나열했을 때 제일 처음에 나오는 수를 구하시오",
+        "Answer": 59,
+        "Equation": "func_find_smallorder(seq0, 1)"
+    },
+    {
+        "Question": "5개의 수 39,156,159,48,153가 있습니다. 오름차순으로 나열했을 때 그 중에서 가운데 있는 수는?",
+        "Answer": 153,
+        "Equation": "func_find_smallorder(seq0, func_middle_idx(seq0, none))"
+    },
+    {
+        "Question": "5개의 수 91,149,125,71,68가 있습니다. 내림차순으로 나열했을 때 3번째 수는?",
+        "Answer": 91,
+        "Equation": "func_find_bigorder(seq0, num1)"
+    },
+    {
+        "Question": "5개의 수 132,92,91,124,36가 있습니다. 오름차순으로 나열했을 때 3번째 수를 구하시오",
+        "Answer": 92,
+        "Equation": "func_find_smallorder(seq0, num1)"
+    },
+    {
+        "Question": "5개의 수 61,152,103,68,31가 있습니다. 오름차순으로 나열했을 때 제일 처음에 나오는 수를 구하시오",
+        "Answer": 31,
+        "Equation": "func_find_smallorder(seq0, 1)"
+    },
+    {
+        "Question": "5개의 수 119,99,135,37,85가 있습니다. 내림차순으로 나열했을 때 4번째 수를 구하시오",
+        "Answer": 85,
+        "Equation": "func_find_bigorder(seq0, num1)"
+    },
+    {
+        "Question": "5개의 수 23,73,121,115,142가 있습니다. 오름차순으로 나열했을 때 맨 앞에 있는 수는 얼마입니까?",
+        "Answer": 23,
+        "Equation": "func_find_smallorder(seq0, 1)"
+    },
+    {
+        "Question": "5개의 수 136,105,26,147,87가 있습니다. 내림차순으로 나열했을 때 3번째 수를 구하시오",
+        "Answer": 105,
+        "Equation": "func_find_bigorder(seq0, num1)"
+    },
+    {
+        "Question": "5개의 수 86,69,94,46,156가 있습니다. 오름차순으로 나열했을 때 4번째 수는 얼마입니까?",
+        "Answer": 94,
+        "Equation": "func_find_smallorder(seq0, num1)"
+    },
+    {
+        "Question": "5개의 수 68,47,148,132,68가 있습니다. 내림차순으로 나열했을 때 마지막으로 오는 수는?",
+        "Answer": 47,
+        "Equation": "func_find_bigorder(seq0, 0)"
+    },
+    {
+        "Question": "5개의 수 150,26,82,107,125가 있습니다. 내림차순으로 나열했을 때 마지막으로 오는 수를 구하시오",
+        "Answer": 26,
+        "Equation": "func_find_bigorder(seq0, 0)"
+    },
+    {
+        "Question": "5개의 수 130,134,37,85,170가 있습니다. 내림차순으로 나열했을 때 3번째 수는?",
+        "Answer": 130,
+        "Equation": "func_find_bigorder(seq0, num1)"
+    },
+    {
+        "Question": "5개의 수 152,109,66,69,47가 있습니다. 오름차순으로 나열했을 때 맨 앞에 있는 수는 얼마입니까?",
+        "Answer": 47,
+        "Equation": "func_find_smallorder(seq0, 1)"
+    },
+    {
+        "Question": "5개의 수 170,71,102,137,65가 있습니다. 내림차순으로 나열했을 때 마지막으로 오는 수는?",
+        "Answer": 65,
+        "Equation": "func_find_bigorder(seq0, 0)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 2.7만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 0.3,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 22.5만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 2.5,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 19.8만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 2.2,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 47.7만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 5.3,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 53.1만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 5.9,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 28.8만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 3.2,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 35.1만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 3.9,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 36.9만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 4.1,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 27.9만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 3.1,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 6.3만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 0.7,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 한 자리 옮기면 원래보다 46.8만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 5.2,
+        "Equation": "func_OriginNumber(func_movepoint(right, num0),num1)"
+    },
+    {
+        "Question": "0.3에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 2.7,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "5.3에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 47.7,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "4.5에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 40.5,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "5.5에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 49.5,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "1.9에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 17.1,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "3.8에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 34.2,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "0.2에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 1.8,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "5.3에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 47.7,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "5.7에 소수점을 오른쪽으로 한 자리 옮기면 A만큼 커집니다. A를 구하시오.",
+        "Answer": 51.3,
+        "Equation": "func_diff_Numbers(func_movepoint(right, num1),num0)"
+    },
+    {
+        "Question": "6개의 수 93,102,50,41,132,137가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 큰 수의 1의 자리 수와 10의 자리 수의 합을 구하시오",
+        "Answer": 10,
+        "Equation": "func_add(func_FinddigitNumber(func_SplitNumber(func_find_bigorder(func_remove_smallest(seq0, none),1), none),func_SplitNumber(num1,none)),func_FinddigitNumber(func_SplitNumber(func_find_bigorder(func_remove_smallest(seq0, none),1), none),func_SplitNumber(num2,none)))"
+    },
+    {
+        "Question": "5개의 수 165,92,153,109,64가 있습니다. 가장 큰 수를 뺀 뒤 남은 수 중에서 가장 큰 수의 1의 자리 수와 10의 자리 수의 합은?",
+        "Answer": 8,
+        "Equation": "func_add(func_FinddigitNumber(func_SplitNumber(func_find_bigorder(func_remove_largest(seq0, none),1), none),func_SplitNumber(num1,none)),func_FinddigitNumber(func_SplitNumber(func_find_bigorder(func_remove_largest(seq0, none),1), none),func_SplitNumber(num2,none)))"
+    },
+    {
+        "Question": "4개의 수 165,57,108,118가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 큰 수의 1의 자리 수와 10의 자리 수의 합은?",
+        "Answer": 11,
+        "Equation": "func_add(func_FinddigitNumber(func_SplitNumber(func_find_bigorder(func_remove_smallest(seq0, none),1), none),func_SplitNumber(num1,none)),func_FinddigitNumber(func_SplitNumber(func_find_bigorder(func_remove_smallest(seq0, none),1), none),func_SplitNumber(num2,none)))"
+    },
+    {
+        "Question": "4개의 수 88,83,29,160가 있습니다. 가장 큰 수를 뺀 뒤 남은 수 중에서 가장 큰 수의 1의 자리 수와 10의 자리 수의 합은?",
+        "Answer": 16,
+        "Equation": "func_add(func_FinddigitNumber(func_SplitNumber(func_find_bigorder(func_remove_largest(seq0, none),1), none),func_SplitNumber(num1,none)),func_FinddigitNumber(func_SplitNumber(func_find_bigorder(func_remove_largest(seq0, none),1), none),func_SplitNumber(num2,none)))"
+    },
+    {
+        "Question": "4개의 수 53,98, 69, 84가 있습니다. 그 중에서 가장 큰 수와 가장 작은 수의 차는 얼마입니까?",
+        "Answer": 45,
+        "Equation": "func_difference(func_find_bigorder(seq0, 1),func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "3개의 수 62, 12, 25가 있습니다. 그 중에서 가장 큰 수와 가장 작은 수의 차는 얼마입니까?",
+        "Answer": 50,
+        "Equation": "func_difference(func_find_bigorder(seq0, 1),func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "4개의 수 166,158,52,42가 있습니다. 그 중에서 가장 큰 수와 가장 작은 수의 합은?",
+        "Answer": 208,
+        "Equation": "func_add(func_find_bigorder(seq0, 1),func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "5개의 수 126,35,69,23,97가 있습니다. 그 중에서 가장 큰 수를 가장 작은 수로 나눈 나머지는?",
+        "Answer": 11,
+        "Equation": "func_mod(func_find_bigorder(seq0, 1),func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "5개의 수 126,35,69,23,97가 있습니다. 그 중에서 두 번째로 큰 수를 가장 작은 수로 나눈 나머지는?",
+        "Answer": 5,
+        "Equation": "func_mod(func_find_bigorder(seq0, num1),func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "다음 수 중에서 첫 번째로 큰 수와 가장 작은 수의 합을 구하세요. 1 , 8, 3, 5 , 7, 9",
+        "Answer": 10,
+        "Equation": "func_add(func_find_bigorder(seq0, num0),func_find_smallorder(seq0, 1))"
+    },
+    {
+        "Question": "1, 2, 5, 8로 만들 수 있는 네 자리수 중에서 2000보다 작은 수의 개수를 구하시오",
+        "Answer": 6,
+        "Equation": "func_len(func_smallnum(func_permutation_list(seq0, num0),num1),none)"
+    },
+    {
+        "Question": "5개의 수 25, 16, 36, 57, 63가 있습니다. 그 중에서 가장 큰 수와 2번째 큰 수의 차는 얼마입니까?",
+        "Answer": 6,
+        "Equation": "func_difference(func_find_bigorder(seq0, 1),func_find_bigorder(seq0, num1))"
+    },
+    {
+        "Question": "5개의 수 25, 16, 36, 57, 63가 있습니다. 그 중에서 가장 큰 수와 2번째 큰 수의 합은 얼마입니까?",
+        "Answer": 120,
+        "Equation": "func_add(func_find_bigorder(seq0, 1),func_find_bigorder(seq0, num1))"
+    },
+    {
+        "Question": "5개의 수 84,104,165,42,52가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 큰 수와 가장 작은 수의 차를 구하시오",
+        "Answer": 113,
+        "Equation": "func_difference(func_find_bigorder(func_remove_smallest(seq0, none),1),func_find_smallorder(func_remove_smallest(seq0, none),1))"
+    },
+    {
+        "Question": "6개의 수 52,135,88,137,58,139가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 큰 수를 가장 작은 수로 나눈 나머지를 구하시오",
+        "Answer": 23,
+        "Equation": "func_mod(func_find_bigorder(func_remove_smallest(seq0, none),1),func_find_smallorder(func_remove_smallest(seq0, none),1))"
+    },
+    {
+        "Question": "6개의 수 52,135,88,137,58,139가 있습니다. 가장 큰 수를 뺀 뒤 남은 수 중에서 가장 큰 수를 가장 작은 수로 나눈 나머지를 구하시오",
+        "Answer": 33,
+        "Equation": "func_mod(func_find_bigorder(func_remove_largest(seq0, none),1),func_find_smallorder(func_remove_largest(seq0, none),1))"
+    },
+    {
+        "Question": "6개의 수 52,135,88,137,58,139가 있습니다. 가장 큰 수를 뺀 뒤 남은 수 중에서 두 번째로 큰 수를 가장 작은 수로 나눈 나머지를 구하시오",
+        "Answer": 31,
+        "Equation": "func_mod(func_find_bigorder(func_remove_largest(seq0, none),num1),func_find_smallorder(func_remove_largest(seq0, none),1))"
+    },
+    {
+        "Question": "6개의 수 166,66,134,40,66,28가 있습니다. 가장 큰 수를 뺀 뒤 남은 수 중에서 가장 작은 수와 가장 큰 수의 곱은 얼마입니까?",
+        "Answer": 3752,
+        "Equation": "func_multiply(func_find_smallorder(func_remove_largest(seq0, none),1),func_find_bigorder(func_remove_largest(seq0, none),1))"
+    },
+    {
+        "Question": "4개의 수 125,131,162,37가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 큰 수와 가장 작은 수의 합을 구하시오",
+        "Answer": 287,
+        "Equation": "func_add(func_find_bigorder(func_remove_smallest(seq0, none),1),func_find_smallorder(func_remove_smallest(seq0, none),1))"
+    },
+    {
+        "Question": "5개의 수 138,25,167,165,85가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 작은 수와 가장 큰 수의 곱은 얼마입니까?",
+        "Answer": 14195,
+        "Equation": "func_multiply(func_find_smallorder(func_remove_smallest(seq0, none),1),func_find_bigorder(func_remove_smallest(seq0, none),1))"
+    },
+    {
+        "Question": "5개의 수 48,99,105,102,117가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 큰 수와 가장 작은 수의 차는?",
+        "Answer": 18,
+        "Equation": "func_difference(func_find_bigorder(func_remove_smallest(seq0, none),1),func_find_smallorder(func_remove_smallest(seq0, none),1))"
+    },
+    {
+        "Question": "6개의 수 111,121,163,169,26,86가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 작은 수와 가장 큰 수의 곱은?",
+        "Answer": 14534,
+        "Equation": "func_multiply(func_find_smallorder(func_remove_smallest(seq0, none),1),func_find_bigorder(func_remove_smallest(seq0, none),1))"
+    },
+    {
+        "Question": "6개의 수 64,122,134,161,85,116가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 큰 수와 가장 작은 수의 합을 구하시오",
+        "Answer": 246,
+        "Equation": "func_add(func_find_bigorder(func_remove_smallest(seq0, none),1),func_find_smallorder(func_remove_smallest(seq0, none),1))"
+    },
+    {
+        "Question": "5개의 수 58,68,143,51,131가 있습니다. 그 중에서 가장 큰 수를 구하시오",
+        "Answer": 143,
+        "Equation": "func_find_bigorder(seq0, 1)"
+    },
+    {
+        "Question": "6개의 수 164,136,115,127,133,95가 있습니다. 그 중에서 가장 큰 수는 얼마입니까?",
+        "Answer": 164,
+        "Equation": "func_find_bigorder(seq0, 1)"
+    },
+    {
+        "Question": "4개의 수 30,39,96,42가 있습니다. 가장 큰 수를 뺀 뒤 남은 수 중에서 가장 작은 수는 얼마입니까?",
+        "Answer": 30,
+        "Equation": "func_find_smallorder(func_remove_largest(seq0, none),1)"
+    },
+    {
+        "Question": "5개의 수 68,73,35,120,51가 있습니다. 가장 큰 수를 뺀 뒤 남은 수 중에서 가장 작은 수는?",
+        "Answer": 35,
+        "Equation": "func_find_smallorder(func_remove_largest(seq0, none),1)"
+    },
+    {
+        "Question": "4개의 수 83,26,76,127가 있습니다. 가장 작은 수를 뺀 뒤 남은 수 중에서 가장 작은 수는?",
+        "Answer": 76,
+        "Equation": "func_find_smallorder(func_remove_smallest(seq0, none),1)"
+    },
+    {
+        "Question": "3개의 수 2, 3, 9로 나누어 떨어질 수 있는 세 자리 수는 모두 몇 개 있습니까?",
+        "Answer": 50,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 9,10,8로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 2,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 5,6,3로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 30,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 5,3,11로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 6,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 8,10,5로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 22,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 4,6,10로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 15,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 2,8,11로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 10,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 3,11,9로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 9,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 7,10,11로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 1,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 5,7,8로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 3,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "3개의 수 7,5,6로 나누어 떨어질 수 있는 3자리 수는 모두 몇 개 있습니까?",
+        "Answer": 4,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 2, 7로 나누어 떨어질 수 있는 세 자리 수는 모두 몇 개 있습니까?",
+        "Answer": 64,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 3 , 9로 나누어 떨어질 수 있는 두 자리 수는 모두 몇 개 있습니까?",
+        "Answer": 10,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 5,8로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 2,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 8,4로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 11,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 9,4로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 2,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 5,8로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 2,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 7,2로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 7,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 4,8로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 11,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 6,11로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 1,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 10,6로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 3,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1,none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 5,10로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 9,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1,none),seq0),none)"
+    },
+    {
+        "Question": "2개의 수 5,6로 나누어 떨어질 수 있는 2자리 수는 모두 몇 개 있습니까?",
+        "Answer": 3,
+        "Equation": "func_len(func_FindDivisor(func_MakeSeq(num1  , none),seq0),none)"
+    },
+    {
+        "Question": "0, 5, 7, 8 중에서 서로 다른 숫자 3개를 뽑아 만들 수 있는 세자리 수 중에서 두번째로 큰 수를 쓰시오.",
+        "Answer": 870.0,
+        "Equation": "func_find_bigorder(func_permutation_list(seq0,num1),num2)"
+    },
+    {
+        "Question": "연속하는 세 숫자가 있습니다. 세 숫자의 합이 225일 때, 가장 큰 숫자를 쓰시오.",
+        "Answer": 76.0,
+        "Equation": "func_add(func_divide(num2,num0),1)"
+    },
+    {
+        "Question": "47, 56, 87, 93 중에서 두번째로 큰 수에서 가장 작은 수를 뺀 값은 얼마입니까?",
+        "Answer": 40.0,
+        "Equation": "func_minus(func_find_bigorder(seq0,num0),func_find_smallorder(seq0,1))"
+    },
+    {
+        "Question": "수정이는 대현이보다 책을 20쪽 더 읽었습니다. 준우는 대현이보다 책을 2배 더 많이 읽었습니다. 대현이가 책을 15쪽 읽었다면 책을 가장 많이 읽은 사람은 몇 쪽을 읽었습니까?",
+        "Answer": 35.0,
+        "Equation": "func_find_bigorder(func_expandlist(func_makelist(func_add(num2,num0),func_multiply(num2,num1)),num2),1)"
+    },
+    {
+        "Question": "연속하는 세 짝수의 합이 60일 때, 가장 작은 짝수를 구하시오.",
+        "Answer": 18.0,
+        "Equation": "func_minus(func_divide(num1,num0),2)"
+    },
+    {
+        "Question": "연속하는 세 홀수의 합이 81일 때, 두번째로 큰 수를 구하시오.",
+        "Answer": 27.0,
+        "Equation": "func_add(func_minus(func_divide(num1,num0),2),func_multiply(2,func_minus(num2,1)))"
+    },
+    {
+        "Question": "윤정이는 장미꽃 30송이를 가지고 있었습니다. 동생에게 가지고 있는 장미꽃의 1/3을 주고 오빠에게 12송이를 주었습니다. 세 사람 중 장미꽃을 가장 많이 가지고 있는 사람은 몇 송이를 가지고 있습니까?",
+        "Answer": 12.0,
+        "Equation": "func_find_bigorder(func_expandlist(func_makelist(func_multiply(num0,num1),num2),func_minus(func_multiply(num0,func_minus(1,num1)),num2)),1)"
+    },
+    {
+        "Question": "어머니가 빵 20개를 만드셨습니다. 성열이가 만든 빵의 1/4을 먹었습니다. 민지는 성열이가 먹고 남은 빵의 2/3를 먹었습니다. 성열이와 민지 중 빵을 적게 먹은 사람은 몇 개의 빵을 먹었습니까?",
+        "Answer": 5.0,
+        "Equation": "func_find_smallorder(func_makelist(func_multiply(num0,num1),func_multiply(func_multiply(num0,func_minus(1,num1)),num2)),1)"
+    },
+    {
+        "Question": "승현이는 재민이보다 3살 더 많습니다. 누나의 나이는 재민이의 2배입니다. 형은 승현이보다 3살 더 많습니다. 재민이가 5살이라면 형과 누나 중 더 어린 사람은 몇 살입니까?",
+        "Answer": 10.0,
+        "Equation": "func_whichsmall(func_multiply(num3,num1),func_add(func_add(num3,num0),num2))"
+    },
+    {
+        "Question": "A 공장에서는 1분 동안 10개의 마스크를 생산합니다. B 공장에서는 1시간 동안 660개의 마스크를 생산합니다. 마스크를 더 많이 생산하는 공장에서 1분 동안 생산하는 마스크는 몇 개입니까?",
+        "Answer": 11.0,
+        "Equation": "func_whichbig(func_multiply(func_divide(num1,num0),num4),func_multiply(func_divide(num3,func_hr2min(num2,none)),num4))"
+    },
+    {
+        "Question": "A 마스크는 50개에 15000원입니다. B 마스크는 100개에 25000원입니다. A와 B 마스크 중 더 저렴한 마스크는 1개에 얼마입니까?",
+        "Answer": 250.0,
+        "Equation": "func_whichsmall(func_multiply(func_divide(num1,num0),num4),func_multiply(func_divide(num3,num2),num4))"
+    },
+    {
+        "Question": "6.2, 4.8, 5.4, 4.6 중에서 가장 큰 수와 가장 작은 수의 차는 얼마입니까?",
+        "Answer": 1.6,
+        "Equation": "func_difference(func_find_bigorder(seq0,1),func_find_smallorder(seq0,1))"
+    },
+    {
+        "Question": "어떤 소수를 2로 나누면 원래보다 0.1 작아집니다. 원래의 소수를 구하시오.",
+        "Answer": 0.2,
+        "Equation": "func_multiply(num1,num0)"
+    },
+    {
+        "Question": "어떤 소수에 3배를 하면 원래보다 1.4 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 0.7,
+        "Equation": "func_divide(num1,func_minus(num0,1))"
+    },
+    {
+        "Question": "3개의 수 5, 2, 7로 나누어 떨어질 수 있는 자연수중 가장 작은 수를 구하시오.",
+        "Answer": 70.0,
+        "Equation": "func_lcm(seq0,none)"
+    },
+    {
+        "Question": "3개의 수 5, 2, 4로 나누어 떨어질 수 있는 자연수중 가장 작은 수를 구하시오.",
+        "Answer": 20.0,
+        "Equation": "func_lcm(seq0,none)"
+    },
+    {
+        "Question": "윤지는 파란 구슬 18개와 빨간 구슬 12개를 될 수 있는 대로 많은 친구들에게 남김없이 똑같이 나누어 주려고 합니다. 최대한 몇 명에게 나누어 줄 수 있습니까?",
+        "Answer": 6.0,
+        "Equation": "func_gcd(num0,num1)"
+    },
+    {
+        "Question": "민재는 오늘 책 A의 1/2를 읽고, 책 B의 1/3을 읽었습니다. 오늘 민재가 읽은 책의 쪽수는 A는 30쪽, B는 25쪽 입니다. A와 B중 쪽수가 더 많은 책의 쪽수를 구하시오.",
+        "Answer": 75.0,
+        "Equation": "func_whichbig(func_divide(num2,num0),func_divide(num3,num1))"
+    },
+    {
+        "Question": "28,35,43,33 중에서 두번째로 큰수를 5로 나누면 얼마입니까?",
+        "Answer": 7.0,
+        "Equation": "func_divide(func_find_bigorder(seq0,num0),num1)"
+    },
+    {
+        "Question": "유미가 책을 펼쳤는데 두 쪽수의 곱이 240이었습니다. 유미가 펼친 두 쪽수 중 큰 수를 쓰시오.",
+        "Answer": 16.0,
+        "Equation": "func_find_bigorder(func_seq_mul(num1,num0),1)"
+    },
+    {
+        "Question": "진미는 문방구에서 한 개에 1000원인 펜과 1500원인 색연필을 합하여 7자루 사고 9000원을 지불하였습니다. 펜과 색연필 중 더 많이 산 것은 몇 자루 입니까?",
+        "Answer": 4.0,
+        "Equation": "func_find_bigorder(func_dual_eq(func_makelist(func_divide(num1,num0),func_divide(num2,num0)),func_makelist(num3,num4)),1)"
+    },
+    {
+        "Question": "어떤 두 자리 자연수의 십의 자리의 숫자와 일의 자리의 숫자의 합이 11이고, 이 수의 십의 자리의 숫자와 일의 자리의 숫자를 서로 바꾼 수는 처음의 수 보다 45만큼 작습니다. 처음의 두 자리 자연수에서 십의 자리와 일의 자리 숫자 중 큰 숫자는 얼마 입니까?",
+        "Answer": 8.0,
+        "Equation": "func_find_bigorder(func_dual_eq(func_makelist(9,func_minus(0,9)),func_makelist(num3,num6)),1)"
+    },
+    {
+        "Question": "민지, 준민, 윤지 세 사람이 수학 시험을 보았습니다. 민지는 92점, 준민이는 89점이고 세 사람의 평균 점수는 91점 입니다. 세 사람 중 90점을 넘은 사람은 몇 명입니까?",
+        "Answer": 2.0,
+        "Equation": "func_len(func_largenum(func_expandlist(func_makelist(num1,num2),func_minus(func_minus(func_multiply(num4,num3),num1),num2)),num6),none)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 오른쪽으로 두 자리 옮기면 원래의 소수보다 368.28만큼 커집니다. 원래의 소수를 구하시오.",
+        "Answer": 3.72,
+        "Equation": "func_divide(num1,func_minus(func_exp(10,num0),1))"
+    },
+    {
+        "Question": "0, 1, 4, 8 중에서 서로 다른 숫자 3개를 뽑아 만들 수 있는 세 자리 수 중에서 두 번째로 큰 수를 구하시오.",
+        "Answer": 840.0,
+        "Equation": "func_find_bigorder(func_permutation_list(seq0,num1),num2)"
+    },
+    {
+        "Question": "0, 3, 4, 9 중에서 서로 다른 숫자 3개를 뽑아 만들 수 있는 세 자리 수 중에서 가장 큰 수와 가장 작은 수의 차는 얼마입니까?",
+        "Answer": 639.0,
+        "Equation": "func_difference(func_find_bigorder(func_permutation_list(seq0,num1),1),func_find_smallorder(func_permutation_list(seq0,num1),1))"
+    },
+    {
+        "Question": "민정이는 순대와 떡볶이를 합하여 5인분을 사고 4000원을 지불하였습니다. 순대는 1인분에 1000원이고 떡볶이는 1인분에 500원일 때, 순대와 떡볶이 중 더 적게 산 것은 몇 인분 입니까?",
+        "Answer": 2.0,
+        "Equation": "func_find_smallorder(func_dual_eq(func_makelist(func_divide(num3,num2),func_divide(num5,num4)),func_makelist(num0,num1)),1)"
+    },
+    {
+        "Question": "서윤이는 철사 2.4m를 가지고 있습니다. 동생에게 얼마를 주었더니 1.1m가 남았습니다. 서윤이와 동생 중 더 긴 철사를 가지고 있는 사람은 철사 몇 m를 가지고 있습니까?",
+        "Answer": 1.3,
+        "Equation": "func_whichbig(func_minus(num0,num1),num1)"
+    },
+    {
+        "Question": "어떤 수 A와 3의 최소 공배수는 21입니다. A가 한 자리수 일 때, A를 구하시오.",
+        "Answer": 7.0,
+        "Equation": "func_listindex(func_multiple(num2,func_divide(num1,num0)),0)"
+    },
+    {
+        "Question": "어떤 수 A와 24의 최대 공약수는 8입니다.  A가 한 자리수 일 때, A를 구하시오.",
+        "Answer": 8.0,
+        "Equation": "func_listindex(func_multiple(num2,num1),0)"
+    },
+    {
+        "Question": "윤미의 수학 점수는 90점, 영어 점수는 80점, 국어 점수는 40점 입니다. 윤미의 수학, 영어, 국어 세 과목의 평균 점수보다 높은 점수를 받은 과목의 수는 몇 과목입니까?",
+        "Answer": 2,
+        "Equation": "func_len(func_largenum(func_expandlist(func_makelist(num0,num1),num2),func_divide(func_add(func_add(num0,num1),num2),num3)),none)"
+    },
+    {
+        "Question": "두 자리 수 자연수 A,B에 대하여, B는 A의 일의 자리와 십의 자리 숫자를 서로 바꾼 수 입니다. A,B 두 수의 합은 55이고 차는 9일 때, A와 B중 더 작은 수를 구하시오.",
+        "Answer": 23.0,
+        "Equation": "func_find_smallorder(func_permutation_list(func_dual_eq(func_makelist(9,func_minus(0,9)),func_makelist(func_divide(num3,11),num4)),num0),1)"
+    },
+    {
+        "Question": "43, 92, 71, 64가 있습니다. 그 중에서 가장 큰 수에서 가장 작은 수를 뺀 값은 얼마입니까?",
+        "Answer": 49,
+        "Equation": "func_difference(func_find_bigorder(seq0,1),func_find_smallorder(seq0,1))"
+    },
+    {
+        "Question": "0, 3, 5, 6 중에서 서로 다른 숫자 3개를 뽑아 만들 수 있는 세 자리 수 중에서 가장 작은 수를 쓰시오.",
+        "Answer": 305,
+        "Equation": "func_find_smallorder(func_permutation_list(seq0,num1),1)"
+    },
+    {
+        "Question": "5개의 수 1.4, 9/10, 1, 0.5, 13/10이 있습니다. 이 중에서 1보다 큰 수는 모두 몇 개입니까?",
+        "Answer": 2,
+        "Equation": "func_len(func_largenum(seq0,num1),none)"
+    },
+    {
+        "Question": "유나가 책을 펼쳤는데 두 쪽수의 합이 125이었습니다. 유나가 펼친 두 쪽수 중 큰 수를 쓰시오.",
+        "Answer": 63,
+        "Equation": "func_find_bigorder(func_seq_add(num1,num0),1)"
+    },
+    {
+        "Question": "어떤 소수의 소수점을 왼쪽으로 두 자리 옮기면 원래의 소수보다 1.782만큼 작아집니다. 원래의 소수를 구하시오. ",
+        "Answer": 1.8,
+        "Equation": "func_divide(num1,func_minus(1,func_exp(10,func_minus(0,num0))))"
+    }
+]

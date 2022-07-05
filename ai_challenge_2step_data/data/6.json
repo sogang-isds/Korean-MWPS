@@ -1,0 +1,1192 @@
+[
+    {
+        "Question": "어떤 수에서 36을 빼야 하는데 잘못하여 63을 뺀 결과가 8이 나왔습니다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 35,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "어떤 수에서 46을 뺐더니 15가 되었습니다. 어떤 수에서 29를 빼면 얼마가 되는지 구하시오.",
+        "Answer": 32,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), sub),num2)"
+    },
+    {
+        "Question": "어떤 수를 12로 나눈 다음 8을 더해야 할 것을 잘못하여 어떤 수에 12를 곱한 다음 8을 더했더니 296이 되었습니다. 바르게 계산하면 얼마일까요",
+        "Answer": 10.0,
+        "Equation": "func_add(func_divide(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4),add)), mul),num0),num1)"
+    },
+    {
+        "Question": "59에 어떤 수를 더하고 16을 빼야 할 것을 잘못하여 59에서 어떤 수를 빼었더니 44가 되었습니다. 바르게 계산하면 얼마일까요",
+        "Answer": 58,
+        "Equation": "func_minus(func_add(num0, func_minus(num2, num3)),num1)"
+    },
+    {
+        "Question": "2에 어떤 수를 곱해야 할 것을 잘못하여 5에 어떤 수를 곱했더니 40이 되었습니다. 바르게 계산하면 얼마인지 구하시오.",
+        "Answer": 16.0,
+        "Equation": "func_multiply(num0,func_inverseoperator(func_makelist(num1, num2),mul))"
+    },
+    {
+        "Question": "80에서 어떤 수를 빼고 2를 곱했어야 하는데, 잘못하여 80에 어떤 수를 더하고 2로 나누었더니 550이 되었습니다. 바르게 계산하면 얼마일까요",
+        "Answer": -1880,
+        "Equation": "func_multiply(func_minus(num0, func_inverseoperator(func_makelist(num2, func_inverseoperator(func_makelist(num3, num4),div)),add)), num1)"
+    },
+    {
+        "Question": "18에 어떤 수의 2배를 더한 다음 6으로 나누어야 할 것을 잘못하여 어떤 수의 2배를 6으로 나눈 다음 18을 더하였더니 21이 되었습니다. 바르게 계산하면 얼마입니까",
+        "Answer": 6.0,
+        "Equation": "func_divide(func_add(num0, func_multiply(func_inverseoperator(func_makelist(num3,func_inverseoperator(func_makelist(func_inverseoperator(func_makelist(num5, num6),add),num4),div)),mul),num1)),num2)"
+    },
+    {
+        "Question": "어떤 수를 12로 나눈 다음 8을 더해야 할 것을 잘못하여 어떤 수에 12를 곱한 다음 8을 더했더니 296이 되었습니다. 바르게 계산한 값은 얼마인지 풀이 과정을 쓰고, 답을 구하세요.",
+        "Answer": 10.0,
+        "Equation": "func_add(func_divide(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4), add)), mul),num0),num1)"
+    },
+    {
+        "Question": "어떤 수에 6을 곱하고 8을 빼어야 할 것을 잘못하여 8을 곱하고 6을 빼었더니 42가 되었습니다. 바르게 계산한 값을 구하세요.",
+        "Answer": 28.0,
+        "Equation": "func_minus(func_multiply(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4), sub)), mul),num0),num1)"
+    },
+    {
+        "Question": "어떤 수에 13을 곱하고 3으로 나누어야 할 것을 잘못하여 3을 곱하고 13을 빼었더니 14가 되었습니다. 바르게 계산한 값은 얼마일까요",
+        "Answer": 39.0,
+        "Equation": "func_divide(func_multiply(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4), sub)), mul),num0),num1)"
+    },
+    {
+        "Question": "어떤 수를 6으로 나눈 다음 36을 빼어야 할 것을 잘못하여 어떤 수에 6을 곱한 다음 36을 더하였더니 2556이 되었습니다. 바르게 계산하면 얼마일까요",
+        "Answer": 34.0,
+        "Equation": "func_minus(func_divide(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4), add)), mul),num0),num1)"
+    },
+    {
+        "Question": "어떤 수를 8로 나눈 다음 20을 더해야 할 것을 잘못해서 어떤 수에 8을 곱한 다음 20을 더했더니 980이 되었습니다. 바르게 계산했을 때의 답을 구해 보세요.",
+        "Answer": 35.0,
+        "Equation": "func_add(func_divide(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4), add)), mul),num0),num1)"
+    },
+    {
+        "Question": "어떤 수를 8로 나눈 다음 25를 더해야 할 것을 잘못해서 8을 곱한 다음 25를 빼었더니 2471이 되었습니다. 바르게 계산하면 얼마일까요",
+        "Answer": 64.0,
+        "Equation": "func_add(func_divide(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4), sub)), mul),num0),num1)"
+    },
+    {
+        "Question": "어떤 수를 5로 나눈 후 12를 더해야 할 것을 잘못하여 5를 곱한 후 12를 빼었더니 113이 되었습니다. 처음 구하려고 한 답을 구해 보세요.",
+        "Answer": 17.0,
+        "Equation": "func_add(func_divide(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4), sub)), mul),num0),num1)"
+    },
+    {
+        "Question": "어떤 수를 4를 나눈 다음 15를 더해야 할 것을 잘못하여 어떤 수에 4를 곱한 다음 15를 더했더니 95가 되었습니다. 바르게 계산했을 때의 답을 구하세요.",
+        "Answer": 20.0,
+        "Equation": "func_add(func_divide(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4), add)), mul),num0),num1)"
+    },
+    {
+        "Question": "18에 어떤 수의 2배를 더한 다음 6으로 나누어야 할 것을 잘못하여 어떤 수의 2배를 6으로 나눈 다음 18을 더하였더니 21이 되었습니다. 바르게 계산하면 얼마입니까",
+        "Answer": 6.0,
+        "Equation": "func_divide(func_add(num0, func_multiply(func_inverseoperator(func_makelist(num3,func_inverseoperator(func_makelist(func_inverseoperator(func_makelist(num5, num6),add),num4),div)),mul),num1)),num2)"
+    },
+    {
+        "Question": "어떤 수를 7로 나눈 후 18을 더해야 할 것을 잘못하여 어떤 수에 7을 곱한 후 18을 빼었더니 864가 되었습니다. 바르게 계산하면 얼마일까요",
+        "Answer": 36.0,
+        "Equation": "func_add(func_divide(func_inverseoperator(func_makelist(num2,func_inverseoperator(func_makelist(num3, num4), sub)), mul),num0),num1)"
+    },
+    {
+        "Question": "59에 어떤 수를 더하고 16을 빼야 할 것을 잘못하여 59에서 어떤 수를 빼었더니 44가 되었습니다. 바르게 계산하면 얼마일까요",
+        "Answer": 58,
+        "Equation": "func_minus(func_add(num0, func_minus(num2, num3)),num1)"
+    },
+    {
+        "Question": "시험답안에서 13을 나눠야 하는데 실수로 50을 더해버려서 89이 나왔다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 3.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "남준이는 71을 곱해야 했었다. 그런데 56을 빼서 44이 돼버렸다. 제대로 계산한 결과를 구하시오.",
+        "Answer": 7100,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 97을 더해야 했는데 잘못하여 92을 곱해버려서 결과가 1472이 나왔다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 113.0,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "석진이는 49을 빼야 한다. 그런데 43을 빼버려서 96이 나왔습니다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 90,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "어떤 문제에서 35을 곱해야 한다. 그러나 97을 나눴더니 결과가 1이 나왔다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 3395,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "시험답안에서 75을 더해야 했는데 실수로 81을 빼서 결과가 34이 돼버렸다. 제대로 계산한 결과를 얼마인가요?",
+        "Answer": 190,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "풀이에서 26을 나눠야 한다. 그런데 53을 나눴더니 546이 나왔습니다. 바르게 계산한 결과는 얼마인가요?",
+        "Answer": 1113.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 82을 빼야 한다. 그런데 43을 곱해서 4816이 돼버렸다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 30,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 43을 더해야 했는데 잘못하여 42을 곱했더니 결과가 2016이 나왔다. 바르게 계산한 결과는 얼마인가요?",
+        "Answer": 91.0,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "민영이가 91을 곱해야 하는데 잘못하여 3을 곱해서 결과가 105이 되었다. 원래대로 계산하면 얼마인지 구하시오",
+        "Answer": 3185.0,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "풀이에서 52을 곱해야 했다. 그러나 3을 뺐더니 40이 돼버렸다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 2236,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "민영이가 59을 빼야 하는건데 실수로 34을 더했더니 108이 되었다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 15,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "호석이는 15을 나눠야 했었다. 그러나 19을 더해버려서 184이 되었다. 원래대로 계산한 결과를 구하시오",
+        "Answer": 11.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수가 있습니다. 83을 곱했더니 2158가 되었습니다. 임의의 수에서 1를 곱하면 몇이 되는지 구하시오.",
+        "Answer": 26.0,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "석진이가 71을 빼야 했다. 그러나 45을 나눠버려서 결과가 3이 나왔습니다. 바르게 계산한 결과는 얼마인가요?",
+        "Answer": 64,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 19을 더했더니 49가 되었습니다. 임의의 수에서 29를 빼면 몇이 되는지 구하시오.",
+        "Answer": 1,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "어떤 문제에서 82을 나눠야 하는건데 잘못하여 84을 뺀 결과가 818이 나왔습니다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 11.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 16을 뺐더니 732가 되었습니다. 임의의 수에서 68를 나누면 몇인가?",
+        "Answer": 11.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), sub),num2)"
+    },
+    {
+        "Question": "윤기는 11을 빼야 했는데 잘못하여 75을 나눠버려서 결과가 1이 나왔습니다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 64,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 수에서 10을 곱했더니 190가 되었습니다. 어떤 수에서 55를 더하면 얼마가 되는지 구하시오.",
+        "Answer": 74.0,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "풀이에서 88을 빼야 하는데 잘못하여 68을 나눠서 2이 돼버렸다. 바르게 계산하면 얼마인지 구하시오",
+        "Answer": 48,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 7을 나눴더니 12가 되었습니다. 어떤 수에서 45를 곱하면 얼마가 되는지 구하시오.",
+        "Answer": 3780,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "호석이가 3을 빼야 하는데 잘못하여 8을 곱했더니 416이 돼버렸다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 49.0,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수가 있습니다. 52을 나눴더니 7가 되었습니다. 임의의 수에서 8를 더하면 얼마가 되는지 구하시오.",
+        "Answer": 372,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "지민이는 94을 곱해야 했다. 그러나 47을 더해버려서 결과가 81이 되었다. 제대로 계산한 결과를 얼마인가요?",
+        "Answer": 3196,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 100을 곱했더니 5300가 되었습니다. 임의의 수에서 35를 빼면 몇인가?",
+        "Answer": 18.0,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "윤기는 15을 나눠야 한다. 그러나 1을 더했더니 151이 나왔다. 바르게 계산하면 얼마인가요?",
+        "Answer": 10.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수에서 13을 곱했더니 1157가 되었습니다. 임의의 수에서 53를 빼면 몇인지 구하시오.",
+        "Answer": 36.0,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "태형이는 84을 더해야 한다. 그런데 19을 더해서 46이 돼버렸다. 바르게 계산하면 얼마인지 구하시오.",
+        "Answer": 111,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수가 있습니다. 18을 뺐더니 64가 되었습니다. 임의의 수에서 58를 빼면 몇이 되는지 구하시오.",
+        "Answer": 24,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), sub),num2)"
+    },
+    {
+        "Question": "문제지에서 70을 빼야 했는데 잘못하여 18을 더한 결과가 125이 나왔다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 37,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 96을 나눴더니 1가 되었습니다. 임의의 수에서 57를 빼면 얼마인지 구하시오.",
+        "Answer": 39,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 84을 빼야 했는데 잘못하여 42을 곱했더니 5376이 나왔습니다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 44,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수가 있습니다. 10을 나눴더니 760가 되었습니다. 임의의 수에서 95를 나누면 몇이 되는지 구하시오.",
+        "Answer": 80.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "석진이가 43을 더해야 한다. 그러나 85을 빼서 48이 나왔습니다. 원래 계산했어야 하는 결과를 구하시오.",
+        "Answer": 176,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "정국이는 83을 곱해야 하는데 잘못하여 43을 곱해서 1591이 되었다. 바르게 계산하면 얼마인지 구하시오.",
+        "Answer": 3071.0,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "유나는 59을 곱해야 했는데 실수로 90을 빼버려서 41이 나왔다. 원래 계산했어야 하는 결과를 구하시오.",
+        "Answer": 7729,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "어떤 문제에서 42을 곱해야 한다. 그러나 81을 나눴더니 2이 나왔다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 6804,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 문제에서 24을 더해야 한다. 그런데 36을 빼버려서 결과가 21이 돼버렸다. 제대로 계산한 결과를 얼마인가요?",
+        "Answer": 81,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "유정이는 43을 곱해야 했는데 잘못하여 4을 뺐더니 32이 나왔다. 바르게 계산하면 얼마인가요?",
+        "Answer": 1548,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "민영이 64을 빼야 하는데 실수로 14을 더했더니 106이 돼버렸다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 28,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "시험답안에서 35을 곱해야 했는데 잘못하여 62을 곱했더니 2170이 나왔다. 바르게 계산한 결과는 얼마인가요?",
+        "Answer": 1225.0,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "태형이는 26을 곱해야 했다. 그러나 90을 곱했더니 4050이 나왔습니다. 원래대로 계산하면 얼마인지 구하시오.",
+        "Answer": 1170.0,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "어느날 민영이는 90을 빼야 하는건데 실수로 56을 더했더니 181이 나왔다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 35,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 63을 나눠야 하는건데 실수로 11을 곱했더니 8316이 나왔다. 원래대로 계산하면 얼마인지 구하시오.",
+        "Answer": 12.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "어떤 수에서 20을 빼야 한다. 그러나 92을 곱해버려서 2668이 나왔다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 9.0,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수에서 15을 나눠야 하는건데 잘못하여 35을 더해서 결과가 260이 돼버렸다. 바르게 계산하면 얼마인지 구하시오.",
+        "Answer": 15.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "유정이는 38을 더해야 했다. 그러나 53을 더해서 97이 나왔습니다. 바르게 계산하면 얼마인가요?",
+        "Answer": 82,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "정국이는 82을 곱해야 하는건데 잘못하여 17을 나눠서 8이 나왔습니다. 바르게 계산하면 얼마인지 구하시오.",
+        "Answer": 11152,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 문제에서 82을 곱해야 한다. 그러나 5을 빼서 결과가 16이 나왔습니다. 제대로 계산한 결과를 구하시오.",
+        "Answer": 1722,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 3을 더해야 하는건데 실수로 96을 나눠버려서 결과가 15이 돼버렸다. 원래 계산했어야 하는 결과를 구하시오.",
+        "Answer": 1443,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "석진이는 92을 빼야 하는데 실수로 55을 곱했더니 결과가 5170이 나왔다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 2.0,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "어떤 문제에서 52을 곱해야 했다. 그러나 100을 나눠서 1이 돼버렸다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 5200,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 문제에서 59을 더해야 했는데 잘못하여 34을 더한 결과가 69이 되었다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 94,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "은지는 3을 빼야 했었다. 그런데 24을 더해버려서 결과가 72이 되었다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 45,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수에서 97을 더해야 했다. 그러나 57을 나눴더니 결과가 9이 나왔습니다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 610,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "시험답안에서 62을 빼야 한다. 그러나 1을 더한 결과가 98이 돼버렸다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 35,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "시험답안에서 43을 곱해야 했는데 잘못하여 31을 더해서 결과가 36이 돼버렸다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 215,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 29을 더해야 한다. 그러나 50을 나눠서 결과가 6이 되었다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 329,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "지민이는 76을 더해야 한다. 그러나 11을 나눠버려서 11이 나왔습니다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 197,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "풀이에서 7을 빼야 했는데 실수로 14을 빼서 40이 되었다. 제대로 계산한 결과를 구하시오.",
+        "Answer": 47,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "남준이 98을 곱해야 했는데 잘못하여 68을 나눠버려서 2이 나왔다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 13328,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "석진이는 33을 나눠야 하는데 잘못하여 98을 빼서 397이 되었다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 15.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "윤기는 39을 빼야 했다. 그런데 75을 나눠서 1이 나왔다. 원래대로 계산하면 얼마인지 구하시오.",
+        "Answer": 36,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "호석이는 3을 나눠야 하는데 실수로 25을 나눠버려서 75이 되었다. 원래 계산했어야 하는 결과를 구하시오.",
+        "Answer": 625,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "지민이는 72을 더해야 했다. 그런데 43을 빼서 결과가 29이 나왔다. 바르게 계산한 결과는 얼마인가요?",
+        "Answer": 144,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "태형이는 89을 곱해야 했는데 실수로 42을 빼버려서 18이 돼버렸다. 원래 계산했어야 하는 결과를 구하시오.",
+        "Answer": 5340,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 99을 곱해야 했는데 잘못하여 4을 나눠버려서 30이 되었다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 11880,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "정국이가 3을 곱해야 했었다. 그런데 78을 곱해버려서 결과가 3198이 나왔다. 원래대로 계산하면 얼마인지 구하시오.",
+        "Answer": 123.0,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 27을 나눠야 했다. 그러나 39을 더해서 결과가 390이 나왔다. 바르게 계산하면 얼마인지 구하시오.",
+        "Answer": 13.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "민영이는 45을 빼야 했는데 잘못하여 24을 곱해버려서 결과가 2088이 되었다. 바르게 계산한 결과는 얼마인가요?",
+        "Answer": 42.0,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "은지가 78을 빼야 했는데 실수로 71을 더했더니 158이 나왔다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 9,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "어떤 수에서 87을 나눠야 한다. 그러나 89을 나눠버려서 2523이 나왔습니다. 원래 계산했어야 하는 결과를 구하시오.",
+        "Answer": 2581.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 83을 나눠야 하는데 실수로 5을 더했더니 결과가 503이 나왔다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 6.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "시험답안에서 88을 더해야 했었다. 그러나 73을 뺐더니 23이 나왔다. 원래 계산했어야 하는 결과를 구하시오.",
+        "Answer": 184,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "시험답안에서 84을 더해야 했었다. 그러나 67을 나눴더니 결과가 12이 나왔다. 제대로 계산한 결과를 구하시오.",
+        "Answer": 888,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 8을 나눠야 했었다. 그런데 63을 더했더니 결과가 111이 나왔습니다. 제대로 계산한 결과를 얼마인가요?",
+        "Answer": 6.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "민영이는 41을 더해야 했었다. 그런데 13을 더해서 39이 되었다. 바르게 계산하면 얼마인지 구하시오.",
+        "Answer": 67,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 86을 나눠야 하는데 잘못하여 4을 곱했더니 344이 나왔습니다. 원래대로 계산하면 얼마인지 구하시오.",
+        "Answer": 1.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "어떤 수에서 5을 나눠야 했는데 실수로 92을 곱해서 결과가 5060이 나왔다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 11.0,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 31을 곱해야 했다. 그런데 55을 나눠서 1이 돼버렸다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 1705,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 수에서 56을 뺏더니 48가 되었습니다. 어떤 수에서 13를 곱하면 얼마인가?",
+        "Answer": 1352,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), sub),num2)"
+    },
+    {
+        "Question": "지민이는 73을 나눠야 한다. 그러나 뺐더니 결과가 146이 되었다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 3,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), sub),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 4을 더해야 하는데 잘못하여 99을 더한 결과가 145이 돼버렸다. 원래대로 계산하면 얼마인지 구하시오",
+        "Answer": 50,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "어떤 수에서 91을 나눴더니 1가 되었습니다. 어떤 수에서 64를 곱하면 얼마인가?",
+        "Answer": 5824,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "어떤 수에서 60을 빼야 하는데 실수로 더해서 126이 나왔습니다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 6,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), add),num0)"
+    },
+    {
+        "Question": "시험답안에서 70을 곱해야 하는건데 잘못하여 22을 곱했더니 결과가 594이 나왔습니다. 바르게 계산하면 얼마인지 구하시오",
+        "Answer": 1890,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 100을 나눴더니 684가 되었습니다. 임의의 수에서 57를 나누면 몇인가?",
+        "Answer": 1200,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "지민이는 18을 더해야 한다. 그러나 빼버려서 결과가 46이 돼버렸다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 82,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), sub),num0)"
+    },
+    {
+        "Question": "태형이가 9을 나눠야 했었다. 그러나 26을 뺐더니 343이 돼버렸다. 제대로 계산한 결과를 구하시오.",
+        "Answer": 41,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 33을 곱했더니 1089가 되었습니다. 임의의 수에서 11를 빼면 몇인가?",
+        "Answer": 22,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "남준이는 17을 곱해야 했는데 실수로 나눴더니 결과가 2이 나왔습니다. 바르게 계산한 결과는 얼마인가요?",
+        "Answer": 578,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "풀이에서 5을 더해야 하는데 잘못하여 39을 나눠서 결과가 10이 나왔다. 원래대로 계산하면 얼마인지 구하시오",
+        "Answer": 395,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 수가 있습니다. 12을 곱했더니 12가 되었습니다. 어떤 수에서 90를 더하면 얼마인가?",
+        "Answer": 91,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "어떤 수가 있다. 47을 곱해야 했었다. 그런데 나눴더니 2이 돼버렸다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 4418,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "어떤 문제에서 16을 나눠야 했는데 실수로 80을 곱해버려서 1280이 되었다. 바르게 계산하면 얼마인가요?",
+        "Answer": 1,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 61을 나눴더니 5가 되었습니다. 임의의 수에서 93를 더하면 얼마인가?",
+        "Answer": 398,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "지민이는 84을 빼야 하는데 실수로 곱했더니 9996이 돼버렸다. 원래대로 계산하면 얼마인지 구하시오",
+        "Answer": 35,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 수에서 71을 나눠야 했었다. 그런데 95을 나눠버려서 결과가 2911이 되었다. 제대로 계산한 결과를 얼마인가요?",
+        "Answer": 3895,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 96을 더했더니 1016가 되었습니다. 임의의 수에서 92를 나누면 몇인가?",
+        "Answer": 10,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "어떤 수가 있다. 45을 더해야 했다. 그러나 나눴더니 결과가 6이 되었다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 315,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "선생님이 30을 곱해야 했는데 잘못하여 100을 뺐더니 결과가 34이 나왔다. 바르게 계산한 결과는 얼마인가요?",
+        "Answer": 4020,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 78을 뺏더니 28가 되었습니다. 임의의 수에서 84를 곱하면 얼마인가?",
+        "Answer": 8904,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), sub),num2)"
+    },
+    {
+        "Question": "어떤 수에서 76을 더해야 한다. 그런데 곱해버려서 결과가 1748이 나왔다. 제대로 계산한 결과를 구하시오.",
+        "Answer": 99,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), mul),num0)"
+    },
+    {
+        "Question": "어느날 정국이는 49을 빼야 했었다. 그런데 92을 더해버려서 결과가 177이 돼버렸다. 바르게 계산하면 얼마인지 구하시오",
+        "Answer": 36,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수에서 44을 더했더니 94가 되었습니다. 임의의 수에서 30를 빼면 얼마인가?",
+        "Answer": 20,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 85을 빼야 하는데 실수로 나눠서 결과가 2이 되었다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 85,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "유나 이가 4을 더해야 하는데 실수로 75을 더해서 96이 되었다. 바르게 계산하면 얼마인지 구하시오",
+        "Answer": 25,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 42을 더했더니 84가 되었습니다. 임의의 수에서 65를 더하면 몇이 되는지 구하시오.",
+        "Answer": 107,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "유나 이가 24을 빼야 했었다. 그러나 나눠버려서 결과가 2이 돼버렸다. 바르게 계산한 결과는 얼마인가요?",
+        "Answer": 24,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "지민이는 48을 나눠야 했었다. 그러나 41을 곱해서 결과가 27552이 나왔다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 14,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "어떤 수가 있습니다. 85을 나눴더니 1가 되었습니다. 어떤 수에서 56를 빼면 얼마인지 구하시오.",
+        "Answer": 29,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "민영이는 3을 더해야 하는데 잘못하여 빼버려서 결과가 37이 되었다. 제대로 계산한 결과를 얼마인가요?",
+        "Answer": 43,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), sub),num0)"
+    },
+    {
+        "Question": "어느날 정국이는 81을 나눠야 한다. 그러나 37을 빼버려서 결과가 1097이 되었다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 14,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "임의의 수가 있습니다. 48을 더했더니 840가 되었습니다. 임의의 수에서 72를 나누면 얼마인지 구하시오.",
+        "Answer": 11,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "선생님이 5을 빼야 했는데 잘못하여 더해서 45이 나왔습니다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 35,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), add),num0)"
+    },
+    {
+        "Question": "지민이는 49을 곱해야 한다. 그러나 25을 더한 결과가 60이 나왔다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 1715,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 86을 나눴더니 2가 되었습니다. 임의의 수에서 80를 빼면 얼마인지 구하시오.",
+        "Answer": 92,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "임의의 수에서 3을 곱해야 하는건데 실수로 더한 결과가 38이 나왔습니다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 105,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), add),num0)"
+    },
+    {
+        "Question": "남준이는 41을 더해야 했는데 실수로 45을 곱한 결과가 450이 돼버렸다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 51,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "어떤 수가 있는데, 30을 나눴더니 2가 되었습니다. 어떤 수에서 91를 더하면 얼마인가?",
+        "Answer": 151,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "풀이에서 12을 나눠야 했다. 그러나 곱해서 결과가 1584이 돼버렸다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 11,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), mul),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 27을 더해야 하는데 실수로 31을 뺐더니 결과가 1이 되었다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 59,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 99을 뺏더니 138가 되었습니다. 임의의 수에서 95를 빼면 얼마인가?",
+        "Answer": 142,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), sub),num2)"
+    },
+    {
+        "Question": "선생님이 67을 나눠야 한다. 그러나 더했더니 603이 나왔다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 8,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), add),num0)"
+    },
+    {
+        "Question": "유나 이가 31을 나눠야 했다. 그런데 23을 곱했더니 2852이 나왔습니다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 4,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수가 있습니다. 61을 더했더니 88가 되었습니다. 임의의 수에서 13를 빼면 몇이 되는지 구하시오.",
+        "Answer": 14,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "지민이는 35을 나눠야 한다. 그러나 곱했더니 결과가 13475이 되었다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 11,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), mul),num0)"
+    },
+    {
+        "Question": "유나 이가 16을 나눠야 한다. 그러나 71을 곱해버려서 결과가 10224이 되었다. 제대로 계산한 결과를 구하시오.",
+        "Answer": 9,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수에서 96을 뺏더니 7가 되었습니다. 임의의 수에서 15를 더하면 몇인가?",
+        "Answer": 118,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), sub),num2)"
+    },
+    {
+        "Question": "민영이는 70을 빼야 했는데 잘못하여 더해서 172이 나왔다. 원래 계산했어야 하는 결과를 구하시오.",
+        "Answer": 32,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), add),num0)"
+    },
+    {
+        "Question": "어느날 정국이는 80을 곱해야 했는데 잘못하여 60을 뺐더니 결과가 11이 되었다. 바르게 계산하면 얼마인지 구하시오",
+        "Answer": 5680,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "어떤 수가 있습니다. 19을 더했더니 33가 되었습니다. 어떤 수에서 93를 곱하면 몇이 되는지 구하시오.",
+        "Answer": 1302,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "시험답안에서 27을 곱해야 했는데 잘못하여 뺐더니 결과가 15이 나왔습니다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 1134,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), sub),num0)"
+    },
+    {
+        "Question": "시험답안에서 16을 더해야 하는건데 실수로 30을 나눴더니 5이 나왔다. 바르게 계산하면 얼마인가요?",
+        "Answer": 166,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "임의의 수가 있습니다. 82을 뺏더니 32가 되었습니다. 임의의 수에서 1를 빼면 얼마가 되는지 구하시오.",
+        "Answer": 113,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), sub),num2)"
+    },
+    {
+        "Question": "어떤 문제에서 49을 빼야 하는데 잘못하여 나눈 결과가 2이 돼버렸다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 49,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "석진이는 94을 더해야 했었다. 그러나 61을 나눴더니 2이 돼버렸다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 216,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 수가 있는데, 85을 더했더니 131가 되었습니다. 어떤 수에서 53를 곱하면 몇인지 구하시오.",
+        "Answer": 2438,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "유나 이가 37을 나눠야 했었다. 그런데 더해서 결과가 333이 되었다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 8,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), add),num0)"
+    },
+    {
+        "Question": "유나 이가 6을 곱해야 하는건데 실수로 85을 곱해버려서 4250이 되었다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 300,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 4을 곱했더니 188가 되었습니다. 임의의 수에서 11를 곱하면 얼마인지 구하시오.",
+        "Answer": 517,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "어느날 정국이는 1을 더해야 했는데 잘못하여 나눈 결과가 6이 나왔다. 제대로 계산한 결과를 얼마인가요?",
+        "Answer": 7,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "남준이는 36을 빼야 하는데 잘못하여 68을 더해서 결과가 151이 되었다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 47,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), add),num0)"
+    },
+    {
+        "Question": "어떤 수가 있습니다. 49을 더했더니 96가 되었습니다. 어떤 수에서 4를 더하면 몇인가?",
+        "Answer": 51,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "지민이는 56을 곱해야 했었다. 그런데 뺀 결과가 29이 돼버렸다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 4760,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), sub),num0)"
+    },
+    {
+        "Question": "지민이는 12을 곱해야 한다. 그런데 39을 나눠서 1이 돼버렸다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 468,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 95을 뺏더니 87가 되었습니다. 임의의 수에서 77를 빼면 몇이 되는지 구하시오.",
+        "Answer": 105,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), sub),num2)"
+    },
+    {
+        "Question": "석진이는 15을 나눠야 했는데 실수로 빼버려서 180이 되었다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 13,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), sub),num0)"
+    },
+    {
+        "Question": "어떤 수가 있다. 37을 곱해야 하는건데 잘못하여 74을 뺀 결과가 27이 돼버렸다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 3737,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "임의의 수에서 12을 더했더니 86가 되었습니다. 임의의 수에서 44를 빼면 몇이 되는지 구하시오.",
+        "Answer": 30,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "임의의 수가 있는데, 34을 빼야 한다. 그런데 나눴더니 결과가 2이 나왔다. 제대로 계산한 결과를 얼마인가요?",
+        "Answer": 34,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "태형이가 74을 빼야 했는데 실수로 40을 빼서 결과가 87이 나왔다. 바르게 계산하면 얼마인가요?",
+        "Answer": 53,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "어떤 수에서 49을 더했더니 149가 되었습니다. 어떤 수에서 100를 나누면 얼마인가?",
+        "Answer": 1,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), add),num2)"
+    },
+    {
+        "Question": "시험답안에서 42을 나눠야 하는데 실수로 곱해버려서 5292이 되었다. 원래대로 계산하면 얼마인가요?",
+        "Answer": 3,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0, num1), mul),num0)"
+    },
+    {
+        "Question": "문제지에서 31을 나눠야 했다. 그런데 90을 나눈 결과가 1333이 돼버렸다. 원래 계산했어야 하는 결과를 구하시오.",
+        "Answer": 3870,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), div),num0)"
+    },
+    {
+        "Question": "어떤 수가 있는데, 38을 곱했더니 722가 되었습니다. 어떤 수에서 2를 곱하면 몇이 되는지 구하시오.",
+        "Answer": 38,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "석진이는 20을 빼야 했는데 실수로 나눠서 결과가 3이 나왔다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 40,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "유나 이가 84을 나눠야 하는데 실수로 66을 뺐더니 결과가 858이 나왔습니다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 11,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "어떤 수가 있는데, 72을 나눴더니 1가 되었습니다. 어떤 수에서 15를 곱하면 몇인지 구하시오.",
+        "Answer": 1080,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), div),num2)"
+    },
+    {
+        "Question": "유나 이가 65을 더해야 한다. 그런데 빼서 9이 나왔습니다. 바르게 계산하면 얼마인지 구하시오",
+        "Answer": 139,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0, num1), sub),num0)"
+    },
+    {
+        "Question": "남준이는 70을 빼야 한다. 그런데 77을 뺀 결과가 78이 나왔습니다. 원래대로 계산한 결과는 얼마인가요?",
+        "Answer": 85,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1, num2), sub),num0)"
+    },
+    {
+        "Question": "임의의 수가 있다. 91을 곱했더니 7917가 되었습니다. 임의의 수에서 62를 빼면 몇이 되는지 구하시오.",
+        "Answer": 25,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "남준이는 74을 곱해야 했었다. 그런데 나눠서 2이 나왔습니다. 원래 계산했어야 하는 결과는 얼마인가요?",
+        "Answer": 10952,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0, num1), div),num0)"
+    },
+    {
+        "Question": "임의의 수에서 9을 곱해야 하는데 실수로 96을 곱했더니 2016이 나왔다. 원래대로 계산한 결과를 구하시오.",
+        "Answer": 189,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1, num2), mul),num0)"
+    },
+    {
+        "Question": "임의의 수가 있습니다. 68을 곱했더니 4148가 되었습니다. 임의의 수에서 23를 빼면 몇인가?",
+        "Answer": 38,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0, num1), mul),num2)"
+    },
+    {
+        "Question": "어떤 수에서 7을 뺐더니 2가 되었습니다. 어떤 수를 구하시오.",
+        "Answer": 9,
+        "Equation": "func_inverseoperator(func_makelist(num0,num1), sub)"
+    },
+    {
+        "Question": "어떤 수에서 7을 뺐더니 2가 된다고 했을 때 어떤 수를 구하시오.",
+        "Answer": 9,
+        "Equation": "func_inverseoperator(func_makelist(num0,num1), sub)"
+    },
+    {
+        "Question": "어떤 수에서 46을 빼야 하는데 잘못하여 59를 뺐더니 43이 되었습니다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 56,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num1,num2), sub),num0)"
+    },
+    {
+        "Question": "두 자리 수끼리의 곱셈에서 곱하는 수의 십의 자리 숫자 2를 6으로 잘못 보고 계산한 값이 2432가 되었습니다. 바르게 계산한 값이 912일 때, 2개의 두 자리 수 중 더 작은 수를 쓰시오.",
+        "Answer": 24,
+        "Equation": "func_whichsmall(func_divide(num5, func_divide(func_minus(num4,num5), func_multiply(func_minus(num3,num2),num1))), func_divide(func_minus(num4,num5), func_multiply(func_minus(num3,num2),num1)))"
+    },
+    {
+        "Question": "어떤 수에 14를 더한 후 14를 곱하고, 24를 뺀 값을 24로 나누면 13이 됩니다. 어떤 수를 구하시오.",
+        "Answer": 10,
+        "Equation": "func_inverseoperator(func_makelist(num0,func_inverseoperator(func_makelist(num1,func_inverseoperator(func_makelist(func_inverseoperator(func_makelist(num3,num4), div),num2),sub)),mul)),add)"
+    },
+    {
+        "Question": "12에 어떤 수를 곱해야 하는데 잘못하여 어떤 수를 12로 나누었더니 8이 되었습니다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 1152,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1,num2), div),num0)"
+    },
+    {
+        "Question": "어떤 수에서 9를 더하고 3으로 나누었더니 7이 되었습니다. 어떤 수를 구하시오.",
+        "Answer": 12,
+        "Equation": "func_inverseoperator(func_makelist(num0,func_inverseoperator(func_makelist(num1,num2), div)),add)"
+    },
+    {
+        "Question": "어떤 수에서 34를 뺀 후 2로 나누어야 하는데 잘못하여 34를 더한 후 2로 나누었더니 50이 되었습니다. 바르게 계산한 값은 얼마인지 구하시오.",
+        "Answer": 16,
+        "Equation": "func_divide(func_minus(func_inverseoperator(func_makelist(num0,func_inverseoperator(func_makelist(num3,num4), div)),add),num0),num1)"
+    },
+    {
+        "Question": "12/5를 어떤 수로 나누어야 할 것을 잘못하여 곱하였더니 24/5가 되었습니다. 바르게 계산하면 값은 얼마인지 구하시오.",
+        "Answer": 1.2,
+        "Equation": "func_divide(num0,func_inverseoperator(func_makelist(num0,num1), mul))"
+    },
+    {
+        "Question": "어떤 수에 6을 곱해야 할 것을 잘못하여 나누었더니 몫이 8이고 나머지가 3이 되었습니다. 바르게 계산하면 얼마입니까?",
+        "Answer": 306,
+        "Equation": "func_multiply(func_add(func_inverseoperator(func_makelist(num0,num1), div),num2),num0)"
+    },
+    {
+        "Question": "어떤 수에 1.7을 곱했더니 17이 되었습니다. 어떤 수를 구하시오.",
+        "Answer": 10,
+        "Equation": "func_inverseoperator(func_makelist(num0,num1), mul)"
+    },
+    {
+        "Question": "어떤 수를 2.5로 나누어야 할 것을 잘못하여 곱했더니 125가 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 20,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 자연수를 7로 나누어야 할 것을 잘못하여 곱했더니 343이 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 7,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 수에 3/5을 곱해야 할 것을 잘못하여 나누었더니 25/9가 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 1,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0,num1), div),num0)"
+    },
+    {
+        "Question": "17에 어떤 수를 곱해야 할 것을 잘못하여 나누었더니 몫이 5이고 나머지가 2가 되었습니다. 바르게 계산하면 얼마입니까?",
+        "Answer": 1479,
+        "Equation": "func_multiply(func_add(func_inverseoperator(func_makelist(num0,num1), div),num2),num0)"
+    },
+    {
+        "Question": "재은이는 13살이고, 진수와 재은이의 나이의 차를 구하려 하는데 잘못하여 합을 구했더니 27이 되었습니다. 바르게 계산한 값은 얼마입니까?",
+        "Answer": 1,
+        "Equation": "func_difference(func_inverseoperator(func_makelist(num0,num1), add),num0)"
+    },
+    {
+        "Question": "어떤 정사각형의 넓이를 구해야 하는데 잘못하여 둘레를 구했더니 12cm가 되었습니다. 이 정사각형의 넓이는 얼마입니까?",
+        "Answer": 9,
+        "Equation": "func_square(func_inverseoperator(func_makelist(num0,num1), mul),none)"
+    },
+    {
+        "Question": "진성이 분단의 수학 점수의 평균을 구하려 합니다. 잘못하여 진성이를 빼고 계산한 평균값이 50이었습니다. 진성이 분단의 학생 수가 6명이고 진성이의 수학 점수가 80점 일 때, 바르게 계산한 평균값을 구하시오.",
+        "Answer": 55,
+        "Equation": "func_divide(func_add(func_inverseoperator(func_makelist(num0,func_minus(num1,1)), div),num2),num1)"
+    },
+    {
+        "Question": "어떤 수를 10으로 나누어야 할 것을 곱하였더니 175가 되었습니다. 바르게 계산하면 얼마입니까?",
+        "Answer": 1.75,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 분수를 7로 나누어야 할 것을 잘못하여 곱했더니 49/10가 되었습니다. 바르게 계산한 값을 분수로 나타내시오.",
+        "Answer": 0.1,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 분수를 9로 나누어야 할 것을 잘못하여 곱했더니 27/15이 되었습니다. 바르게 계산한 값을 기약분수로 나타내면 얼마입니까?",
+        "Answer": 0.02,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 소수에 15를 곱했더니 18.6이 되었습니다. 어떤 소수를 구하시오.",
+        "Answer": 1.24,
+        "Equation": "func_inverseoperator(func_makelist(num0,num1), mul)"
+    },
+    {
+        "Question": "어떤 소수를 14로 나누어야 할 것을 잘못하여 곱했더니 595.84가 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 3.04,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 수에서 18/5을 빼야 할 것을 잘못하여 더했더니 44/5가 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 1.6,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0,num1), add),num0)"
+    },
+    {
+        "Question": "모든 변의 길이가 자연수인 어떤 직사각형의 넓이를 구해야 할 것을 잘못하여 둘레를 구하였더니 16이 되었습니다. 이 직사각형의 가로의 길이가 3일 때 바르게 계산한 값을 구하시오.",
+        "Answer": 15,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num3,func_divide(num1,2)), add),num3)"
+    },
+    {
+        "Question": "유미가 책을 펼쳐 두 쪽수의 곱을 구해야 할 것을 잘못하여 합을 구하였더니 31이 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 240,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(func_raise(func_divide(num1,num0), none),num1), add),func_raise(func_divide(num1,num0), none))"
+    },
+    {
+        "Question": "어떤 수에서 7을 뺐더니 2가 된다고 했을 때 어떤 수는 무엇인가?",
+        "Answer": 9,
+        "Equation": "func_inverseoperator(func_makelist(num0,num1), sub)"
+    },
+    {
+        "Question": "어떤 수에서 7을 더했더니 15가 된다고 했을 때 어떤 수를 구하시오.",
+        "Answer": 8,
+        "Equation": "func_inverseoperator(func_makelist(num0,num1), add)"
+    },
+    {
+        "Question": "어떤 수에서 46을 더해야 하는데 잘못하여 59를 뺐더니 43이 되었습니다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 148,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num1,num2), sub),num0)"
+    },
+    {
+        "Question": "두 자리 수끼리의 곱셈에서 곱하는 수의 십의 자리 숫자 2를 6으로 잘못 보고 계산한 값이 2432가 되었습니다. 바르게 계산한 값이 912일 때, 2개의 두 자리 수 중 더 큰 수를 쓰시오.",
+        "Answer": 38,
+        "Equation": "func_whichbig(func_divide(num5, func_divide(func_minus(num4,num5), func_multiply(func_minus(num3,num2),num1))), func_divide(func_minus(num4,num5), func_multiply(func_minus(num3,num2),num1)))"
+    },
+    {
+        "Question": "어떤 소수에 14를 뺸 후 14로 나누고, 10를 더한 값에 10를 곱하면 30이 됩니다. 어떤 수를 구하시오.",
+        "Answer": 112,
+        "Equation": "func_inverseoperator(func_makelist(num0,func_inverseoperator(func_makelist(num1,func_inverseoperator(func_makelist(func_inverseoperator(func_makelist(num3,num4), mul),num2),add)),div)),sub)"
+    },
+    {
+        "Question": "어떤 수에 12를 곱해야 하는데 잘못하여 어떤 수에 12를 뺏더니 8이 되었습니다. 바르게 계산한 결과를 구하시오.",
+        "Answer": 240,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num1,num2),sub),num0)"
+    },
+    {
+        "Question": "어떤 수에서 9를 빼고 3을 곱했더니 6이 되었습니다. 어떤 수를 구하시오.",
+        "Answer": 11,
+        "Equation": "func_inverseoperator(func_makelist(num0,func_inverseoperator(func_makelist(num1,num2), mul)),sub)"
+    },
+    {
+        "Question": "어떤 수에 34를 더한 후 2로 나누어야 하는데 잘못하여 34를 뺀 후 2로 나누었더니 50이 되었습니다. 바르게 계산한 값은?",
+        "Answer": 84,
+        "Equation": "func_divide(func_add(func_inverseoperator(func_makelist(func_inverseoperator(func_makelist(num3,num4), div),num2),sub),num0),num1)"
+    },
+    {
+        "Question": "12/5에 어떤 수를 더하려고 했는데 잘못하여 나누었더니 24/5가 되었습니다. 바르게 계산하면 값은 얼마인지 구하시오.",
+        "Answer": 13.92,
+        "Equation": "func_add(num0,func_inverseoperator(func_makelist(num0,num1),div))"
+    },
+    {
+        "Question": "어떤 수에 6를 더해야 할 것을 잘못하여 나누었더니 몫이 8이고 나머지가 3이 되었습니다. 바르게 계산하면 얼마입니까?",
+        "Answer": 57,
+        "Equation": "func_add(func_add(func_inverseoperator(func_makelist(num0,num1),div),num2),num0)"
+    },
+    {
+        "Question": "어떤 수에 1.7을 더했더니 17이 되었습니다. 어떤 수를 구하시오.",
+        "Answer": 15.3,
+        "Equation": "func_inverseoperator(func_makelist(num0,num1), add)"
+    },
+    {
+        "Question": "어떤 수에 2.5를 빼야 할 것을 잘못하여 곱했더니 125가 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 47.5,
+        "Equation": "func_minus(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 자연수를 7로 나누어야 할 것을 잘못하여 더했더니 343이 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 48,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0,num1), add),num0)"
+    },
+    {
+        "Question": "어떤 수에 3/5을 더해야 할 것을 잘못하여 곱하였더니 9/25가 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 1.2,
+        "Equation": "func_add(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "17에 어떤 수를 빼야 할 것을 잘못하여 나누었더니 몫이 5이고 나머지가 2가 되었습니다. 바르게 계산하면 얼마입니까?",
+        "Answer": 70,
+        "Equation": "func_difference(func_add(func_inverseoperator(func_makelist(num0,num1), div),num2),num0)"
+    },
+    {
+        "Question": "재은이는 13살이고, 재은이와의 나이 차를 구하려 하는데 잘못하여 곱을 구했더니 65이 되었습니다. 바르게 계산한 값은 얼마입니까?",
+        "Answer": 8,
+        "Equation": "func_difference(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 정사각형의 넓이를 구해야 하는데 잘못하여 둘레를 구했더니 12cm가 되었습니다. 이 정사각형의 한 변의 길이는 얼마입니까?",
+        "Answer": 3,
+        "Equation": "func_inverseoperator(func_makelist(num0,num1), mul)"
+    },
+    {
+        "Question": "진성이 반의 영어 점수의 평균을 구하려 하는데 잘못하여 진성이를 빼고 계산한 평균값이 50이었습니다. 진성이 분단의 학생 수가 6명이고 진성이의 영어 점수가 80점 일 때, 옳은 평균값은?",
+        "Answer": 55,
+        "Equation": "func_divide(func_add(func_inverseoperator(func_makelist(num0,func_minus(num1,1)), div),num2),num1)"
+    },
+    {
+        "Question": "어떤 수를 10으로 나누어야 할 것을 더했더니 175가 되었습니다. 바르게 계산하면 얼마입니까?",
+        "Answer": 16.5,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0,num1), add),num0)"
+    },
+    {
+        "Question": "연속하는 두 수의 곱을 구해야 할 것을 잘못하여 합을 구하였더니 31이 되었습니다. 바르게 계산한 값을 구하시오.",
+        "Answer": 240,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(func_raise(func_divide(num1,num0), none),num1), add),func_raise(func_divide(num1,num0), none))"
+    },
+    {
+        "Question": "어떤 분수에 10을 곱해야 할 것을 잘못하여 나눴더니 49/10가 되었습니다. 바르게 계산한 값을 분수로 나타내시오.",
+        "Answer": 490,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num0,num1),div),num0)"
+    },
+    {
+        "Question": "어떤 분수를 9로 나누어야 할 것을 잘못하여 곱했더니 27/15이 되었습니다. 바르게 계산한 값을 소수로 나타내면 얼마입니까?",
+        "Answer": 0.02,
+        "Equation": "func_divide(func_inverseoperator(func_makelist(num0,num1), mul),num0)"
+    },
+    {
+        "Question": "어떤 수에 14를 곱하고, 24를 곱한 값을 24로 나누면 196가 됩니다. 어떤 수를 구하시오.",
+        "Answer": 14,
+        "Equation": "func_inverseoperator(func_makelist(num0,func_inverseoperator(func_makelist(num1,func_inverseoperator(func_makelist(num3,num2), div)),mul)),mul)"
+    },
+    {
+        "Question": "모든 변의 길이가 자연수인 어떤 직사각형의 넓이를 구해야 할 것을 잘못하여 둘레를 구하였더니 16이 되었습니다. 직사각형의 세로 길이가 3일 때 바르게 계산한 값을 구하시오.",
+        "Answer": 15,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(num3,func_divide(num1,2)), add),num3)"
+    },
+    {
+        "Question": "연속하는 두 자연수의 곱을 구해야 할 것을 잘못하여 합을 구하였더니 19이 되었습니다. 원래 계산을 하면?",
+        "Answer": 90,
+        "Equation": "func_multiply(func_inverseoperator(func_makelist(func_raise(func_divide(num1,num0), none),num1), add),func_raise(func_divide(num1,num0), none))"
+    },
+    {
+        "Question": "두 자리 수끼리의 곱셈에서 곱하는 수의 십의 자리 숫자 2를 6으로 잘못 보고 계산해서 2432가 되었다. 바르게 계산했을 때 정답이 912 라면 2개의 두 자리 수 중 더 큰 수를 쓰시오.",
+        "Answer": 38,
+        "Equation": "func_whichbig(func_divide(num5, func_divide(func_minus(num4,num5), func_multiply(func_minus(num3,num2),num1))), func_divide(func_minus(num4,num5), func_multiply(func_minus(num3,num2),num1)))"
+    },
+    {
+        "Question": "두 자리 수끼리 곱셈에서 곱하는 수의 십의 자리 숫자 2를 6으로 잘못 보고 계산해서 2432가 되었다. 바르게 계산했을 때 정답이 912 라면 2개의 두 자리 수 중 더 작은 수를 쓰시오.",
+        "Answer": 24,
+        "Equation": "func_whichsmall(func_divide(num5, func_divide(func_minus(num4,num5), func_multiply(func_minus(num3,num2),num1))), func_divide(func_minus(num4,num5), func_multiply(func_minus(num3,num2),num1)))"
+    },
+    {
+        "Question": "어떤 수에 24를 빼고 24를 빼면 13이 된다고 할 때 어떤 수를 구하시오.",
+        "Answer": 61,
+        "Equation": "func_inverseoperator(func_makelist(func_inverseoperator(func_makelist(num1,num2), sub),num0),sub)"
+    }
+]

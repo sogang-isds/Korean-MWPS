@@ -1,0 +1,767 @@
+[
+    {
+        "Question": "20명의 학생들이 한 줄로 줄을 섰습니다. 윤기의 앞에 11명의 학생들이 서 있습니다. 윤기의 뒤에 서 있는 학생은 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(func_divide(num0,num1), num2),1)"
+    },
+    {
+        "Question": "20명의 학생들이 한 줄로 줄을 섰습니다. 윤기의 뒤에 11명의 학생들이 서 있습니다. 윤기의 앞에 서 있는 학생은 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(func_divide(num0,num1), num2),1)"
+    },
+    {
+        "Question": "20명의 학생들이 줄을 섰습니다. 윤기의 뒤에 11명의 학생들이 서 있습니다. 윤기의 앞에 서 있는 학생은 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(num0, num1),1)"
+    },
+    {
+        "Question": "학교 축제가 시작되었습니다. 20명의 학생들이 한 줄로 줄을 섰습니다. 윤기의 앞에 11명의 학생들이 서 있습니다. 윤기의 뒤에 서 있는 학생은 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(func_divide(num0,num1), num2),1)"
+    },
+    {
+        "Question": "식당이 문을 열기도 전에 20명의 손님들이 한 줄로 줄을 섰습니다. 윤기의 앞에 11명의 손님들이 서 있습니다. 윤기의 뒤에 서 있는 손님은 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(func_divide(num0,num1), num2),1)"
+    },
+    {
+        "Question": "식당 앞에 20명의 손님들이 줄을 서고 대기하고 있습니다. 윤기의 앞에 11명의 손님들이 기다리고 있습니다. 윤기의 뒤에서 기다리고 있는 손님은 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(num0, num1),1)"
+    },
+    {
+        "Question": "식당 앞에 20명의 손님들이 줄을 서고 대기하고 있습니다. 윤기의 뒤에 11명의 손님들이 기다리고 있습니다. 윤기의 앞에서 기다리고 있는 손님은 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(num0, num1),1)"
+    },
+    {
+        "Question": "식당 앞에서 윤기의 뒤에 11명의 손님들이 기다리고 있습니다. 총 20명이 기다리고 있다고 할 때, 윤기의 앞에서 기다리고 있는 손님은 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(num1, num0),1)"
+    },
+    {
+        "Question": "콘서트장에서 윤기의 앞에 11명의 사람들이 들어가길 기다리고 있습니다. 총 20명이 기다리고 있다고 할 때, 윤기의 뒤에서 기다리고 있는 사람은 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(num1, num0),1)"
+    },
+    {
+        "Question": "선착순 20명을 뽑는 이벤트가 있습니다. 지민이가 11번째일 때, 지민이 뒤로 몇 명이 더 뽑힐까요?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(num0, num1),1)"
+    },
+    {
+        "Question": "선착순 20명을 뽑는 이벤트가 있습니다. 지민이가 11번째일 때, 지민이보다 몇 명이 더 먼저 뽑혔나요?",
+        "Answer": 10,
+        "Equation": "func_minus(num1,1)"
+    },
+    {
+        "Question": "선착순 20명에게 신발을 증정할 예정입니다. 지민이가 11번째로 뽑혔을 때, 지민이 뒤로 몇 명이 신발을 증정받게 될까요?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(num0, num1),1)"
+    },
+    {
+        "Question": "달리기 시합에서 남준이는 2등을 했고, 윤기는 4등을 했습니다. 호석이는 윤기보다 잘했지만 남준이보다는 못했습니다. 호석이의 등수는 몇 등입니까?",
+        "Answer": 3,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "달리기 시합에서 남준이는 2번째로 결승선을 통과했고, 윤기는 4번째로 들어왔습니다. 호석이는 윤기보다 먼저 들어왔지만 남준이보다는 나중에 들어왔습니다. 호석이의 등수는 몇 등입니까?",
+        "Answer": 3,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "수영 시합에서 남준이는 2번째로 터치패드를 찍었고, 윤기는 4번째로 찍었습니다. 호석이는 윤기보다 먼저 들어왔지만 남준이보다는 나중에 들어왔습니다. 호석이의 등수는 몇 등입니까?",
+        "Answer": 3,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "수영 시합에서 남준이는 2번째로 터치패드를 찍었고, 윤기는 4번째로 찍었습니다. 호석이는 윤기보다 먼저 들어왔지만 남준이보다는 나중에 들어왔습니다. 호석이는 몇 번째로 들어왔습니까?",
+        "Answer": 3,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "수영 시합에서 남준이는 2번째로 결승선에 도달했고, 윤기는 4번째로 도착했습니다. 호석이는 윤기보다 먼저 도착했지만 남준이보다는 나중에 도착했습니다. 호석이는 몇 번째로 들어왔습니까?",
+        "Answer": 3,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "수영 시합에서 남준이는 4번째로 결승선에 도달했고, 윤기는 2번째로 도착했습니다. 호석이는 윤기보다 나중에 도착했지만 남준이보다는 먼저 도착했습니다. 호석이는 몇 번째로 들어왔습니까?",
+        "Answer": 3,
+        "Equation": "func_between(num1,num0)"
+    },
+    {
+        "Question": "스피드 스케이팅 시합에서 남준이는 4번째로 결승선을 통과하였고, 윤기는 2번째로 통과하였습니다. 호석이는 윤기보다 나중에 도착했지만 남준이보다는 먼저 도착했습니다. 호석이는 몇 번째로 통과했습니까?",
+        "Answer": 3,
+        "Equation": "func_between(num1,num0)"
+    },
+    {
+        "Question": "스피드 스케이팅 시합에서 남준이는 2번째로, 윤기는 4번째로 결승선을 통과하였습니다. 호석이는 남준이보다 나중에 도착했지만 윤기보다는 먼저 도착했습니다. 호석이는 몇 번째로 통과했습니까?",
+        "Answer": 3,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "이어달리기 시간입니다. 남준이는 2번째로, 윤기는 4번째로 달리기로 하였습니다. 호석이는 남준이보다 나중에 출발하지만 윤기보다는 먼저 출발합니다. 호석이는 몇 번째로 뛰기로 했습니까?",
+        "Answer": 3,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "키가 작은 사람부터 순서대로 9명이 한 줄로 서 있습니다. 호석이가 앞에서부터 5번째에 서 있습니다. 키가 큰 사람부터 순서대로 다시 줄을 서면 호석이는 앞에서부터 몇 번째에 서게 됩니까?",
+        "Answer": 5,
+        "Equation": "func_add(func_minus(func_divide(num0,num1), num2),1)"
+    },
+    {
+        "Question": "키가 작은 사람부터 순서대로 9명이 서 있습니다. 호석이가 앞에서부터 5번째에 서 있습니다. 키가 큰 사람부터 순서대로 다시 줄을 서면 호석이는 앞에서부터 몇 번째에 서게 됩니까?",
+        "Answer": 5,
+        "Equation": "func_add(func_minus(num0, num1),1)"
+    },
+    {
+        "Question": "키가 큰 사람부터 한 줄로  순서대로 9명이 서 있습니다. 호석이가 앞에서부터 5번째에 서 있습니다. 키가 작은 사람부터 순서대로 다시 줄을 서면 호석이는 앞에서부터 몇 번째에 서게 됩니까?",
+        "Answer": 5,
+        "Equation": "func_add(func_minus(func_divide(num1,num0), num2),1)"
+    },
+    {
+        "Question": "키가 큰 사람부터 순서대로 9명이 한 줄로 서 있습니다. 호석이가 앞에서부터 5번째에 서 있습니다. 키가 작은 사람부터 순서대로 다시 줄을 서면 호석이는 앞에서부터 몇 번째에 서게 됩니까?",
+        "Answer": 5,
+        "Equation": "func_add(func_minus(func_divide(num0,num1), num2),1)"
+    },
+    {
+        "Question": "키가 큰 사람부터 순서대로 9명이 서 있습니다. 호석이가 앞에서부터 5번째에 서 있습니다. 키가 작은 사람부터 순서대로 다시 줄을 서면 호석이는 앞에서부터 몇 번째에 서게 됩니까?",
+        "Answer": 5,
+        "Equation": "func_add(func_minus(num0, num1),1)"
+    },
+    {
+        "Question": "출석번호 오름차순으로 9명이 앉아있습니다. 호석이가 앞에서부터 5번째에 앉아 있을 때, 출석번호 내림차순으로 다시 앉으면 호석이는 앞에서부터 몇 번째에 앉아 있을까요?",
+        "Answer": 5,
+        "Equation": "func_add(func_minus(num0, num1),1)"
+    },
+    {
+        "Question": "출석번호순으로 9명이 앉아있습니다. 호석이가 왼쪽에서 부터 5번째에 앉아 있을 때, 오른쪽에서부터는 몇 번째에 앉아 있을까요?",
+        "Answer": 5,
+        "Equation": "func_add(func_minus(num0, num1),1)"
+    },
+    {
+        "Question": "총 9개의 의자가 한 줄로 놓여 있다. 호석이가 왼쪽에서 부터 5번째에 앉아 있을 때, 오른쪽에서부터는 몇 번째에 앉아 있을까요?",
+        "Answer": 5,
+        "Equation": "func_add(func_minus(func_divide(num0,num1), num2),1)"
+    },
+    {
+        "Question": "놀이 공원에 들어가려고 친구들이 줄을 서 있습니다. 남준이는 앞에서 4번째, 뒤에서 5번째에 서 있습니다. 줄을 서 있는 어린이는 모두 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_add(num0,num1),1)"
+    },
+    {
+        "Question": "콘서트장에 들어가려고 친구들이 한 줄로 서 있습니다. 남준이는 앞에서 4번째, 뒤에서 5번째에 서 있습니다. 줄을 서 있는 사람은 모두 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_minus(func_add(num1,num2),1),num0)"
+    },
+    {
+        "Question": "콘서트장에 들어가려고 친구들이 한 줄로 서 있습니다. 남준이는 뒤에서 4번째, 앞에서 5번째에 서 있습니다. 줄을 서 있는 사람은 모두 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_minus(func_add(num1,num2),1),num0)"
+    },
+    {
+        "Question": "영화관 의자에 친구들이 한 줄로 앉아 있습니다. 남준이는 왼쪽에서 4번째, 오른쪽에서 5번째에 앉아 있습니다. 한 줄에 앉아 있는 친구들은 모두 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_minus(func_add(num1,num2),1),num3)"
+    },
+    {
+        "Question": "영화관 의자에 친구들이 한 줄로 앉아 있습니다. 남준이는 오른쪽에서 4번째, 왼쪽에서 5번째에 앉아 있습니다. 한 줄에 앉아 있는 친구들은 모두 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_minus(func_add(num1,num2),1),num3)"
+    },
+    {
+        "Question": "윤기네 모둠 학생들이 한 줄로 서 있습니다. 윤기는 앞에서 3번째, 뒤에서 5번째에 서 있습니다. 윤기네 모둠 학생은 모두 몇 명일까요?",
+        "Answer": 7,
+        "Equation": "func_multiply(func_minus(func_add(num1,num2),1),num0)"
+    },
+    {
+        "Question": "유나는 앞에서 5번째, 뒤에서 2번째에 앉아 있습니다. 모두 몇 명이 앉아 있을까요?",
+        "Answer": 6,
+        "Equation": "func_minus(func_add(num0,num1),1)"
+    },
+    {
+        "Question": "은지는 달리기에서 7등을 했습니다. 은지보다 빨리 달린 사람은 모두 몇 명일까요?",
+        "Answer": 6,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "은지는 달리기 시합에서 7번째로 결승선을 통과했습니다. 은지보다 빨리 달린 사람은 모두 몇 명일까요?",
+        "Answer": 6,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "은지는 수영 시합에서 7번째로 터치패드를 찍었습니다. 은지보다 빨리 도착한 사람은 모두 몇 명일까요?",
+        "Answer": 6,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "호석이네 모둠은 6명입니다. 호석이는 모둠에서 몸무게가 제일 많이 나가고, 유정이는 호석이 다음으로 몸무게가 많이 나갑니다. 유정이보다 몸무게가 적은 학생은 모두 몇 명일까요?",
+        "Answer": 4,
+        "Equation": "func_minus(func_minus(num0,1),1)"
+    },
+    {
+        "Question": "호석이네 모둠은 6명입니다. 호석이는 모둠에서 몸무게가 제일 적게 나가고, 유정이는 호석이 다음으로 몸무게가 적게 나갑니다. 유정이보다 몸무게가 많은 학생은 모두 몇 명일까요?",
+        "Answer": 4,
+        "Equation": "func_minus(func_minus(num0,1),1)"
+    },
+    {
+        "Question": "호석이는 모둠에서 몸무게가 제일 적게 나가고, 유정이는 호석이 다음으로 몸무게가 적게 나갑니다. 호석이네 모둠은 총 6명일 때, 유정이보다 몸무게가 많은 학생은 모두 몇 명일까요?",
+        "Answer": 4,
+        "Equation": "func_minus(func_minus(num0,1),1)"
+    },
+    {
+        "Question": "민영이네 모둠 학생들이 달리기를 하였습니다. 민영이는 앞에서 4번째로 달리고 있고, 정국이는 뒤에서 2번째로 달리고 있습니다. 민영이와 정국이 사이에는 은지와 태형이만 달리고 있다면 민영이네 모둠 학생은 몇 명일까요?",
+        "Answer": 8,
+        "Equation": "func_add(func_add(func_add(num0,num1),1),1)"
+    },
+    {
+        "Question": "급식대 앞에 어린이가 한 줄로 서 있습니다. 석진이는 앞에서부터 4번째, 뒤에서부터 6번째에 서 있습니다. 급식대 앞에 서 있는 어린이는 모두 몇 명일까요?",
+        "Answer": 9,
+        "Equation": "func_multiply(func_minus(func_add(num1,num2),1),num0)"
+    },
+    {
+        "Question": "7명이 달리기를 하여 남준이는 3등을 하였습니다. 남준이보다 늦게 도착한 학생은 몇 명일까요?",
+        "Answer": 4,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "유정이는 오늘 학교에 3번째로 왔습니다. 유정이보다 학교에 먼저 온 어린이는 몇 명일까요?",
+        "Answer": 2,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "5명의 친구들이 놀이 기구를 타려고 줄을 서 있습니다. 석진이는 앞에서부터 2번째에 서 있고, 윤기는 앞에서부터 5번째에 서 있습니다. 석진이와 윤기 사이에는 몇 명이 서 있을까요?",
+        "Answer": 2,
+        "Equation": "func_minus(func_minus(num2,1),num1)"
+    },
+    {
+        "Question": "호석이는 저축을 하기 위해 은행을 갔습니다. 번호표를 뽑았더니 번호표에는 5번이라고 쓰여져 있었습니다. 그렇다면 호석이보다 먼저 은행 일을 볼 수 있는 사람은 모두 몇 명일까요?",
+        "Answer": 4,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "셔츠에 단추가 9개 달려 있습니다. 3번째 단추와 7번째 단추 사이에는 몇 개 있을까요?",
+        "Answer": 3,
+        "Equation": "func_minus(func_minus(num2,1),num1)"
+    },
+    {
+        "Question": "지민이는 기차를 탔습니다. 지민이가 타고 있는 칸은 앞에서부터 세어 보면 3번째이고, 뒤에서부터 세어 보면 6번째입니다. 지민이가 타고 있는 기차는 모두 몇 칸일까요?",
+        "Answer": 8,
+        "Equation": "func_minus(func_add(num0,num1),1)"
+    },
+    {
+        "Question": "급식을 받기 위해 5명의 어린이가 한 줄로 서 있습니다. 태형이는 앞에서부터 1번째에 서 있고, 정국이는 뒤에서부터 2번째에 서 있습니다. 태형이와 정국이 사이에 서 있는 어린이는 몇 명일까요?",
+        "Answer": 2,
+        "Equation": "func_minus(func_minus(func_divide(num0,num1),num2),num3)"
+    },
+    {
+        "Question": "개미 9마리가 한 줄로 기어가고 있습니다. 3번째 개미와 8번째 개미 사이에는 개미가 몇 마리 있을까요?",
+        "Answer": 4,
+        "Equation": "func_minus(func_minus(num3,1),num2)"
+    },
+    {
+        "Question": "민영이는 앞에서 4번째에 서 있고, 유정이는 앞에서 7번째에 서 있습니다. 은지는 유정이 바로 뒤에 서 있다면, 민영이와 은지 사이에 서 있는 사람은 몇 명일까요?",
+        "Answer": 3,
+        "Equation": "func_minus(func_minus(func_add(num1,1),1),num0)"
+    },
+    {
+        "Question": "버스 정류장에 5명의 어린이가 서 있습니다. 유나는 2번째에 서 있고, 은지는 4번째에 서 있습니다. 유나와 은지 사이에 서 있는 어린이는 몇 명일까요?",
+        "Answer": 1,
+        "Equation": "func_minus(func_minus(num2,1),num1)"
+    },
+    {
+        "Question": "유정이와 친구들이 영화표를 사려고 줄을 서 있습니다. 유정이는 앞에서 4번째, 뒤에서 6번째에 서 있습니다. 줄을 서 있는 어린이는 모두 몇 명일까요?",
+        "Answer": 9,
+        "Equation": "func_minus(func_add(num0,num1),1)"
+    },
+    {
+        "Question": "민영이는 1번째에 서 있고, 정국이는 4번째에 서 있습니다. 민영이와 정국이 사이에 서 있는 어린이는 몇 명일까요?",
+        "Answer": 2,
+        "Equation": "func_minus(func_minus(num1,1),num0)"
+    },
+    {
+        "Question": "버스 정류장에 5명의 어린이가 서 있습니다. 태형이는 2번째에 서 있고, 지민이는 4번째에 서 있습니다. 태형이와 지민이 사이에 서 있는 어린이는 몇 명일까요?",
+        "Answer": 1,
+        "Equation": "func_minus(func_minus(num2,1),num1)"
+    },
+    {
+        "Question": "책장에 동화책이 8권 꽂혀 있습니다. 4번째 동화책과 6번째 동화책 사이에는 동화책이 몇 권 있을까요?",
+        "Answer": 1,
+        "Equation": "func_minus(func_minus(num2,1),num1)"
+    },
+    {
+        "Question": "어린이 8명이 버스를 타기 위해 줄을 서 있습니다. 2번째 어린이와 7번째 어린이 사이에는 몇 명의 어린이가 있을까요?",
+        "Answer": 4,
+        "Equation": "func_minus(func_minus(num2,1),num1)"
+    },
+    {
+        "Question": "호석이는 3번째에 서 있습니다. 호석이 앞에 서 있는 사람은 몇 명일까요?",
+        "Answer": 2,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "윤기는 앞에서부터 3번째, 뒤에서부터 6번째에 서 있습니다. 서 있는 사람은 모두 몇 명일까요?",
+        "Answer": 8,
+        "Equation": "func_minus(func_add(num0,num1),1)"
+    },
+    {
+        "Question": "석진이네 모둠 학생 9명이 달리기를 합니다. 석진이는 6등을 하였습니다. 석진이보다 빨리 달린 어린이는 몇 명입니까?",
+        "Answer": 5,
+        "Equation": "func_minus(num1,1)"
+    },
+    {
+        "Question": "9명의 친구가 달리기를 하여 남준이는 3등을 하였습니다. 남준이보다 늦게 도착한 학생은 모두 몇 명일까요?",
+        "Answer": 6,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "석진이는 달리기에서 결승선에 4번째로 들어왔습니다. 결승선에 1 명씩 차례로 들어왔다면 석진이보다 먼저 들어온 어린이는 몇 명일까요?",
+        "Answer": 3,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "달리기에서 윤기는 4등을 하였고, 윤기보다 늦게 들어온 어린이는 2명이었습니다. 어린이들이 1 명씩 차례로 들어왔다면 윤기네 모둠은 몇 명일까요?",
+        "Answer": 6,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "호석이 앞에는 5명이 서 있고, 뒤에는 3명이 서있습니다. 모두 몇 명이 서 있는지 구하세요.",
+        "Answer": 9,
+        "Equation": "func_add(func_add(num0,num1),1)"
+    },
+    {
+        "Question": "수행평가에서 지민이는 6개, 태형이는 8개를 맞혔습니다. 정국이는 지민이보다는 많이 맞혔지만 태형이보다는 적게 맞혔습니다. 정국이는 몇 개를 맞을까요?",
+        "Answer": 7,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "달리기 시합을 하였습니다. 유나는 1등, 민영이는 4등을 하였습니다. 유나가 도착점에 들어온 후, 몇 명이 더 들어온 뒤에 민영이가 들어왔을까요?",
+        "Answer": 2,
+        "Equation": "func_minus(func_minus(num1,1),num0)"
+    },
+    {
+        "Question": "9명이 키가 큰 순서대로 서 있습니다. 유정이는 앞에서부터 5번째에 서 있습니다. 키가 작은 순서대로 서면 유정이는 앞에서부터 몇 번째에 서 있을까요?",
+        "Answer": 5,
+        "Equation": "func_add(func_minus(num0,num1),1)"
+    },
+    {
+        "Question": "5칸짜리 놀이기구가 있습니다. 민영이는 뒤에서부터 5번째 칸에 타고 있습니다. 민영이가 타고 있는 칸은 앞에서부터 몇 번째 칸일까요?",
+        "Answer": 1,
+        "Equation": "func_add(func_minus(num0,num1),1)"
+    },
+    {
+        "Question": "버스 정류장에 5명의 어린이가 서있습니다. 지민이는 뒤에서부터 2번째에 서 있을 때, 앞에서부터 몇 번째에 서 있을까요?",
+        "Answer": 4,
+        "Equation": "func_add(func_minus(num0,num1),1)"
+    },
+    {
+        "Question": "지민이네 가족 5명이 공원 의자에 앉았습니다. 지민이는 왼쪽에서부터 3번째에 앉았습니다. 지민이는 오른쪽에서부터 몇 번째에 앉아 있습니까?",
+        "Answer": 3,
+        "Equation": "func_add(func_minus(num0,num1),1)"
+    },
+    {
+        "Question": "태형이와 남준이는 같은 아파트에 살고 있습니다. 태형은 6층에 살고 있고, 남준이는 태형이의 바로 위층에 살고 있습니다. 남준이는 몇 층에 살고 있습니까?",
+        "Answer": 7,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "5명의 어린이가 나란히 줄을 서 있습니다. 정국이는 앞에서 2번째에 서 있습니다. 정국이는 뒤에서 몇 번째에 서 있습니까?",
+        "Answer": 4,
+        "Equation": "func_add(func_minus(num0,num1),1)"
+    },
+    {
+        "Question": "5명이 달리기를 하고 있습니다. 호석이는 3등이고, 호석이는 바로 뒤에 유정이가 달리고 있습니다. 유정이는 뒤에서 몇 번째로 달리고 있을까요?",
+        "Answer": 2,
+        "Equation": "func_add(func_minus(num0,func_add(num1,1)),1)"
+    },
+    {
+        "Question": "1부터 9까지의 수를 왼쪽에서부터 작은 순서대로 늘어놓을 때, 오른쪽에서 2번째에 놓이는 수는 얼마일까요?",
+        "Answer": 8,
+        "Equation": "func_find_smallorder(func_rangelist(num0,num1),func_minus(1,num2))"
+    },
+    {
+        "Question": "1부터 9까지의 수를 왼쪽에서부터 작은 순서대로 늘어놓을 때, 2번째에 놓이는 수는 얼마일까요?",
+        "Answer": 2,
+        "Equation": "func_find_smallorder(func_rangelist(num0,num1),num2)"
+    },
+    {
+        "Question": "유나네 모둠 8명의 학생들이 나란히 줄을 섰습니다. 윤기가 앞에서부터 3번째에 서 있었을 때, 뒤에서부터는 몇 번째에 서 있는 것일까요?",
+        "Answer": 6,
+        "Equation": "func_add(func_minus(num0,num1),1)"
+    },
+    {
+        "Question": "정국이네 모둠 10명의 학생들이 나란히 줄을 섰습니다. 정국이가 앞에서부터 5번째에 서 있다면 뒤에서부터는 몇 번째에 서 있는 것일까요?",
+        "Answer": 6,
+        "Equation": "func_add(func_minus(num0,num1),1)"
+    },
+    {
+        "Question": "태형이네 모둠 9명의 학생들이 나란히 줄을 섰습니다. 태형이 앞에서부터 6번째에 서 있다면 뒤에서부터는 몇 번째에 서 있는 것일까요?",
+        "Answer": 4,
+        "Equation": "func_add(func_minus(num0,num1),1)"
+    },
+    {
+        "Question": "버스정류장에 9명의 어린이가 1 줄로 서 있습니다. 앞에서부터 4번째에 서 있는 어린이는 뒤에서부터 몇 번째일까요?",
+        "Answer": 6,
+        "Equation": "func_add(func_minus(num0,num2),1)"
+    },
+    {
+        "Question": "지민이와 친구들이 복도에 1 줄로 서 있습니다. 지민이는 4번째에 서 있고, 호석이는 그 앞에 서 있습니다. 호석이는 몇 번째에 서 있을까요?",
+        "Answer": 3,
+        "Equation": "func_minus(num1,1)"
+    },
+    {
+        "Question": "9명의 어린이가 수영을 하였습니다. 은지 뒤에 들어온 어린이가 3명이라면, 은지는 몇 등을 하였을까요?",
+        "Answer": 6,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "석진이네 모둠 11명이 달리기를 하였습니다. 석진이보다 늦게 도착한 어린이가 2명 있었습니다. 석진이는 몇 등일까요?",
+        "Answer": 9,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "건물에 학원은 8층에 있고, 치과는 학원 바로 윗층에 있습니다. 치과는 몇 층에 있을까요?",
+        "Answer": 9,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "매표소 앞에 사람들이 표를 사기 위해 줄을 섰습니다. 남준이의 앞에 7명이 서 있습니다. 남준이는 몇 번째에 서 있는지 구하세요.",
+        "Answer": 8,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "5번째 바로 앞에서 달리는 어린이는 몇 번째로 달리고 있을까요?",
+        "Answer": 4,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "버스를 타기 위해 사람들이 줄을 섰습니다. 유정이의 앞에 8명이 서 있습니다. 유정이는 몇 번째에 서 있는지 답을 구하세요.",
+        "Answer": 9,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "줄을 서 있는 사람은 모두 5명입니다. 호석이보다 먼저 온 사람은 2명입니다. 호석이는 앞에서 몇 번째에 서 있을까요?",
+        "Answer": 3,
+        "Equation": "func_add(num1,1)"
+    },
+    {
+        "Question": "지민이네 모둠 9명이 키가 큰 어린이부터 순서대로 한 줄을 섰습니다. 지민이 뒤에 3명이 서 있습니다. 지민이의 키는 몇 번째로 큰지 구하세요.",
+        "Answer": 6,
+        "Equation": "func_minus(func_divide(num0,num1),num2)"
+    },
+    {
+        "Question": "9명의 어린이가 달리기를 하고 있습니다. 결승점에 태형이보다 먼저 도착한 어린이는 5명입니다. 태형이는 몇 등으로 도착했을까요?",
+        "Answer": 6,
+        "Equation": "func_add(num1,1)"
+    },
+    {
+        "Question": "은지, 유정, 윤기가 계단에서 놀이를 하고 있습니다. 은지는 아래에서 3번째 계단에 있습니다. 유정이는 은지보다 2 계단 위에 있고, 윤기는 은지보다 5 계단 위에 있습니다. 유정이는 윤기보다 몇 계단 아래에 있을까요?",
+        "Answer": 3,
+        "Equation": "func_minus(num2,num1)"
+    },
+    {
+        "Question": "유나네 모둠 9명의 어린이가 버스를 타려고 한 줄로 서 있습니다. 유나 뒤에 남준, 석진, 윤기가 차례로 서 있습니다. 유나가 뒤에서부터 6번째에 서 있다면, 윤기는 앞에서부터 몇 번째에 서 있을까요?",
+        "Answer": 7,
+        "Equation": "func_add(func_minus(func_divide(num0,num1),func_minus(num2,func_add(func_findindex(seq0,nae1),1))),1)"
+    },
+    {
+        "Question": "키가 큰 순서대로 9명이 앉아 있습니다. 지민이는 4번째로 앉아 있습니다. 키가 작은 순서대로 앉으면 지민이는 몇 번째로 앉게 될까요?",
+        "Answer": 6,
+        "Equation": "func_add(func_minus(num0,num1),1)"
+    },
+    {
+        "Question": "화장실에서 친구들이 한 줄로 서 있습니다. 유나는 7번째에 서 있고, 유정이는 유나 뒤에 서 있습니다. 유정이는 몇 번째에 서 있을까요?",
+        "Answer": 8,
+        "Equation": "func_add(num1,1)"
+    },
+    {
+        "Question": "9 명이 달리기를 하고 있습니다. 태형이는 뒤에서 7번째로 달리고 있고, 지민이는 태형이 바로 앞에서 달리고 있습니다. 지민이는 몇 등으로 달리고 있을까요?",
+        "Answer": 2,
+        "Equation": "func_minus(func_add(func_minus(num0,num1),1),1)"
+    },
+    {
+        "Question": "달리기 대회에서 은지는 5번째로 들어 왔습니다. 은지의 바로 뒤에 들어온 사람이 윤기라면 윤기는 몇 등으로 들어왔습니까?",
+        "Answer": 6,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "9명의 어린이가 지하철을 타기 위해 줄을 서 있습니다. 지민이 뒤에 서 있는 어린이가 4명이라면, 지민이는 몇 번째로 타겠습니까?",
+        "Answer": 5,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "마트에서 남준이네 물건은 3번째 물건의 바로 뒤에 있습니다. 남준이네 물건은 몇 번째일까요?",
+        "Answer": 4,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "지민이네 반 학생들이 번호 순서대로 줄을 서 있습니다. 19번과 24번 사이에 줄을 서 있는 학생은 모두 몇 명일까요?",
+        "Answer": 4,
+        "Equation": "func_minus(func_minus(num1,num0),1)"
+    },
+    {
+        "Question": "어린이들이 번호 순서대로 줄을 서 있습니다. 26번과 33번 사이에 서 있는 어린이는 모두 몇 명일까요?",
+        "Answer": 6,
+        "Equation": "func_minus(func_minus(num1,num0),1)"
+    },
+    {
+        "Question": "0 부터 9까지의 숫자 카드를 크기 순서대로 놓았습니다. 5번째 카드와 7번째 카드 사이에 놓인 숫자 카드의 수를 쓰세요.",
+        "Answer": 5,
+        "Equation": "func_find_smallorder(func_rangelist(num0,num1),func_between(num2,num3))"
+    },
+    {
+        "Question": "정국이네 학교 학생들이 키가 작은 순서대로 번호를 붙여 줄을 섰습니다. 68번인 정국이와 은지 사이에 3명이 서 있다면 은지의 번호는 몇 번입니까?",
+        "Answer": 72,
+        "Equation": "func_add(func_add(num0,num1),1)"
+    },
+    {
+        "Question": "정국, 은지, 태형이 교실에 있습니다. 잠시 후 윤기가 교실에 들어왔습니다. 윤기는 몇 번째로 교실에 들어왔을까요?",
+        "Answer": 4,
+        "Equation": "func_add(func_len(seq0,none),1)"
+    },
+    {
+        "Question": "학생들이 한 줄로 서 있습니다. 지혜는 맨 앞에 서 있습니다. 혜진이는 뒤에서 7번째에 서 있습니다. 지혜와 혜진이 사이에 6명이 있을 때, 줄을 서있는 학생은 모두 몇 명입니까?",
+        "Answer": 14,
+        "Equation": "func_multiply(func_add(func_add(1,num1),num2),num0)"
+    },
+    {
+        "Question": "지현이는 왼쪽에서 3번째 열, 오른쪽에서 6번째 열, 앞에서 2번째 줄, 뒤에서 4번째 줄에 앉아 공부를 하고 있습니다. 각 줄마다 앉아 있는 학생의 수가 같다고 할 때, 교실에서 공부하고 있는 학생은 모두 몇 명입니까?",
+        "Answer": 40,
+        "Equation": "func_multiply(func_minus(func_add(num0,num1),1),func_minus(func_add(num2,num3),1))"
+    },
+    {
+        "Question": "학생들이 청팀과 백팀으로 나누어 줄다리기 시합을 하고 있습니다. 청팀과 백팀의 학생수는 같고, 청팀의 맨 앞과 맨 뒤에 상수와 자욱이가 있습니다. 상수와 자욱이의 사이에 5명이 있을 때, 줄다리기를 하는 학생은 모두 몇명입니까?",
+        "Answer": 7,
+        "Equation": "func_add(func_add(1,1),num0)"
+    },
+    {
+        "Question": "해민이의 책꽂이는 6칸으로 이루어져 있고, 각 칸마다 꽂혀있는 책의 수는 같습니다. 수학책은 어느 한칸의 왼쪽에서 3번째, 오른쪽에서 5번째에 꽂혀 있습니다. 책꽂이에 꽂혀 있는 책은 모두 몇 권입니까?",
+        "Answer": 42,
+        "Equation": "func_multiply(num0,func_minus(func_add(num2,num3),1))"
+    },
+    {
+        "Question": "재민이는 오늘 학교에서 수학, 국어, 영어, 사회, 과학 시험을 보기로 했습니다. 가나다순으로 시험을 본다면 4번째로 시험을 본 과목은 무엇입니까?",
+        "Answer": "수학",
+        "Equation": "func_find_smallorder(seq0,num0)"
+    },
+    {
+        "Question": "은정이는 지은이와 한 팀이 되어 꼬리잡기 놀이를 하고 있습니다. 은정이는 맨 앞에 서 있고, 지은이는 뒤에서 2번째에 서 있습니다. 은정이와 지은이의 사이에 6명이 더 있을 때, 은정이의 팀은 몇 명입니까?",
+        "Answer": 9,
+        "Equation": "func_add(func_add(1,num1),num2)"
+    },
+    {
+        "Question": "희진이와 미연이는 버스를 타기 위해 버스정류장에서 줄을 서고 있습니다. 희진이가 앞에서 2번째에 서 있고, 미연이는 뒤에서 3번째에 서 있습니다. 희진이의 바로 뒤에 미연이가 서 있을 때, 버스정류장에서 줄을 서고 있는 사람은 몇 명입니까?",
+        "Answer": 5,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "학생들이 한 줄로 서 있습니다. 지호는 앞에서 2번째 서 있고, 상민이는 뒤에서 2번째 서 있습니다. 지호와 상민이 사이에 5명이 더 있고, 줄은 선 모든 학생들 중 3명이 여학생이라면 줄은 선 남학생은 모두 몇 명입니까? ",
+        "Answer": 6,
+        "Equation": "func_minus(func_multiply(func_add(func_add(num1,num2),num3),num0),num4)"
+    },
+    {
+        "Question": "5명씩 달리는 달리기 시합에서 정민이는 4등을 했고, 윤지는 정민이보다 늦게 결승선을 통과했습니다. 윤지는 몇 등입니까?",
+        "Answer": 5,
+        "Equation": "func_between(num1,func_add(num0,1))"
+    },
+    {
+        "Question": "은희와 서영이는 친구들과 한 줄로 나란히 서서 사진을 찍으려고 합니다. 은희는 왼쪽에서 3번째에 서 있고, 서영이는 오른쪽에서 2번째에 서 있습니다. 은희와 서영이 사이에 3명의 친구가 더 있다면 사진을 찍기 위해 서 있는 사람은 모두 몇 명입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_add(func_add(num1,num2),num3),num0)"
+    },
+    {
+        "Question": "영화관에 관객들이 가득 차 있습니다. 유진이는 왼쪽에서 6번째 열, 오른쪽에서 9번째 열, 앞에서 8번째 줄, 뒤에서 7번째 줄에 앉아 있습니다. 각 줄마다 않아 있는 관객의 수가 같다고 할 떄, 영화관에 앉아 있는 관객은 모두 몇 명입니까?",
+        "Answer": 196,
+        "Equation": "func_multiply(func_minus(func_add(num0,num1),1),func_minus(func_add(num2,num3),1))"
+    },
+    {
+        "Question": "모눈종이에 점이 하나 찍혀 있습니다. 이 점은 왼쪽에서 2만큼, 오른쪽에서 4만큼, 위쪽에서 2만큼, 아래쪽에서 3만큼 떨어져 있습니다. 이 모눈종이는 모두 몇 칸입니까?",
+        "Answer": 42,
+        "Equation": "func_multiply(func_add(func_add(num0,num1),1),func_add(func_add(num2,num3),1))"
+    },
+    {
+        "Question": "달리기 시합에서 현민이는 8등을 했고, 민수는 6등을 했습니다. 선호는 현민이보다는 잘했지만 민수보다는 못했습니다. 민수는 몇 등입니까?",
+        "Answer": 7,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "달리기 시합에서 현수는 6등을 했고, 영민이는 2등을 했습니다. 성용이와 선호, 진수 모두 현수보다는 잘했지만 영민이보다는 못했습니다. 진수가 선호와 성용이 사이에서 결승선을 통과했다면 진수는 몇 등입니까?",
+        "Answer": 4,
+        "Equation": "func_between(func_minus(num0,1),func_add(num1,1))"
+    },
+    {
+        "Question": "지은이는 오늘 학교에서 1교시부터 6교시까지 수업을 듣습니다. 영어, 국어, 사회, 수학, 과학, 컴퓨터의 순서로 수업을 듣는다면 3교시는 어떤 과목입니까?",
+        "Answer": "사회",
+        "Equation": "func_listindex(seq0,num2)"
+    },
+    {
+        "Question": "8명의 친구들이 달리기 시합을 하고 있습니다. 그 중에서 선빈이는 6명보다 먼저 결승선을 통과했습니다. 선빈이는 몇 등입니까?",
+        "Answer": 2,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "상민이는 운동회에서 오래달리기 시합을 하고 있습니다. 상민이는 12등을 했고, 그 이후에 14명의 친구가 결승선을 통과했습니다. 모두 몇명이 오래달리기 시합을 했습니까?",
+        "Answer": 26,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "지우는 친구들과 여행을 떠나기 위해 버스정류장에서 만나기로 했습니다. 지우가 도착했을 때 2명의 친구가 이미 도착해있었고, 아직 4명의 친구가 오지 않았습니다. 여행을 떠나기로 한 사람은 모두 몇 명입니까?",
+        "Answer": 7,
+        "Equation": "func_add(func_add(num0,1),num1)"
+    },
+    {
+        "Question": "콘서트 공연장에 관객들이 가득 차 있습니다. 진주는 앞에서 8번째 줄, 뒤에서 17번째 줄, 왼쪽에서 23째 열, 오른쪽에서 18번째 열에 앉아 있습니다. 각 줄마다 않아 있는 관객의 수가 같다고 할 떄, 공연장에 앉아 있는 관객은 모두 몇 명입니까?",
+        "Answer": 960,
+        "Equation": "func_multiply(func_minus(func_add(num0,num1),1),func_minus(func_add(num2,num3),1))"
+    },
+    {
+        "Question": "경훈이는 친구들과 달리기 시합을 하고 있습니다. 경훈이가 결승선에 도착했을 때, 아직 도착한 친구가 아무도 없다면 경훈이는 몇 등입니까?",
+        "Answer": 1,
+        "Equation": "func_add(0,1)"
+    },
+    {
+        "Question": "도서관에 똑같은 책장이 26개 있습니다. 각 책장은 12층이고, 각 층마다 꽂혀있는 책의 수는 같습니다. 과학책은 어느 책장의 한 층의 왼쪽에서 7번째, 오른쪽에서 15번째에 있습니다. 도서관에 책장에 꽂혀 있는 책은 모두 몇 권입니까?",
+        "Answer": 6552,
+        "Equation": "func_multiply(func_multiply(num0,num1),func_minus(func_add(num3,num4),1))"
+    },
+    {
+        "Question": "혜진이는 마트에서 계산을 하기 위해 줄을 서 있습니다. 혜진이 뒤에는 4명의 사람이 있고 줄을 선 사람은 모두 9명일 때, 몇 명이 더 계산을 해야 혜진이가 계산을 할 수 있습니까?",
+        "Answer": 4,
+        "Equation": "func_minus(func_minus(num1,num0),1)"
+    },
+    {
+        "Question": "학생들이 A팀과 B팀으로 나누어 줄다리기 시합을 하고 있습니다. A팀의 학생수는 B팀의 학생수보다 1명이 많습니다. A팀의 맨 앞에는 민호가 있고, 뒤에서 3번째에는 기태가 있습니다. 민호와 기태 사이에 5명이 있을 때, 줄다리기를 하는 학생은 모두 몇명입니까?",
+        "Answer": 17,
+        "Equation": "func_minus(func_multiply(func_add(func_add(1,num1),num2),2),num0)"
+    },
+    {
+        "Question": "다진이는 음식점에 들어가기 위해서 줄을 서 있습니다. 다진이 앞에서 4번째에 줄을 서 있고, 뒤에는 5명이 더 있습니다. 음식점에 들어가기 위해서 줄을 서 있는 사람은 모두 몇 명입니까?",
+        "Answer": 10,
+        "Equation": "func_add(func_add(num0,num1),1)"
+    },
+    {
+        "Question": "정민이는 학교에서 일주일동안 하루에 한 과목씩 시험을 보기로 했습니다. 국어,과학,영어,수학,사회 순서로 시험을 보게 된다면 목요일에 보게 될 시험은 어떤 과목입니까?",
+        "Answer": "수학",
+        "Equation": "func_listindex(seq0,4)"
+    },
+    {
+        "Question": "도서관에 똑같은 책장이 여러 개 있습니다. 각 책장은 7층이고, 각 층마다 꽂혀있는 책의 수는 같습니다. 과학책은 어느 책장의 한 층의 왼쪽에서 4번째, 오른쪽에서 7번째에 있습니다. 도서관의 책장에 꽂혀 있는 책이 모두 280권일 때, 도서관에 있는 책장은 모두 몇 개 입니까?",
+        "Answer": 4,
+        "Equation": "func_divide(num4,func_multiply(num0,func_minus(func_add(num2,num3),1)))"
+    },
+    {
+        "Question": "영재는 왼쪽에서 5번째 열, 오른쪽에서 12번째 열, 앞에서 6번째 줄에 서서 체조를 하고 있습니다. 각 줄마다 서 있는 학생의 수가 같고, 체조를 하고 있는 학생이 모두 160명일 때 영재의 뒤에는 몇명의 친구들이 더 있습니까?",
+        "Answer": 4,
+        "Equation": "func_minus(func_divide(num3,func_minus(func_add(num0,num1),1)),num2)"
+    },
+    {
+        "Question": "달리기 시합에서 대현이는 3등을 했고, 상현이는 2등을 했습니다. 재욱이는 대현이와 상현이보다 잘헀습니다. 재욱이는 몇 등입니까?",
+        "Answer": 1,
+        "Equation": "func_minus(func_whichsmall(num0,num1),1)"
+    },
+    {
+        "Question": "소정이는 버스정류장에서 줄을 서 있습니다. 정원이 35명이고 6명이 타고 있는 버스가 와서 소정이 앞에 줄을 서 있던 사람들을 모두 태우고 가 버렸습니다. 소정이가 남아있는 13명의 사람과 함께 다음 버스를 탔다면 처음에 줄을 서 있던 사람들은 모두 몇 명입니까? ",
+        "Answer": 43,
+        "Equation": "func_add(func_add(func_minus(num0,num1),num2),1)"
+    },
+    {
+        "Question": "영우네 반 학생은 28명이고, 두 팀으로 나누어 줄다리기 시합을 하려고 합니다. 영우가 팀원들 중에 뒤에서 3번째에 위치하고 있을 때, 영우의 앞에 있는 팀원은 모두 몇 명입니까?",
+        "Answer": 11,
+        "Equation": "func_minus(func_divide(num0,num1),num2)"
+    },
+    {
+        "Question": "용국이는 왼쪽에서 10번째 열, 오른쪽에서 7번째 열, 뒤에서 8번째 줄에 서서 체조를 하고 있습니다. 각 줄마다 서 있는 학생의 수가 같고, 체조를 하고 있는 학생이 모두 224명일 때 용국이는 앞에서 몇 번째에 서 있습니까?",
+        "Answer": 6,
+        "Equation": "func_minus(func_divide(num3,func_minus(func_add(num0,num1),1)),num2)"
+    },
+    {
+        "Question": "도서관에 똑같은 책장이 3개 있습니다. 각 책장은 4층이고, 각 층마다 꽂혀있는 책의 수는 같습니다. 역사책은 어느 책장의 한 층의 왼쪽에서 6번째에 있습니다. 도서관의 책장에 꽂혀 있는 책이 모두 180권일 때, 역사책은 오른쪽에서 몇 번째에 있습니까?",
+        "Answer": 10,
+        "Equation": "func_add(func_minus(func_divide(func_divide(num4,num0),num1),num3),1)"
+    },
+    {
+        "Question": "놀이공원에는 4명씩 탈 수 있는 A 놀이기구가 있습니다. 나정이는 이 놀이기구를 타기 위해서 3명의 친구와 함께 줄을 서 있습니다. 나정이네 팀의 앞에는 5팀이 있고, 뒤에는 2팀이 더 있습니다. 각 팀마다 서 있는 사람의 수가 같다고 할 때, A 놀이기구를 타기위해서 줄을 서 있는 사람은 몇 명입니까?",
+        "Answer": 32,
+        "Equation": "func_multiply(func_add(func_add(num2,num3),1),num0)"
+    },
+    {
+        "Question": "공연장에 입장하기 위해서 사람들이 줄을 서 있습니다. 민하는 앞에서 5번째에 서 있고, 겨울이는 앞에서 7번째에 서 있습니다. 정원이는 민하와 겨울이 사이에 있습니다. 사람들이 앞에서부터 입장한다고 할 때, 정원이는 몇 번째로 입장할 수 있습니까?",
+        "Answer": 6,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "진용이네 반 친구들은 체력검사를 하기 위해서 학급번호 순서대로 줄을 서 있습니다. 진용이의 바로 앞에는 성진이가 있고, 성진이는 앞에서 7번째 입니다. 진용이의 뒤에 15명의 친구들이 더 있다면, 진용이의 반 친구들은 모두 몇 명입니까?",
+        "Answer": 23,
+        "Equation": "func_add(func_add(num0,1),num1)"
+    },
+    {
+        "Question": "칠판에 1부터 20까지의 숫자가 순서대로 써 있습니다. 이 중에서 10보다 크고 7의 배수인 수는 뒤에서 몇 번째에 있습니까?",
+        "Answer": 7,
+        "Equation": "func_add(func_minus(num1,func_listindex(func_multiple(func_rangelist(num2,num1),num3),0)),1)"
+    },
+    {
+        "Question": "영훈이네 반 학생들은 졸업사진을 찍기 위해 줄을 서 있습니다. 영훈이는 앞에서 2번째 줄, 뒤에서 2번째 줄, 왼쪽에서 5번째 열, 오른쪽에서 5번째 열에 서 있습니다. 각 줄마다 서 있는 학생의 수가 같다고 할 때, 영훈이네 반 학생은 모두 몇 명입니까?",
+        "Answer": 27,
+        "Equation": "func_multiply(func_minus(func_add(num0,num1),1),func_minus(func_add(num2,num3),1))"
+    },
+    {
+        "Question": "민수는 친구들과 달리기 시합을 하기로 했습니다. 결승선에 들어오는 순서대로 10점부터 1점씩 작은 점수를 받는다고 합니다. 민수가 친구들 중에 가장 늦게 들어왔고 4점을 받았다면 달리기 시합을 한 사람은 모두 몇 명입니까?",
+        "Answer": 7,
+        "Equation": "func_add(func_divide(func_minus(num0,num2),num1),1)"
+    },
+    {
+        "Question": "수학 시험에서 정민이는 5등을 했고, 윤지는 7등을 했습니다. 지민이는 정민이보다 못했지만 윤지보다는 잘했습니다. 지민이는 몇 등입니까?",
+        "Answer": 6,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "학생들이 한 줄로 서 있습니다. 유진이는 뒤에서 6번째에 서 있습니다. 은주는 맨 앞에 서 있습니다. 유진이와 은주 사이에 4명이 서 있을 때, 줄을 서 있는 학생은 모두 몇 명입니까?",
+        "Answer": 11,
+        "Equation": "func_multiply(func_add(func_add(num1,1),num2),num0)"
+    },
+    {
+        "Question": "성민이는 좋아하는 과목 순으로 책장에 있는 책을 정리했습니다. 책장에 책이 수학, 영어, 과학, 국어, 사회 순으로 정리되어 있고 순서대로 본다고 할 때, 성민이가 첫 번째로 보게 될 과목은 어떤 과목입니까?",
+        "Answer": "수학",
+        "Equation": "func_listindex(seq0,num0)"
+    },
+    {
+        "Question": "지빈이는 앞에서 3번째 줄, 뒤에서 2번째 줄, 왼쪽에서 1번째 열, 오른쪽에서 8번째 열에 앉아 공부를 하고 있습니다. 각 줄마다 앉아 있는 학생의 수가 같다고 할 때, 교실에서 공부하고 있는 학생은 모두 몇 명입니까?",
+        "Answer": 32,
+        "Equation": "func_multiply(func_minus(func_add(num0,num1),1),func_minus(func_add(num2,num3),1))"
+    },
+    {
+        "Question": "10명의 친구들이 달리기 시합을 하고 있습니다. 4명의 친구가 결승선을 통과한 다음에 바로 영현이가 들어왔다면 영현이는 몇 등입니까? ",
+        "Answer": 5,
+        "Equation": "func_add(num1,1)"
+    },
+    {
+        "Question": "학교에서 국어, 수학, 영어, 과학, 사회의 순서로 시험을 봤습니다. 3번째로 시험을 본 과목은 무엇입니까?",
+        "Answer": "영어",
+        "Equation": "func_listindex(seq0,num0)"
+    },
+    {
+        "Question": "달리기 시합에서 정국이는 7등을 했고, 민영이는 5등을 했습니다. 태형이는 민영이보다 못했지만 정국이보다는 잘했습니다. 태형이는 몇 등입니까?",
+        "Answer": 6,
+        "Equation": "func_between(num0,num1)"
+    },
+    {
+        "Question": "학생들이 한 줄로 서 있습니다. 유정이는 맨 뒤에 서 있습니다. 은정이는 앞에서 5번째에 서 있습니다. 은정이와 유정이 사이에 8명이 서 있을 때, 줄을 서 있는 학생은 모두 몇 명입니까?",
+        "Answer": 14,
+        "Equation": "func_multiply(func_add(func_add(1,num1),num2),num0)"
+    },
+    {
+        "Question": "윤기는 왼쪽에서 7번째 열, 오른쪽에서 13번째 열, 앞에서 8번째 줄, 뒤에서 14번째 줄에 서서 체조를 하고 있습니다. 각 줄마다 서 있는 학생의 수가 같다고 할 때, 체조를 하고 있는 학생은 모두 몇 명입니까?",
+        "Answer": 399,
+        "Equation": "func_multiply(func_minus(func_add(num0,num1),1),func_minus(func_add(num2,num3),1))"
+    },
+    {
+        "Question": "도서관에 똑같은 책장이 28개 있습니다. 각 책장은 6층이고, 각 층마다 꽂혀 있는 책의 수는 같습니다. 영어책은 어느 책장의 한 층의 왼쪽에서 9번째, 오른쪽에서 11번째에 꽂혀 있습니다. 도서관의 책장에 꽂혀 있는 책은 모두 몇 권입니까?",
+        "Answer": 3192,
+        "Equation": "func_multiply(func_multiply(num0,num1),func_minus(func_add(num3,num4),1))"
+    },
+    {
+        "Question": "운동장에 같은 조끼리 한 줄로 서있습니다. 영훈이는 왼쪽에서 9번째, 오른쪽에서 11번째에 서있습니다. 각 조에는 몇 명이 있습니까?",
+        "Answer": 19,
+        "Equation": "func_minus(func_add(num1,num2),1)"
+    }
+]

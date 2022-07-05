@@ -1,0 +1,1297 @@
+[
+    {
+        "Question": "상자안에 9개의 공이 있습니다. 석진이가 5개의 공을 상자 안에 더 넣었습니다. 상자 안에 있는 공은 모두 몇 개입니까?",
+        "Answer": 14,
+        "Equation": "func_add(num0, num1)"
+    },
+    {
+        "Question": "1부터 200까지의 홀수의 합을 구하시오.",
+        "Answer": 10000,
+        "Equation": "func_sum(func_odd(func_rangelist(num0, num1), none), none)"
+    },
+    {
+        "Question": "1부터 10까지의 홀수의 합을 구하시오.",
+        "Answer": 25,
+        "Equation": "func_sum(func_odd(func_rangelist(num0, num1), none), none)"
+    },
+    {
+        "Question": "2부터 100까지의 수 중에서 홀수만을 합한 값을 구하시오.",
+        "Answer": 2499,
+        "Equation": "func_sum(func_odd(func_rangelist(num0, num1), none), none)"
+    },
+    {
+        "Question": "한 상자에는 감이 100개씩 들어있습니다. 6개의 상자 안에 있는 감은 모두 몇 개일까요?",
+        "Answer": 600,
+        "Equation": "func_multiply(func_divide(num1, num0), num2)"
+    },
+    {
+        "Question": "지민, 정국, 태형이의 수학 점수는 각각 94점, 82점, 88점입니다. 이 3을 제외한 학급의 수학 점수 평균은 78점입니다. 지민이네 학급 인원수가 30명일 때, 학급 수학 평균 점수는 몇 점입니까?",
+        "Answer": 79,
+        "Equation": "func_divide(func_add(func_add(func_add(func_multiply(func_minus(num5,num3),num4),num0),num1),num2),num5)"
+    },
+    {
+        "Question": "(가)로 가는 비행기에 어른이 282명, 어린이가 105명 탔습니다. 이 비행기에 모두 몇 명이 탔을까요?",
+        "Answer": 387,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "비행기 1층에는 342명, 2층에는 117명이 탈 수 있어요. 비행기에는 모두 몇 명이 탈 수 있나요?",
+        "Answer": 459,
+        "Equation": "func_add(num1,num3)"
+    },
+    {
+        "Question": "코끼리 열차에 동물원에서 128명이 탔고, 식물원에서 114명이 탔어요. 이 열차를 타고 온 사람들에게 입장 할인권을 주려면 몇 장을 준비해야 할까요?",
+        "Answer": 242,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "지구 환경의 날을 맞아 전교 학생 다모임에서 채소 씨앗을 나눠주었어요. 상추 씨앗을 475명이 받았고 부추 씨앗을 492명이 받았다면 씨앗을 받은 학생은 모두 몇 명인가요?",
+        "Answer": 967,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "열차의 일반실에 575명, 특실에는 147명이 탔어요. 이 열차에는 모두 몇 명이 탔나요?",
+        "Answer": 722,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "남준이네 학교 학생은 528명이고, 석진이네 학교학생은 남준이네 학교 학생보다 174명이 더 많습니다. 석진이네 학교 학생은 몇 명 일까요?",
+        "Answer": 702,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "가젤 796마리가 초원에서 풀을 먹고 있어요. 기린 438마리가 더 와서 풀을 먹어요. 풀을 먹는 가젤과 기린은 모두 몇 마리인가요?",
+        "Answer": 1234,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "198명이 제기 차기 놀이를 했어요. 203명이 제기 차기에 더 참가한다면 제기 차기 놀이를 체험하는 학생은 모두 몇 명인가요?",
+        "Answer": 401,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "(가)에서 온 배에 438명이 탔는데, 그 중 213명은 (나)에 가지 않습니다. (나)에 몇 명이 갈까요?",
+        "Answer": 225,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "(가)에서 (나)로 가는 배에 남자가 296명, 여자가 171명 탔습니다. 남자는 여자보다 몇 명 더 많이 탔을까요?",
+        "Answer": 125,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "(가)에서 (나)로 가는 배에 남자가 296명, 여자가 171명 탔습니다. 여자는 남자보다 몇 명 더 적게 탔을까요?",
+        "Answer": 125,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "원숭이들이 바나나 297개 중에서 152개를 먹었어요. 남아 있는 바나나는 몇 개인가요?",
+        "Answer": 145,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "학부모회에서 컵 떡볶이 398개를 준비해서 학생들에게 152개를 나눠주었어요. 남아 있는 떡볶이는 몇 컵인가요?",
+        "Answer": 246,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "학교 텃밭에서 수확한 땅콩을 볶아서 395봉지에 나눠 담았어요. 대기 줄에 172명이 기다리고 있다면 몇 명이 땅콩을 받아갔나요?",
+        "Answer": 223,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "민영이가 타고 온 비행기에는 158명이 타고 왔고, 유정이가 타고 온 비행기는 374명이 타고 왔어요. 유정이가 타고 온 비행기에 몇 명이 더 많이 타고 왔나요?",
+        "Answer": 216,
+        "Equation": "func_minus(num1,num0)"
+    },
+    {
+        "Question": "민영이가 타고 온 비행기에는 158명이 타고 왔고, 유정이가 타고 온 비행기는 374명이 타고 왔어요. 민영이가 타고 온 비행기에 몇 명이 더 적게 타고 왔나요?",
+        "Answer": 216,
+        "Equation": "func_minus(num1,num0)"
+    },
+    {
+        "Question": "민영이가 타고 온 비행기에는 374명이 타고 왔고, 유정이가 타고 온 비행기는 158명이 타고 왔어요. 유정이가 타고 온 비행기에 몇 명이 더 적게 타고 왔나요?",
+        "Answer": 216,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "강물 속에 악어가 469마리 있었어요. 그 중 285마리가 땅으로 올라갔어요. 강물 속에 남아있는 악어는 몇 마리인가요?",
+        "Answer": 184,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "185명이 콩 주머니 던지기 놀이를 체험했어요. 318명은 젓가락으로 콩 옮기기 놀이를 했어요. 어느 놀이에 몇 명이 더 참가했나요?",
+        "Answer": 133,
+        "Equation": "func_minus(num1,num0)"
+    },
+    {
+        "Question": "(가)로 가는 배에 635명이 타기로 했습니다. 지금 178명이 탔다면 몇 명이 더 타야 할까요?",
+        "Answer": 457,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "펭수가 가족을 만나러 남극에 갔어요. 펭귄 542마리가 뭍에 있었는데 그 중 295마리가 바다 속으로 들어갔어요. 뭍에 남아있는 펭귄은 몇 마리인가요?",
+        "Answer": 247,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "주사위로 수식 만드는 놀이에 421명이 참가했고 블록으로 건물 만들기 놀이에는 287명이 참가했어요. 어느 놀이에 몇 명이 더 참가했나요?",
+        "Answer": 134,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "급식실에서 어린이날 케잌을 924개 준비했는데 339개 남았어요. 지금까지 몇 명에게 케잌을 배식했나요?",
+        "Answer": 585,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "오늘 역사체험관에 입장한 어린이는 845명, 어른은 397명입니다. 오늘 입장한 어린이는 어른보다 몇 명 더 많은지 구해 보세요.",
+        "Answer": 448,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "지민이네 학교 학생은 528명이고, 유정이네 학교 학생은 지민이네 학교 학생보다 174명이 더 많습니다. 유나네 학교 학생은 유정이네 학교 학생보다 294명이 더 적습니다. 유나네 학교 학생은 몇 명일까요?",
+        "Answer": 408,
+        "Equation": "func_minus(func_add(num0,num1),num2)"
+    },
+    {
+        "Question": "길이가 5m인 리본 중에서 1m 86cm를 잘라 꽃바구니를 장식했습니다. 남은 끈의 길이는 몇 cm인가요?",
+        "Answer": 314,
+        "Equation": "func_minus(func_m2cm(num0,none),func_m2cm(num1,num2))"
+    },
+    {
+        "Question": "병아리 알이 503개 있었는데 386개가 부화했어요. 아직 부화하지 않은 병아리 알은 몇 개인가요?",
+        "Answer": 117,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "학교 급식실에서 계란 프라이를 하고 있어요. 급식 인원은 602명인데 457장 부쳤어요. 몇 장 더 부쳐야 하나요?",
+        "Answer": 145,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "학교 축제 기념품으로 노란 팔찌를 선택한 학생들은 708명이고 파란 팔찌를 선택한 학생은 389명입니다. 학생들은 어느 색깔 팔찌를 몇 명이나 더 선택했나요?",
+        "Answer": 319,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "무지개색 보물찾기를 하는 미션이 있어요. 초록색 보물을 찾은 학생은 269명이고, 남색 보물을 찾은 학생은 405명입니다. 학생들은 어느 색깔 보물을 몇 개나 더 찾았나요?",
+        "Answer": 136,
+        "Equation": "func_minus(num1,num0)"
+    },
+    {
+        "Question": "유나와 아버지의 나이의 차는 28살이고, 유나는 8살인 동생보다 6살 더 많습니다. 아버지의 나이는 몇 살입니까?",
+        "Answer": 42,
+        "Equation": "func_add(func_add(num1,num2),num0)"
+    },
+    {
+        "Question": "원의 지름이 8 m입니다. 넓이를 구하세요. 원주율 : 3.14",
+        "Answer": 50.24,
+        "Equation": "func_circlearea(func_divide(num0,2),num1)"
+    },
+    {
+        "Question": "지름이 50 cm인 원을 그렸습니다. 원의 넓이는 몇 cm일까요? 원주율 : 3.14",
+        "Answer": 1962.5,
+        "Equation": "func_circlearea(func_divide(num0,2),num1)"
+    },
+    {
+        "Question": "반지름이 50 cm인 원을 그렸습니다. 원의 넓이는 몇 cm일까요? 원주율 : 3.14",
+        "Answer": 7850.0,
+        "Equation": "func_circlearea(num0,num1)"
+    },
+    {
+        "Question": "지름이 50 cm인 원을 그렸습니다. 원의 넓이는 몇 cm일까요?",
+        "Answer": 1963.5,
+        "Equation": "func_circlearea(func_divide(num0,2),none)"
+    },
+    {
+        "Question": "반지름이 50 cm인 원을 그렸습니다. 원의 지름은 몇 cm일까요?",
+        "Answer": 100,
+        "Equation": "func_multiply(num0,2)"
+    },
+    {
+        "Question": "반지름이 50 cm인 원을 그렸습니다. 원의 지름은 몇 m일까요?",
+        "Answer": 1,
+        "Equation": "func_cm2m(func_multiply(num0,2),none)"
+    },
+    {
+        "Question": "지름이 50 m인 원을 그렸습니다. 원의 반지름은 몇 m일까요?",
+        "Answer": 25,
+        "Equation": "func_divide(num0,2)"
+    },
+    {
+        "Question": "지름이 50 m인 원을 그렸습니다. 원의 반지름은 몇 cm일까요?",
+        "Answer": 2500,
+        "Equation": "func_m2cm(func_divide(num0,2),none)"
+    },
+    {
+        "Question": "윤기와 은지는 사과를 땄습니다. 사과를 윤기는 3개보다 1개 더 많이 땄고, 은지는 5개보다 2개 더 적게 땄습니다. 윤기는 은지보다 사과를 몇 개 더 많이 땄을까요?",
+        "Answer": 1,
+        "Equation": "func_minus(func_add(num0,num1),func_minus(num2,num3))"
+    },
+    {
+        "Question": "초코 우유가 5개, 딸기 우유가 4개 있습니다. 이 중에서 초코 우유는 2개, 딸기 우유는 3개를 먹었습니다. 남아 있는 우유은 모두 몇 개일까요?",
+        "Answer": 4,
+        "Equation": "func_minus(func_minus(func_add(num0,num1),num2),num3)"
+    },
+    {
+        "Question": "과일 바구니 안에 사과가 4개, 오렌지가 6개 있습니다. 그 중에서 사과는 2개, 오렌지는 3개를 먹었습니다. 과일 바구니 안의 사과와 오렌지의 개수의 합은?",
+        "Answer": 5,
+        "Equation": "func_minus(func_minus(func_add(num0,num1),num2),num3)"
+    },
+    {
+        "Question": "사과 1개의 무게는 귤 3개의 무게와 같습니다. 사과 3개의 무게는 귤 몇 개와 같을까요?",
+        "Answer": 9,
+        "Equation": "func_multiply(func_divide(num1,num0),num2)"
+    },
+    {
+        "Question": "사과 5개는 2250원, 감 6개는 4710원, 귤 7개는 1890원이라고 합니다. 사과 1개, 감 2개, 귤 3개의 값의 합은 얼마인지 하나의 식으로 만들어 답을 구하세요.",
+        "Answer": 2830,
+        "Equation": "func_add(func_add(func_multiply(func_divide(num1,num0),num6),func_multiply(func_divide(num3,num2),num7)),func_multiply(func_divide(num5,num4),num8))"
+    },
+    {
+        "Question": "남준이가 가지고 있는 구슬은 파란색 구슬 24개, 보라색 구슬 36개이고, 석진이가 가지고 있는 구슬의 수는 남준이가 가지고 있는 구슬의 수의 2 배보다 15개 적습니다. 석진이가 가지고 있는 구슬을 모두 5명의 친구에게 똑같이 나누어 주려면 한 사람에게 몇 개씩 나누어 주어야 하는지 하나의 식으로 나타내고, 답을 구하세요.",
+        "Answer": 21,
+        "Equation": "func_multiply(func_divide(func_minus(func_multiply(func_add(num0,num1),num2),num3),num4),num5)"
+    },
+    {
+        "Question": "계란 1 줄은 10개입니다. 계란 7줄과 6개 중에서 4개는 깨져서 버리고, 남은 계란으로 하루에 3개씩 요리에 사용하면 며칠 동안 먹을 수 있는지 하나의 식으로 만들어 답을 구하세요",
+        "Answer": 24,
+        "Equation": "func_divide(func_minus(func_add(func_multiply(func_divide(num1,num0),num2),num3),num4),num5)"
+    },
+    {
+        "Question": "은구슬이 15개씩 9봉지와 23개씩 7봉지가 있습니다. 이 은구슬을 8명이 똑같이 나누어 가지면, 한 명이 갖게 되는 은구슬은 몇 개인지 하나의 식으로 만들어 답을 구하세요.",
+        "Answer": 37,
+        "Equation": "func_multiply(func_divide(func_add(func_multiply(num1,num0),func_multiply(num3,num2)),num4),num5)"
+    },
+    {
+        "Question": "지민이는 색종이를 어제 36장, 오늘 45장을 샀고, 정국이는 지민이가 어제와 오늘 산 색종이의 2배보다 17장 적게 샀습니다. 정국이가 산 색종이는 몇 장인지 하나의 식으로 만들어 구하세요.",
+        "Answer": 145,
+        "Equation": "func_minus(func_multiply(func_add(num0,num1),num2),num3)"
+    },
+    {
+        "Question": "유나는 2000원을 가지고 제과점에서 500원짜리 쿠키 2개와 450원짜리 젤리 2개를 샀습니다. 유나가 쿠키와 젤리를 사고 남은 돈은 얼마인지 하나의 식으로 만들어 구하세요.",
+        "Answer": 100,
+        "Equation": "func_minus(func_minus(num0,func_multiply(num1,num2)),func_multiply(num3,num4))"
+    },
+    {
+        "Question": "쿠키가 50개 있습니다. 남학생 4명과 여학생 3명으로 이루어진 모둠에 1명에게 쿠키를 1 개씩 모두 6 모둠에 나누어 주고 선생님께서 쿠키 2개를 가지셨습니다. 남은 쿠키는 몇 개인지 알아보세요.",
+        "Answer": 6,
+        "Equation": "func_minus(func_minus(num0,func_multiply(func_add(num1,num2),num5)),num6)"
+    },
+    {
+        "Question": "250개의 사과가 들어 있는 상자에서 사과를 15개씩 8번 꺼낸 후에 남은 사과를 5 바구니에 똑같이 나누어 담았습니다. 1 바구니에 담은 사과는 몇 개인지 하나의 식으로 만들어 답을 구하세요.",
+        "Answer": 26,
+        "Equation": "func_multiply(func_divide(func_minus(num0,func_multiply(num2,num1)),num3),num4)"
+    },
+    {
+        "Question": "솜사탕이 45개 있습니다. 여학생 3명과 남학생 4명으로 이루어진 모둠에 1 명에게 솜사탕을 5개씩 주었습니다. 남은 솜사탕은 몇 개인지 하나의 식으로 만들어 답을 구하세요",
+        "Answer": 10,
+        "Equation": "func_minus(num0,func_multiply(func_add(num1,num2),num4))"
+    },
+    {
+        "Question": "은지는 과일 가게에서 3개에 1800원 하는 자두 5개와 1개에 1300원짜리 사과를 6개를 사고 15000원을 내었습니다. 은지는 얼마를 거슬러 받아야 하는지 하나의 식으로 만들어 답을 구하세요.",
+        "Answer": 4200,
+        "Equation": "func_minus(func_minus(num6,func_multiply(func_divide(num1,num0),num2)),func_multiply(func_divide(num4,num3),num5))"
+    },
+    {
+        "Question": "유정이는 100원짜리 동전 1개와 500원짜리 동전 1개를 가지고 있습니다. 윤기는 유정이가 가지고 있는 돈의 3배보다 400원 적게 가지고 있고, 태형이가 가지고 있는 돈은 5000원입니다. 태형이는 윤기보다 돈이 얼마나 더 많은지 하나의 식으로 만들어 답을 구하세요.",
+        "Answer": 3600,
+        "Equation": "func_minus(num6,func_minus(func_multiply(func_add(func_multiply(num0,num1),func_multiply(num2,num3)),num4),num5))"
+    },
+    {
+        "Question": "공책이 200권이 있습니다. 3명의 학생에게는 10권씩, 15명의 학생에게는 5권씩 나누어 주었습니다. 남은 공책을 5명에게 똑같이 나누어 주려면 한 학생에게 몇 권씩 나누어 주면 되는지 하나의 식으로 만들어 답을 구하세요.",
+        "Answer": 19,
+        "Equation": "func_multiply(func_divide(func_minus(func_minus(num0,func_multiply(num1,num2)),func_multiply(num3,num4)),num5),num6)"
+    },
+    {
+        "Question": "지민이는 용돈으로 5000원을 받아 3개에 900원 하는 지우개 1개와 400원 짜리 공책 2권을 샀습니다. 남은 돈은 얼마인지 하나의 식으로 나타내고, 답을 구하세요.",
+        "Answer": 3900,
+        "Equation": "func_minus(func_minus(num0,func_multiply(func_divide(num2,num1),num3)),func_multiply(num4,num5))"
+    },
+    {
+        "Question": "남준이는 1 자루에 300원 하는 연필 6자루와 공책 4권을 사고 5000원을 냈더니 거스름 돈이 600원이었습니다. 공책 한 권의 값은 얼마인지 하나의 식으로 만들어 구하세요.",
+        "Answer": 650,
+        "Equation": "func_multiply(func_divide(func_minus(func_minus(num4,num5),func_multiply(func_divide(num1,num0),num2)),num3),num6)"
+    },
+    {
+        "Question": "4726개의 사과를 1 상자에 30개씩 50상자와 40개씩 80상자에 담았습니다. 남은 사과는 몇 개인지 하나의 식으로 나타내고, 답을 구하세요.",
+        "Answer": 26,
+        "Equation": "func_minus(func_minus(num0,func_multiply(func_divide(num2,num1),num3)),func_multiply(num4, num5))"
+    },
+    {
+        "Question": "공책 1권의 값은 550원, 연필 6자루의 값은 900원입니다. 공책 5권과 연필 4자루의 가격은 얼마인지 하나의 식으로 만들어 구하세요.",
+        "Answer": 3350,
+        "Equation": "func_add(func_multiply(func_divide(num1,num0),num4),func_multiply(func_divide(num3,num2),num5))"
+    },
+    {
+        "Question": "민영이는 딸기맛 사탕은 12개와 포도맛 사탕은 9개를 가지고 있고, 은지는 민영이가 가지고 있는 사탕의 수의 3배를 가지고 있습니다. 2 사람이 가지고 있는 사탕을 6명이 똑같이 나누어 먹으려면, 한 사람이 몇 개씩 먹어야 하는지 하나의 식으로 만들어 구해 보세요.",
+        "Answer": 14,
+        "Equation": "func_multiply(func_divide(func_add(func_add(num0,num1),func_multiply(func_add(num0,num1),num2)),num4),num5)"
+    },
+    {
+        "Question": "호석이는 과일 가게에 가서 한 개에 350원 하는 오렌지 9개와 수박 3통을 사고 20000원을 냈습니다. 거스름돈으로 4850원을 받았다면 수박 한 통의 값은 얼마인지 하나의 식으로 만들고 구하세요.",
+        "Answer": 4000,
+        "Equation": "func_multiply(func_divide(func_minus(func_minus(num4,num5),func_multiply(func_divide(num1,num0),num2)),num3),num6)"
+    },
+    {
+        "Question": "연필을 6다스를 남학생 4명과 여학생 5명이 4자루씩 가진 후 남은 연필을 상자 3개에 똑같이 나누어 담았습니다. 1 상자에 담은 연필은 몇 자루인지 하나의 식으로 만들어 구하세요.",
+        "Answer": 12,
+        "Equation": "func_divide(func_minus(func_multiply(num0,12),func_multiply(func_add(num1,num2),num3)),num4)"
+    },
+    {
+        "Question": "유나네 학교 4학년 학생은 32명씩 11반이고, 선생님은 14명입니다. 선생님과 학생들이 체육 대회를 하기 위해 6모둠으로 나누었습니다. 한 모둠은 몇 명인지 하나의 식으로 만들어 답을 구하세요.",
+        "Answer": 61,
+        "Equation": "func_divide(func_add(func_multiply(num2,num1),num3),num4)"
+    },
+    {
+        "Question": "유정이는 구슬을 24개 가지고 있고, 지민이는 유정이의 2배만큼 구슬을 가지고 있습니다. 유정이가 가지고 있던 구슬을 8묶음으로 나누어 이 중 1 묶음을 지민이에게 주었다면, 지민이가 가지고 있는 구슬은 모두 몇 개가 되는지 하나의 식으로 만들어 답을 구하세요.",
+        "Answer": 51,
+        "Equation": "func_add(func_multiply(num0,num1),func_multiply(func_divide(num0,num2),num3))"
+    },
+    {
+        "Question": "어떤 수에 6을 곱한 후 3으로 나누고 8을 빼었더니 10이 되었습니다. 어떤 수를 구해 보세요.",
+        "Answer": 9,
+        "Equation": "func_divide(func_multiply(func_add(num3,num2),num1),num0)"
+    },
+    {
+        "Question": "민영이는 6개에 960원 하는 단추를 9개 샀고, 은지는 8개에 640원 하는 단추를 몇 개 샀더니 민영이와 은지가 산 단추 값이 서로 같았습니다. 은지가 산 단추는 몇 개일까요?",
+        "Answer": 18,
+        "Equation": "func_divide(func_multiply(func_divide(num1,num0),num2),func_divide(num4,num3))"
+    },
+    {
+        "Question": "길이가 6m인 끈을 2 도막으로 자르려고 합니다. 긴 도막의 길이는 짧은 도막의 길이의 5배보다 12cm 더 길게 하려고 합니다. 긴 도막의 길이는 몇 cm로 해야 합니까?",
+        "Answer": 502,
+        "Equation": "func_minus(func_m2cm(num0,none),func_divide(func_minus(func_m2cm(num0,none),num3),func_add(num2,1)))"
+    },
+    {
+        "Question": "남준이네 과일 가게에서는 2개에 1200원 하는 사과를 사서 1 봉지에 3개씩 담아 2250원에 팔았습니다. 남준이네 과일 가게에서 사과를 팔아 얻은 이익이 90000원이라면, 판 사과는 모두 몇 봉지일까요?",
+        "Answer": 200,
+        "Equation": "func_divide(num5,func_minus(num4,func_multiply(func_divide(num1,num0),func_divide(num3,num2))))"
+    },
+    {
+        "Question": "유정이가 모은 엽서는 민영가 모은 엽서의 수의 4배보다 9장이 더 적습니다. 유정이가 모은 엽서의 수가 91장일 때,민영이가 모은 엽서는 몇 장일까요?",
+        "Answer": 25,
+        "Equation": "func_divide(func_add(num2,num1),num0)"
+    },
+    {
+        "Question": "석진과 유정이는 가지고 있던 돈을 합하여 7300원짜리 조립장난감을 샀습니다. 석진이가 낸 돈은 유정이가 낸 돈의 2배보다 700원이 더 많습니다. 유정이가 낸 돈은 얼마일까요?",
+        "Answer": 2200,
+        "Equation": "func_divide(func_minus(num0,num2),func_add(num1,1))"
+    },
+    {
+        "Question": "삼촌의 나이는 민영이 나이의 3배보다 3살이 적다고 합니다. 삼촌의 나이가 39살이라면 민영이의 나이는 얼마일까요?",
+        "Answer": 14,
+        "Equation": "func_divide(func_add(num2,num1),num0)"
+    },
+    {
+        "Question": "무게가 같은 9개의 추의 무게가 4kg 500g입니다. 이 추 2개와 무게가 850g인 필통 몇 개를 양팔 저울의 한 쪽에 올려놓고, 다른 쪽에는 무게가 1050g인 사전을 5권 올려놓았더니 수평을 이루었습니다. 올려놓은 필통은 몇 개일까요?",
+        "Answer": 5,
+        "Equation": "func_divide(func_minus(func_multiply(num6,num7),func_multiply(func_divide(func_kg2g(num1,num2),num0),num3)),num4)"
+    },
+    {
+        "Question": "무게가 같은 9개의 추의 무게가 4kg 500g입니다. 한 추의 무게는 몇 g입니까?",
+        "Answer": 500,
+        "Equation": "func_multiply(func_divide(func_kg2g(num1,num2),num0),num3)"
+    },
+    {
+        "Question": "무게가 같은 9권의 책을 합친 무게는 4kg 500g 이라면 한 책의 무개는 몇 g입니까?",
+        "Answer": 500,
+        "Equation": "func_multiply(func_divide(func_kg2g(num1,num2),num0),num3)"
+    },
+    {
+        "Question": "길이가 같은 연필을 9개 이어붙이면 4m 50cm 입니다. 한 연필의 길이는 몇 cm 입니까?",
+        "Answer": 50,
+        "Equation": "func_divide(func_m2cm(num1,num2),num0)"
+    },
+    {
+        "Question": "어머니의 연세는 태형이 나이의 5배보다 3살이 적다고 합니다. 어머니의 연세가 42세라면 태형이의 나이는 얼마인지 알아보세요.",
+        "Answer": 9,
+        "Equation": "func_divide(func_add(num2,num1),num0)"
+    },
+    {
+        "Question": "윤기는 문구점에서 1 자루에 350원 하는 연필 4자루와 1 개에 200원 하는 지우개 3개, 1 장에 420원 하는 붙임 딱지를 몇 장 사고 5000원을 냈더니 거스름돈으로 900원을 받았습니다. 윤기는 붙임 딱지를 몇 장 샀을까요?",
+        "Answer": 5,
+        "Equation": "func_divide(func_minus(func_minus(func_minus(num8,num9),func_multiply(func_divide(num1,num0),num2)),func_multiply(func_divide(num4,num3),num5)),func_divide(num7,num6))"
+    },
+    {
+        "Question": "남준이는 딸기맛 사탕과 오렌지맛 사탕을 각각 7개씩 가지고 있습니다. 남준이가 가지고 있는 사탕은 모두 몇 개일까요?",
+        "Answer": 14,
+        "Equation": "func_add(num0,num0)"
+    },
+    {
+        "Question": "남준이는 사탕을 38개 가지고 있었는데 석진, 윤기, 호석에게 각각 10개씩 주었습니다. 남준에게 남아 있는 사탕은 몇 개일까요?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(func_minus(num0,num1),num1),num1)"
+    },
+    {
+        "Question": "남준이는 63개의 막대사탕이 있다. 유정이는 50개의 막대사탕이 있다. 막대사탕은 총 몇 개인가?",
+        "Answer": 113,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "석진이는 사탕가게를 차리기로 했다. 석진이는 80개의 사탕을 팔기로 했다. 석진이는 월요일에 15개의 사탕을 팔았다. 석진이는 화요일에 훨씬 더 많이 팔았다. 수요일에 석진이에게는 7개의 사탕이 남았다. 화요일에 석진이는 몇 개의 사탕을 팔았을까?",
+        "Answer": 58,
+        "Equation": "func_minus(func_minus(num0,num1),num2)"
+    },
+    {
+        "Question": "윤기는 27봉지의 감자칩을 팔았고, 감자칩보다 8개 더 적은 개수의 핫도그를 팔았다. 음료는 핫도그보다 12개 더 팔았다. 윤기는 음료를 몇 개 팔았을까?",
+        "Answer": 31,
+        "Equation": "func_add(func_minus(num0,num1),num2)"
+    },
+    {
+        "Question": "민영이는 매일 점심을 위해 7500원을 받는다. 민영이는 쥬스를 2700원에 구매했고, 컵케이크를 샀더니 800원이 남았다. 컵케이크의 가격을 구하시오.",
+        "Answer": 4000,
+        "Equation": "func_minus(func_minus(num0,num1),num2)"
+    },
+    {
+        "Question": "유나는 게임을 좋아한다. 유나는 어제 게임을 37번 했고, 오늘은 게임을 49번 했다. 유나는 총 18번 졌다. 유나가 총 몇 번 이겼는지 구하시오.",
+        "Answer": 68,
+        "Equation": "func_minus(func_add(num0,num1),num2)"
+    },
+    {
+        "Question": "은지는 총 79000원이 있다. 은지가 35000원의 카메라와 59000원의 이어폰을 사려면 돈이 얼마 더 필요한지 구하시오.",
+        "Answer": 15000,
+        "Equation": "func_minus(func_add(num1,num2),num0)"
+    },
+    {
+        "Question": "정국이네 농장에서 배를 수확했다. 43kg의 배를 한 봉지에, 35kg의 배를 다른 봉지에 넣었다. 아직 포장되지 않은 배가 15kg이 있을 때, 정국이는 총 몇 kg의 배를 수확하였는가?",
+        "Answer": 93,
+        "Equation": "func_add(func_add(num0,num2),num3)"
+    },
+    {
+        "Question": "1 반에는 학생이 20명씩 속해있습니다. 6개의 반에 있는 학생은 모두 몇 명일까요?",
+        "Answer": 120,
+        "Equation": "func_multiply(func_divide(num1,num0),num2)"
+    },
+    {
+        "Question": "남준, 은지, 유나의 영어 점수는 각각 90점, 80점, 88점입니다. 이 3을 제외한 학급의 영어 점수 평균은 67점입니다. 남준이네 학급 인원수가 30명일 때, 학급 영어 평균 점수는 몇 점입니까?",
+        "Answer": 68.9,
+        "Equation": "func_divide(func_add(func_add(func_add(func_multiply(func_minus(num5,num3),num4),num0),num1),num2),num5)"
+    },
+    {
+        "Question": "남준, 은지의 수학 점수는 각각 90점, 80점입니다. 이 2을 제외한 학급의 수학 점수 평균은 67점입니다. 남준이네 학급 인원수가 30명일 때, 학급 수학 평균 점수는 몇 점입니까?",
+        "Answer": 68.2,
+        "Equation": "func_divide(func_add(func_add(func_multiply(func_minus(num4,num2),num3),num0),num1),num4)"
+    },
+    {
+        "Question": "정국이는 중간고사에서 국어, 수학, 영어의 점수가 각각 90점, 80점, 100점이다. 정국이의 세 과목의 점수의 평균을 구하시오.",
+        "Answer": 90,
+        "Equation": "func_divide(func_add(func_add(num0,num1),num2),num3)"
+    },
+    {
+        "Question": "태형이는 과녁을 총 3 번 맞추었으며, 점수는 각각 8점, 6점, 9점이었다. 태형이가 맞춘 과녁의 점수의 평균을 구하시오.",
+        "Answer": 7.67,
+        "Equation": "func_divide(func_add(func_add(num1,num2),num3),num0)"
+    },
+    {
+        "Question": "봉사 동아리에는 총 4명의 회원이 있으며, 나이는 각각 13살, 15살, 12살, 16살이다. 봉사 동아리 회원의 평균 나이는 몇 살입니까?",
+        "Answer": 14,
+        "Equation": "func_divide(func_add(func_add(func_add(num1,num2),num3),num4),num0)"
+    },
+    {
+        "Question": "봉사 동아리 회원 4명의 평균 나이는 14살이다. 새로운 회원 한 명이 더 들어와서 나이의 평균이 1살 늘어났습니다. 회원이 더 들어오고 나서 전체 회원 나이의 총합은 몇 살 늘어났습니까?",
+        "Answer": 19,
+        "Equation": "func_add(func_add(num0,1),num1)"
+    },
+    {
+        "Question": "정국, 유나, 유정의 100미터 달리기 기록의 평균은 18초이다. 정국의 기록은 17초, 유정의 기록은 22초일 때, 유나의 기록은 몇 초였을까?",
+        "Answer": 15,
+        "Equation": "func_minus(func_minus(func_multiply(num1,3),num2),num3)"
+    },
+    {
+        "Question": "호석, 태형, 정국의 줄넘기 기록은 각각 48회, 40회, 32회이다. 이들의 줄넘기 기록 평균을 구하시오.",
+        "Answer": 40,
+        "Equation": "func_divide(func_add(func_add(num0,num1),num2),3)"
+    },
+    {
+        "Question": "1부터 200까지의 짝수의 합을 구하시오.",
+        "Answer": 10100,
+        "Equation": "func_sum(func_even(func_rangelist(num0,num1),none),none)"
+    },
+    {
+        "Question": "1부터 100까지의 짝수의 합을 구하시오.",
+        "Answer": 2550,
+        "Equation": "func_sum(func_even(func_rangelist(num0,num1),none),none)"
+    },
+    {
+        "Question": "50부터 100까지의 수 중에서 짝수의 합을 구하시오.",
+        "Answer": 1950,
+        "Equation": "func_sum(func_even(func_rangelist(num0,num1),none),none)"
+    },
+    {
+        "Question": "1부터 300까지의 3의 배수의 합을 구하시오.",
+        "Answer": 15150,
+        "Equation": "func_sum(func_multiple(func_rangelist(num0,num1),num2),none)"
+    },
+    {
+        "Question": "1부터 300까지의 3의 배수의 개수를 구하시오.",
+        "Answer": 100,
+        "Equation": "func_len(func_multiple(func_rangelist(num0,num1),num2),none)"
+    },
+    {
+        "Question": "1부터 300까지의 숫자 중에서 홀수이면서 3의 배수의 개수를 구하시오.",
+        "Answer": 50,
+        "Equation": "func_len(func_multiple(func_odd(func_rangelist(num0,num1),none),num2),none)"
+    },
+    {
+        "Question": "과자 8개를 정국, 유정 2명이 똑같이 나누어 먹으려고 합니다. 한 명이 과자를 몇 개씩 가질 수 있나요?",
+        "Answer": 4,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "강낭콩 21개를 화분 3개에 똑같이 나누면 화분 한 개에 몇 개씩 심을 수 있을까요?",
+        "Answer": 7,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "사탕 16개를 접시에 똑같이 나누어 담으려고 합니다. 접시가 2개일 때 담을 수 있는 사탕의 수를 구해 보세요.",
+        "Answer": 8,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "사탕 16개를 접시에 똑같이 나누어 담으려고 합니다. 접시가 4개일 때 담을 수 있는 사탕의 수를 구해 보세요.",
+        "Answer": 4,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "딸기 24개를 한 명에게 8개씩 주면 몇 명에게 나누어 줄 수 있을까요?",
+        "Answer": 3,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "빈 병 14개를 한 상자에 7개씩 담으려고 합니다. 상자는 몇 상자 필요할까요?",
+        "Answer": 2,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "파인애플 20개를 한 명에게 5개씩 주려고 합니다. 몇 명에게 나누어 줄 수 있을까요?",
+        "Answer": 4,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "수국 9송이를 꽃병 3개에 나누어 꽂으면 꽃병 한 개에 몇 송이씩 꽂을 수 있나요?",
+        "Answer": 3,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "자두 14개를 7명이 똑같이 나누어 먹으면 한 명이 몇 개씩 먹을 수 있나요?",
+        "Answer": 2,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "딸기 8개를 2개씩 덜어 내면 몇 번 덜어 낼 수 있나요?",
+        "Answer": 4,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "학교 텃밭에서 수확한 고구마 36개를 6개씩 봉지에 나누어 담으려고 합니다. 봉지는 몇 장 필요한가요?",
+        "Answer": 6,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "멜론 24개를 한 바구니에 3개씩 담으려면 바구니는 몇 개 필요한가요?",
+        "Answer": 8,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "무 12개를 4명이 똑같이 나누어 가지면 한 명이 몇 개씩 가지면 되나요?",
+        "Answer": 3,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "72쪽짜리 책을 하루에 8쪽씩 읽으려고 합니다. 이 책을 끝까지 읽으려면 며칠이 걸리나요?",
+        "Answer": 9,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "곰 인형 32개를 8명에게 똑같이 나누어 주면 한 명에게 몇 개씩 줄 수 있을까요?",
+        "Answer": 4,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "꽃 40송이를 꽃병 8개에 똑같이 나누면 꽃병 한 개에 몇 송이씩 꽂을 수 있는지 구하시오.",
+        "Answer": 5,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "석진이네 가족은 친척과 함께 자동차를 타고 여행을 가려고 합니다. 석진이네 가족과 친척이 모두 12명일 때 한 대에 4명씩 타면 자동차는 몇 대 필요할까요?",
+        "Answer": 3,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "유나네 반 남학생은 13명, 여학생은 11명입니다. 한 팀에 3명씩 달리기를 한다면 모두 몇 팀인가요?",
+        "Answer": 8,
+        "Equation": "func_divide(func_add(num0,num1),num3)"
+    },
+    {
+        "Question": "쿠키 54개를 6상자에 똑같이 나누어 담았습니다. 그 중에서 한 상자를 개봉해서 석진, 호석, 민영 3명이 똑같이 나누어 먹었습니다. 호석은 쿠키를 몇 개 먹었나요?",
+        "Answer": 3,
+        "Equation": "func_divide(func_divide(num0,num1),num3)"
+    },
+    {
+        "Question": "농장에 있는 돼지와 오리의 수를 세어 보니 모두 40마리였습니다. 돼지가 6마리라면 오리는 몇 마리인가요?",
+        "Answer": 34,
+        "Equation": "func_minus(num0,num1)"
+    },
+    {
+        "Question": "당근 17개가 있습니다. 바구니 4개에 똑같이 5개씩 나누어 담으려면 당근 몇 개가 더 필요한가요?",
+        "Answer": 3,
+        "Equation": "func_minus(func_multiply(num1,num2),num0)"
+    },
+    {
+        "Question": "빵이 한 붕지에 9개씩 4봉지 있습니다. 빵을 한 접시에 6개씩 나누어 담으려면 접시는 몇 개 필요한가요?",
+        "Answer": 6,
+        "Equation": "func_divide(func_multiply(num1,num2),num4)"
+    },
+    {
+        "Question": "남준에게는 구슬 3개가 있었습니다. 은지가 5개를 더 주었습니다. 남준이는 이제 몇 개의 구슬을 가지고 있습니까?",
+        "Answer": 8,
+        "Equation": "func_add(num0, num1)"
+    },
+    {
+        "Question": "남준이는 구슬을 3개 갖고 있습니다. 정국은 5개 갖고 있습니다. 둘이 합해 몇 개의 구슬을 갖고 있습니까?",
+        "Answer": 8,
+        "Equation": "func_add(num0, num1)"
+    },
+    {
+        "Question": "서점에 동화책이 267권, 위인전이 312권 있습니다. 서점에 있는 동화책과 위인전은 모두 몇 권입니까?",
+        "Answer": 579,
+        "Equation": "func_add(num0, num1)"
+    },
+    {
+        "Question": "유나는 가족들과 함께 낚시를 하러 갔습니다. 유나와 동생은 334 마리의 물고기를 잡았고, 부모님은 유나와 동생이 잡은 물고기의 수보다 2 배만큼 잡았습니다. 부모님이 잡은 물고기는 모두 몇 마리입니까?",
+        "Answer": 668,
+        "Equation": "func_multiply(num0, num1)"
+    },
+    {
+        "Question": "호석이는 동생보다 252 원 더 가지고 있습니다. 호석이가 가지고 있는 돈이 764 원이라면 동생이 가지고 있는 돈은 얼마입니까?",
+        "Answer": 512,
+        "Equation": "func_minus(num1, num0)"
+    },
+    {
+        "Question": "과수원에서 감을 땄습니다. 동생은 412 개를 땄고, 형은 동생보다 133 개를 더 많이 땄습니다. 동생과 형이 딴 감은 모두 몇 개입니까?",
+        "Answer": 957,
+        "Equation": "func_add(func_add(num0, num1),num0)"
+    },
+    {
+        "Question": "윤기는 270 원짜리 공책 1 권을 사고 500 원을 내었습니다. 거스름돈은 얼마를 받아야 합니까?",
+        "Answer": 230,
+        "Equation": "func_minus(num2, func_multiply(num0,num1))"
+    },
+    {
+        "Question": "수학여행에 신청한 남자 어린이는 324 명, 여자 어린이는 315 명입니다. 수학여행에 신청한 어린이는 모두 몇명입니까?",
+        "Answer": 639,
+        "Equation": "func_add(num0, num1)"
+    },
+    {
+        "Question": "윤기네 학교 도서관에 수학책이 436 권, 과학책이 275 권 있었습니다. 그 중에서 147 권이 대출되었습니다. 남아 있는 수학책과 과학책은 몇 권입니까?",
+        "Answer": 564,
+        "Equation": "func_minus(func_add(num0,num1),num2)"
+    },
+    {
+        "Question": "어느 공장에서 책을 작년에는 247 권, 올해에는 321 권을 만들었습니다. 이 공장에서 작년과 올해에 만든 책은 모두 몇 권입니까?",
+        "Answer": 568,
+        "Equation": "func_add(num0, num1)"
+    },
+    {
+        "Question": "은지네 학교의 여학생 수는 381 명이고, 남학생은 여학생보다 26 명 더 많습니다. 은지네 학교의 전체 학생 수는 모두 몇 명인지 구하시오.",
+        "Answer": 788,
+        "Equation": "func_add(func_add(num0, num1),num0)"
+    },
+    {
+        "Question": "토마토 주스가 한 상자에 24 병씩 들어 있습니다. 5 상자에 들어 있는 토마토 주스는 모두 몇 병입니까?",
+        "Answer": 120,
+        "Equation": "func_multiply(num1, num2)"
+    },
+    {
+        "Question": "사과가 100 개 있었습니다. 사과를 한 상자에 21 개씩 담아 4 상자 팔았다면 남은 사과는 몇 개일까요?",
+        "Answer": 16,
+        "Equation": "func_minus(num0,func_multiply(num2,num3))"
+    },
+    {
+        "Question": "학생들이 운동장에 한 줄에 21 명씩 8 줄로 서 있습니다. 운동장에 서 있는 학생 중에서 남학생이 92 명이라면 여학생은 몇 명입니까?",
+        "Answer": 76,
+        "Equation": "func_minus(func_multiply(num1,num2),num3)"
+    },
+    {
+        "Question": "가게에 우유는 12 개씩 6 줄로, 음료수는 14 개씩 4줄로 놓여 있습니다. 가게에 놓여 있는 우유와 음료수는 모두 몇 개입니까?",
+        "Answer": 128,
+        "Equation": "func_add(func_multiply(num0,num1),func_multiply(num2,num3))"
+    },
+    {
+        "Question": "사탕이 300 개 있습니다. 이 사탕을 한 상자에 72 개씩 3 상자에 담았다면 남은 사탕은 몇 개인지 구하시오.",
+        "Answer": 84,
+        "Equation": "func_minus(num0,func_multiply(num2,num3))"
+    },
+    {
+        "Question": "한 상자에 42개씩 담겨져 있는 귤이 4상자 있고, 34개씩 담겨져 있는 사과가 7상자 있습니다. 상자에 담긴 귤과 사과는 모두 몇 개입니까?",
+        "Answer": 406,
+        "Equation": "func_add(func_multiply(num1,num2),func_multiply(num3,num4))"
+    },
+    {
+        "Question": "한 묶음에 20 장씩 들어 있는 색종이를 석진이는 3 묶음 샀고, 민영은 5 묶음 샀습니다. 두 사람이 산 색종이는 모두 몇 장입니까?",
+        "Answer": 160,
+        "Equation": "func_multiply(num1,func_add(num2,num3))"
+    },
+    {
+        "Question": "축구공이 32 개 있습니다. 축구공을 한 바구니에 8 개씩 담는다면 바구니는 모두 몇 개 필요합니까?",
+        "Answer": 4,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "동화책 30 권을 책꽂이 6 칸에 똑같게 나누어 꽂으려고 합니다. 한 칸에 몇 권씩 꽂을 수 있습니까?",
+        "Answer": 5,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "남준은 430 원짜리 볼펜 4 자루와 520 원짜리 지우개 8 개를 사고 6000 원을 냈습니다. 남준이가 받을 거스름돈은 얼마인지 답을 구하시오.",
+        "Answer": 120,
+        "Equation": "func_minus(num4, func_add(func_multiply(num0,num1),func_multiply(num2,num3)))"
+    },
+    {
+        "Question": "정국은 훌라후프를 하루에 85 회씩 하려고 합니다. 정국이 3 일 동안 할 수 있는 훌라후프는 모두 몇 회입니까?",
+        "Answer": 255,
+        "Equation": "func_multiply(num0, num1)"
+    },
+    {
+        "Question": "둘레가 427 m 인 운동장이 있습니다. 이 운동장을 3바퀴 돌면 모두 몇 m 를 달리게 됩니까?",
+        "Answer": 1281,
+        "Equation": "func_multiply(num0, num1)"
+    },
+    {
+        "Question": "밥 1 공기를 짓는 데 필요한 쌀은 105 g 입니다. 밥을 매일 4 공기씩 먹는다면 30 일 동안 먹는 쌀의 양은 몇 g 입니까?",
+        "Answer": 12600,
+        "Equation": "func_multiply(func_multiply(func_divide(num1, num0),num2),num3)"
+    },
+    {
+        "Question": "한 상자에 18 개씩 들어 있는 토마토가 5 상자 있고, 한 상자에 4 개씩 들어 있는 참외가 20 상자 있습니다. 토마토는 한 개에 500 원, 참외는 한 개에 700 원을 받고 모두 팔았다면 토마토와 참외를 판 금액은 모두 얼마인지 구해 보시오.",
+        "Answer": 101000,
+        "Equation": "func_add(func_multiply(func_multiply(num1,num2),num7),func_multiply(func_multiply(num4,num5),num9))"
+    },
+    {
+        "Question": "한 사람이 하루에 350 개의 물건을 만드는 공장에서 47 명이 일을 한다고 합니다. 하루 동안 만드는 물건은 모두 몇 개입니까?",
+        "Answer": 16450,
+        "Equation": "func_multiply(num1, num2)"
+    },
+    {
+        "Question": "색연필이 38 자루 있습니다. 남학생 3 명과 여학생 4명이 각각 5 자루씩 나누어 가졌습니다. 남은 색연필은 몇 자루일까요?",
+        "Answer": 3,
+        "Equation": "func_minus(num0,func_multiply(func_add(num1,num2),num3))"
+    },
+    {
+        "Question": "단팥빵 39 개와 크림빵 69 개가 있습니다. 이 빵을 상자 12 개에 똑같은 개수로 나누어 담으려고 합니다. 한 상자에 몇 개씩 담아야 하는지 구해 보시오.?",
+        "Answer": 9,
+        "Equation": "func_divide(func_add(num0,num1),num2)"
+    },
+    {
+        "Question": "유나는 동화책 30 권 중에서 4 권을 동생에게 주고 아버지께 15 권을 선물로 받았습니다. 지금 유나가 가지고 있는 동화책은 몇 권입니까?",
+        "Answer": 41,
+        "Equation": "func_add(func_minus(num0,num1),num2)"
+    },
+    {
+        "Question": "12 부터 53 까지의 자연수의 평균을 구하시오.",
+        "Answer": 32.5,
+        "Equation": "func_divide(func_sum(func_rangelist(num0,num1),none),func_len(func_rangelist(num0,num1),none))"
+    },
+    {
+        "Question": "은지와 유정의 평균 몸무게는 39 kg 이고, 민영의 몸무게는 36 kg 입니다. 세 사람의 평균 몸무게는 몇 kg 입니까?",
+        "Answer": 38,
+        "Equation": "func_divide(func_add(func_multiply(num0,2),num1),num2)"
+    },
+    {
+        "Question": "은지네 학교 학생 80 명이 수학경시대회 시험을 보았는데 그 중 30 명이 입상하였습니다. 입상하지 못한 학생들의 평균 점수는 64 점이고, 80 명 전체의 평균 점수는 74.5 점일 때, 입상한 학생들의 평균 점수를 구하시오.",
+        "Answer": 92,
+        "Equation": "func_divide(func_minus(func_multiply(num3,num4),func_multiply(func_minus(num0,num1),num2)),num1)"
+    },
+    {
+        "Question": "은지네 반 남학생 20 명의 평균 몸무게는 42 kg 이고, 여학생 20 명의 평균 몸무게는 38 kg 입니다. 은지네 반 전체 학생들의 평균 몸무게는 몇 kg 입니까?",
+        "Answer": 40,
+        "Equation": "func_divide(func_add(func_multiply(num0,num1),func_multiply(num2,num3)),func_add(num0,num2))"
+    },
+    {
+        "Question": "어느 양계장에서 하루에 평균 230 개의 달걀을 생산한다고 합니다. 15 일 동안에는 모두 몇 개의 달걀을 생산하겠습니까?",
+        "Answer": 3450,
+        "Equation": "func_multiply(num0, num1)"
+    },
+    {
+        "Question": "귤 6 개와 감 3 개의 무게가 같고, 감 4 개와 사과 3개의 무게가 각각 같습니다. 귤 1 개의 무게가 150 g 이라면 사과 1 개의 무게는 몇 g 입니까?",
+        "Answer": 400,
+        "Equation": "func_multiply(func_divide(func_multiply(func_divide(func_multiply(num0,func_divide(num5,num4)),num1),num2),num3),num6)"
+    },
+    {
+        "Question": "배 한 개의 무게는 귤 5개의 무게와 같다고 합니다. 귤 한 개의 무게가 80 g 일 때, 배 4개의 무게는 몇 g 입니까?",
+        "Answer": 1600,
+        "Equation": "func_multiply(func_multiply(num1,func_divide(num3,num2)),num4)"
+    },
+    {
+        "Question": "태형이네 학교 어린이 62명과 남준이네 학교 어린이 83명이 어린이 캠프에 참가했습니다. 참가한 어린이는 모두 몇 명입니까?",
+        "Answer": 145,
+        "Equation": "func_add(num0, num1)"
+    },
+    {
+        "Question": "운동장에 23명의 운동 선수가 있습니다. 그 중에서 9명이 여자 선수입니다. 남자 선수는 몇 명입니까?",
+        "Answer": 14,
+        "Equation": "func_minus(num0, num1)"
+    },
+    {
+        "Question": "남준이와 석진이는 농구 시합을 하였습니다. 석진이가 남준이보다 18점을 더 얻었습니다. 남준이가 68점을 얻었다면 석진이가 얻은 점수는 몇 점입니까?",
+        "Answer": 86,
+        "Equation": "func_add(num0, num1)"
+    },
+    {
+        "Question": "트럭 두 대에 통나무가 실려 있습니다. 앞 트럭에는 52개의 통나무가 실려 있고, 뒷 트럭에는 앞 트럭보다 12개의 통나무가 더 실려 있습니다. 뒷 트럭에 실려 있는 통나무는 몇 개입니까?",
+        "Answer": 64,
+        "Equation": "func_add(num1, num2)"
+    },
+    {
+        "Question": "윤기와 호석이는 함께 밤을 주웠습니다. 윤기는 54개를 주웠고, 호석이는 윤기보다 16개 적게 주웠습니다. 호석이는 밤을 몇 개 주웠습니까?",
+        "Answer": 38,
+        "Equation": "func_minus(num0, num1)"
+    },
+    {
+        "Question": "은지는 색종이를 42장 가지고 있고, 유나는 은지보다 17장 적게 가지고 있습니다. 유나가 가지고 있는 색종이는 몇 장입니까?",
+        "Answer": 25,
+        "Equation": "func_minus(num0, num1)"
+    },
+    {
+        "Question": "지민이는 42개의 구슬을 가지고 목걸이를 만들었습니다. 정국이는 지민이보다 18개 더 많은 구슬을 가지고 목걸이를 만들었습니다. 두 사람이 목걸이를 만드는 데 사용한 구슬은 모두 몇 개입니까?",
+        "Answer": 102,
+        "Equation": "func_add(num0, func_add(num0, num1))"
+    },
+    {
+        "Question": "민영이는 조개 껍데기를 19개 주웠습니다. 유정이는 민영이보다 3개 더 많이 주웠습니다. 민영이와 유정이가 주운 조개 껍데기는 모두 몇 개입니까?",
+        "Answer": 41,
+        "Equation": "func_add(num0, func_add(num0, num1))"
+    },
+    {
+        "Question": "윤기는 장난감을 15개 가지고 있고, 호석이는 윤기보다 7개 적게 가지고 있습니다. 윤기와 호석이가 가지고 있는 장난감은 모두 몇 개입니까?",
+        "Answer": 23,
+        "Equation": "func_add(num0, func_minus(num0, num1))"
+    },
+    {
+        "Question": "유나는 별사탕을 27개 가지고 있습니다. 정국이는 유나보다 3개 적게 가지고 있습니다. 정국이와 유나가 가지고 있는 별사탕은 모두 몇 개입니까?",
+        "Answer": 51,
+        "Equation": "func_add(num0, func_minus(num0, num1))"
+    },
+    {
+        "Question": "버스에 20명이 타고 출발하여 첫 번째 정류장에서 13명이 내리고 7명이 탔습니다. 지금 버스 안에 있는 사람은 몇 명입니까?",
+        "Answer": 14,
+        "Equation": "func_add(func_minus(num0, num2), num3)"
+    },
+    {
+        "Question": "태형이네 반은 남학생이 14명, 여학생이 13명입니다. 이 중에서 안경을 쓴 학생이 9명이라면 안경을 쓰지 않은 학생은 몇 명입니까?",
+        "Answer": 18,
+        "Equation": "func_minus(func_add(num0, num1), num2)"
+    },
+    {
+        "Question": "은지의 키는 138cm이고, 아버지의 키는 172cm입니다. 언니의 키는 소미보다 10cm 더 클 때, 아버지와 언니의 키의 차는 몇 cm입니까?",
+        "Answer": 24,
+        "Equation": "func_difference(num1, func_add(num0, num2))"
+    },
+    {
+        "Question": "복숭아가 한 봉지에 4개씩 6봉지 있습니다. 이것을 3명에게 똑같이 나누어 주려면 한 사람에게 몇 개씩 나누어 주면 됩니까?",
+        "Answer": 8,
+        "Equation": "func_divide(func_multiply(num1, num2), num3)"
+    },
+    {
+        "Question": "민영이네 반 24명의 학생들은 6명씩 한 팀을 만들어 하천 주변에서 쓰레기 줍기를 하였습니다. 한 팀당 쓰레기봉투를 2개씩 받았다면 나누어 준 쓰레기봉투는 모두 몇 개입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_divide(num0, num1), num4)"
+    },
+    {
+        "Question": "색연필 1 타는 12자루입니다. 색연필 10타를 8명에게 똑같이 나누어 준다면 한 사람이 가지게 되는 색연필은 몇 자루입니까?",
+        "Answer": 15,
+        "Equation": "func_multiply(func_divide(func_multiply(func_divide(num1, num0), num2), num3), num4)"
+    },
+    {
+        "Question": "한 사람이 한 시간에 종이학을 8개씩 만들 수 있다고 합니다. 4명이 종이학 160개를 만들려면 몇 시간이 걸립니까?",
+        "Answer": 5,
+        "Equation": "func_divide(func_divide(num4, num3), func_divide(func_divide(num2, num1), num0))"
+    },
+    {
+        "Question": "과일가게에 귤이 80개 있습니다. 석진이가 16개를 사갔고, 윤기가 12개를 사갔습니다. 과일가게에 남은 귤은 몇 개입니까?",
+        "Answer": 52,
+        "Equation": "func_minus(func_minus(num0, num1), num2)"
+    },
+    {
+        "Question": "(가) 도서관에서 하루에 11권의 과학책과 24권의 소설책이 대여됩니다. 일주일 동안 대여된 소설책은 같은 기간 동안에 대여된 과학책보다 몇 권이 더 많습니까?",
+        "Answer": 91,
+        "Equation": "func_minus(func_multiply(num1, 7), func_multiply(num0, 7))"
+    },
+    {
+        "Question": "빵 26개를 남학생 5명과 여학생 4명에게 각각 2개씩 나누어 주었습니다. 남은 빵은 몇 개 입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_minus(num0, func_multiply(num1, num3)), func_multiply(num2, num3))"
+    },
+    {
+        "Question": "한 병에 7/8리터씩 들어 있는 식혜가 8병 있습니다. 이 식혜를 7일 동안 똑같이 나누어 마시려면 하루에 마셔야 할 식혜는 몇 리터입니까?",
+        "Answer": 1,
+        "Equation": "func_divide(func_multiply(func_divide(num1,num0),num2),num3)"
+    },
+    {
+        "Question": "민재와 희찬이는 각자 가지고 있는 찰흙 1/2kg과 3/10kg을 섞어서 똑같이 나누어 가졌습니다. 민재가 지금 가지고 있는 찰흙은 몇 kg입니까?",
+        "Answer": 0.4,
+        "Equation": "func_divide(func_add(num0,num1),2)"
+    },
+    {
+        "Question": "은빈이와 언니는 각자 가지고 있는 음료수 6/5리터와 12/5리터를 섞어서 동생에게 1리터를 주고 나머지를 똑같이 나누어 가졌습니다. 은빈이가 지금 가지고 있는 음료수의 양은 몇 리터입니까?",
+        "Answer": 1.3,
+        "Equation": "func_divide(func_minus(func_add(num0,num1),num2),2)"
+    },
+    {
+        "Question": "우영이는 컴퓨터 게임을 2시간 했고, 현우는 3/5시간 했습니다. 현우가 컴퓨터 게임을 한 시간은 우영이가 한 시간의 몇 배입니까?",
+        "Answer": 0.3,
+        "Equation": "func_divide(num1,num0)"
+    },
+    {
+        "Question": "동원이의 나이는 10살이고, 동생은 동원이보다 2살이 적습니다. 어머니의 나이는 동생의 나이의 5배보다 2살이 많습니다. 어머니의 나이는 몇 살입니까?",
+        "Answer": 42,
+        "Equation": "func_add(func_multiply(func_minus(num0,num1),num2),num3)"
+    },
+    {
+        "Question": "유리병 30개를 모으면 화장지 1개를 받을 수 있습니다. 5명이 매일 45개씩 24일 동안 모으면 화장지를 몇 개나 받을 수 있습니까?",
+        "Answer": 180,
+        "Equation": "func_multiply(func_multiply(func_multiply(func_divide(num1,num0),num3),num2),num4)"
+    },
+    {
+        "Question": "종이접기 체험에서 파란색 색종이 13장과 초록색 색종이 17장을 받아 민지네 모둠 학생 5명이 똑같이 나누어 가졌습니다. 영웅이가 꽃을 만드는데 색종이 3장을 사용했을 때, 영웅이에게 남은 색종이는 몇 장입니까?",
+        "Answer": 3,
+        "Equation": "func_minus(func_divide(func_add(num0,num1),num2),num3)"
+    },
+    {
+        "Question": "공책 한 권의 무게는 100g, 연필 12 자루의 무게는 270g, 지우개 한 개의 무게는 30g입니다. 공책 2권, 연필 4자루, 지우개 2개의 무게는 모두 몇 g입니까?",
+        "Answer": 350,
+        "Equation": "func_add(func_add(func_multiply(func_divide(num1,num0),num6),func_multiply(func_divide(num3,num2),num7)),func_multiply(func_divide(num5,num4),num8))"
+    },
+    {
+        "Question": "한 상자에 10개씩 들어 있는 달걀이 4상자 있습니다. 상자를 모두 열어 보니 4개가 깨져서 버리고 남은 달걀을 6봉지에 똑같이 나누어 한 봉지를 찬원이가 가졌습니다. 찬원이가 가진 달걀 중 2개를 요리하여 먹었다면 남은 달걀은 몇 개입니까?",
+        "Answer": 4,
+        "Equation": "func_minus(func_multiply(func_divide(func_minus(func_multiply(func_divide(num1,num0),num2),num3),num4),num5),num6)"
+    },
+    {
+        "Question": "사과를 5명에게 나누어 주어야 할 것을 잘못하여 4명에게 똑같이 나누어 주었더니 한 사람당 13개씩 주고 3개가 남았습니다. 사과를 5명에게 똑같이 나누어 주면 한 사람당 최대한 몇 개씩 가지게 됩니까?",
+        "Answer": 11,
+        "Equation": "func_multiply(func_floor(func_divide(func_add(func_multiply(num1,func_divide(num3,num2)),num4),num0),none),num6)"
+    },
+    {
+        "Question": "수정과를 5명에게 똑같이 나누어 주어야 할 것을 잘못하여 4명에게 똑같이 나누어 주었더니 한 사람당 350ml씩 가지게 되었습니다. 나누어주었던 수정과를 다시 한개의 병에 모아서 5명에게 똑같이 나누어 준다면 한 사람당 얼마나 가지게 됩니까?",
+        "Answer": 280,
+        "Equation": "func_multiply(func_floor(func_divide(func_multiply(num1,func_divide(num3,num2)),num0),none),num6)"
+    },
+    {
+        "Question": "지영이네 반 전체 학생수는 24명입니다. 그 중에서 여학생은 전체의 5/8입니다. 여학생 중에서 1/3은 동생이 있습니다. 지영이네 반에서 동생이 없는 여학생은 몇 명입니까?",
+        "Answer": 10,
+        "Equation": "func_multiply(func_multiply(num0,num1),func_minus(1,num2))"
+    },
+    {
+        "Question": "현우네 반 전체 학생 수는 28명입니다. 그 중에서 축구를 좋아하는 학생은 전체의 5/7입니다. 축구를 좋아하는 학생 중에서 농구를 싫어하는 학생은 축구를 좋아하는 학생 전체의 1/5입니다. 현우네 반에서 축구와 농구를 모두 좋아하는 학생은 몇 명입니까?",
+        "Answer": 16,
+        "Equation": "func_multiply(func_multiply(num0,num1),func_minus(1,num2))"
+    },
+    {
+        "Question": "은진이는 초콜릿이 들어있는 상자 3개를 가지고 있습니다. 이 중에서 동생에게 초콜릿 8개를 주고 언니에게 초콜릿 5개를 받았더니 가지고 있는 초콜릿은 12개가 되었습니다. 초콜릿 한 상자에는 몇 개의 초콜릿이 들어 있습니까?",
+        "Answer": 5,
+        "Equation": "func_multiply(func_divide(func_minus(func_add(num3,num1),num2),num0),num4)"
+    },
+    {
+        "Question": "배를 경일이는 하루에 42개 세미는 3일 동안 153개, 지은이는 4일 동안 240개를 땄습니다. 세미와 지은이가 매일 같은 개수의 배를 땄다면 경일이와 세미가 하루에 딴 배의 수의 합은 지은이가 하루에 딴 배의 수보다 몇 개 더 많습니까?",
+        "Answer": 33,
+        "Equation": "func_minus(func_add(func_divide(num0,1),func_divide(num2,num1)),func_divide(num4,num3))"
+    },
+    {
+        "Question": "과일바구니에 과일이 40개 있습니다. 그 중에서 사과가 전체의 2/5이고, 사과가 아닌 과일 중에서 3/8은 복숭아입니다. 과일바구니에 있는 과일 중 사과와 복숭아가 아닌 과일은 몇 개입니까?",
+        "Answer": 15,
+        "Equation": "func_multiply(func_multiply(num0,func_minus(1,num1)),func_minus(1,num2))"
+    },
+    {
+        "Question": "색 테이프 9.8m로 리본을 만드는 데 31/5m를 쓰고, 나머지 색 테이프를 똑같은 길이로 3등분하려고 합니다. 몇 m씩 자르면 됩니까?",
+        "Answer": 1.2,
+        "Equation": "func_divide(func_minus(num0,num1),num2)"
+    },
+    {
+        "Question": "지현이네 반은 남학생이 16명이고, 여학생은 이보다 2명 적다고 합니다. 이 학교 전체의 학생 수는 지현이네 반 학생 수의 11배보다 8명이 많다고 합니다. 지현이네 학교의 전체 학생은 몇 명입니까?",
+        "Answer": 338,
+        "Equation": "func_add(func_multiply(func_add(num0,func_minus(num0,num1)),num2),num3)"
+    },
+    {
+        "Question": "정현이는 지난 달에 4700원을 예금하였고, 이번 달부터 6개월 동안 3500원씩 예금하여 16000원짜리 선물을 사서 부모님께 선물하려고 합니다. 선물을 산 후, 통장에 남게 되는 돈은 얼마입니까?",
+        "Answer": 9700,
+        "Equation": "func_minus(func_add(num0,func_multiply(num1,num2)),num3)"
+    },
+    {
+        "Question": "색종이를 6명에게 똑같이 나누어 주어야 할 것을 잘못하여 5명에게 똑같이 나누어 주었더니 한 사람당 12장씩 주고 3장이 남았습니다. 이 색종이를 6명에게 똑같이 나누어 주면 한 사람당 최대한 몇 장씩 가지게 됩니까?",
+        "Answer": 10,
+        "Equation": "func_multiply(func_floor(func_divide(func_add(func_multiply(num1,func_divide(num3,num2)),num4),num0),none),num6)"
+    },
+    {
+        "Question": "지구에서 잰 무게는 달에서 잰 무게의 약 6배입니다. 유진이와 준하, 진주가 각자 집에서 몸무게를 재었을 때, 유진이는 41kg, 준하는 43kg, 진주는 48kg였습니다. 세 사람이 모두 달에서 몸무게를 잰다면 유진이와 준하의 몸무게의 합은 진주의 몸무게보다 약 몇 kg 더 무겁습니까?",
+        "Answer": 6,
+        "Equation": "func_divide(func_minus(func_add(num1,num2),num3),num0)"
+    },
+    {
+        "Question": "한 개에 450원 하는 오이 4개와 한 개에 150원 하는 당근 6개를 사고 5000원을 내면 얼마를 거스름돈으로 받을 수 있습니까?",
+        "Answer": 2300,
+        "Equation": "func_minus(func_minus(num6,func_multiply(func_divide(num1,num0),num2)),func_multiply(func_divide(num4,num3),num5))"
+    },
+    {
+        "Question": "1분에 130개의 비누를 생산하는 기계가 있습니다. 이런 기계 4대가 있다면 46800개의 비누를 생산하는 데에 몇 분이 걸리겠습니까?",
+        "Answer": 90,
+        "Equation": "func_divide(num3,func_multiply(func_divide(num1,num0),num2))"
+    },
+    {
+        "Question": "한 장에 250원 하는 도화지와 6묶음에 2700원 하는 색종이가 있습니다. 도화지 세 장과 색종이 한 묶음을 사고 5000원을 내면 얼마를 거스름돈으로 받을 수 있습니까?",
+        "Answer": 3800,
+        "Equation": "func_minus(func_minus(num6,func_multiply(func_divide(num1,num0),num4)),func_multiply(func_divide(num3,num2),num5))"
+    },
+    {
+        "Question": "48m의 높이에서 농구공을 떨어뜨렸습니다. 이 공은 땅에 닿은 후 떨어진 높이의 1/2만큼 튀어 오른다고 합니다. 공이 땅에 3번 닿았다가 튀어 올랐을 때의 높이는 몇 m입니까?",
+        "Answer": 6,
+        "Equation": "func_multiply(num0,func_exp(num1,num2))"
+    },
+    {
+        "Question": "가로가 30cm, 세로가 26cm인 직사각형 모양의 종이에 전체 넓이의 1/4만큼 빨간색을 칠하고, 나머지의 1/6만큼 파란색을 칠했습니다. 그리고 남은 부분의 2/5만큼 노란색을 칠했을 때, 색칠하지 않은 부분의 넓이는 몇 ㎠입니까?",
+        "Answer": 292.5,
+        "Equation": "func_multiply(func_multiply(func_multiply(func_multiply(num0,num1),func_minus(1,num3)),func_minus(1,num4)),func_minus(1,num5))"
+    },
+    {
+        "Question": "태인이는 어제 책 한 권의 3/5을 읽었습니다. 그리고 오늘은 어제 읽고 난 나머지의 6/7을 읽었습니다. 책 한 권이 420쪽일 때, 어제와 오늘 읽고 난 나머지는 몇 쪽입니까?",
+        "Answer": 24,
+        "Equation": "func_multiply(func_multiply(func_multiply(func_divide(num4,num3),num0),func_minus(1,num1)),func_minus(1,num2))"
+    },
+    {
+        "Question": "영훈이의 학교 학생 540명 중 5/9는 여학생이고, 여학생 중 3/5는 안경을 쓰지 않았습니다. 영훈이의 학교 학생 중 안경을 쓴 여학생은 몇 명입니까?",
+        "Answer": 120,
+        "Equation": "func_multiply(func_multiply(num0,num1),func_minus(1,num2))"
+    },
+    {
+        "Question": "은행에서 일본 돈 1엔을 10.6원으로 바꿔 준다고 합니다. 소희는 1000엔짜리 지폐 3장과 100엔짜리 동전 7개와 10엔짜리 동전 2개를 가지고 있습니다. 소희가 가진 일본 돈은 우리나라 돈으로 얼마입니까?",
+        "Answer": 39432,
+        "Equation": "func_multiply(func_add(func_add(func_multiply(num2,num3),func_multiply(num4,num5)),func_multiply(num6,num7)),func_divide(num1,num0))"
+    },
+    {
+        "Question": "준민이네 집에서 준서네 집까지의 거리는 2.6km입니다. 두 사람이 각자의 집에서 동시에 출발하여 일정한 빠르기로 서로의 집을 향해 걸어갔습니다. 준민이는 1분에 0.07km를 걷고 준서는 한 시간에 2.7km를 걸을 때 15분 후 두 사람 사이의 거리는 몇 km입니까?",
+        "Answer": 0.87,
+        "Equation": "func_minus(num0,func_multiply(func_add(func_divide(num4,num3),func_divide(num5,func_hr2min(1,none))),num6))"
+    },
+    {
+        "Question": "279/5kg의 소금을 한 사람에게 3/2kg씩 12명에게 나누어 주고, 나머지 사람들에게는 9/5kg씩 주었더니 소금을 모두 나누어 주었습니다. 소금을 9/5kg씩 받은 사람은 몇 명입니까?",
+        "Answer": 21,
+        "Equation": "func_divide(func_minus(num0,func_multiply(func_divide(num2,num1),num3)),num4)"
+    },
+    {
+        "Question": "집에서 학교까지의 거리는 2.88km이고 집에서 도서관까지의 거리는 1.2km입니다. 집에서 학교까지의 거리는 집에서 도서관까지의 거리의 몇 배입니까?",
+        "Answer": 2.4,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "키위를 6명에게 나누어주면 한 사람당 6개씩 가지게 되고, 3개의 키위가 남습니다. 만약 이 키위를 5명에게 나누어 줄 경우 한 사람당 최대한 몇 개씩 가지게 됩니까? ",
+        "Answer": 7,
+        "Equation": "func_floor(func_multiply(func_divide(func_add(func_multiply(num0,func_divide(num2,num1)),num3),num4),num5),none)"
+    },
+    {
+        "Question": "정훈이네 반 전체 학생 수는 35명입니다. 그 중에서 남학생은 전체의 3/7입니다. 남학생 중에서 안경을 끼지 않은 학생은 남학생 전체의 1/5입니다. 정훈이네 반에서 안경을 낀 남학생은 몇 명입니까?",
+        "Answer": 12,
+        "Equation": "func_multiply(func_multiply(num0,num1),func_minus(1,num2))"
+    },
+    {
+        "Question": "딸기를 7명에게 나누어주면 한 사람당 3개씩 가지게 되고, 2개의 딸기가 남습니다. 이 딸기를 한 사람당 5개씩 가지기 위해서는 최대한 몇 명의 사람들에게 나누어 주어야 합니까?",
+        "Answer": 4,
+        "Equation": "func_floor(func_divide(func_add(func_multiply(num0,func_divide(num2,num1)),num3),func_divide(num5,num4)),none)"
+    },
+    {
+        "Question": "사과와 배와 포도가 모두 합해서 130개 있습니다. 사과는 배보다 25개가 적고 포도는 배보다 47개 많습니다. 배는 모두 몇 개 있습니까?",
+        "Answer": 36,
+        "Equation": "func_divide(func_minus(func_add(num0,num1),num2),3)"
+    },
+    {
+        "Question": "바구니 안에 초콜릿이 13개 있습니다. 민아는 바구니에서 초콜릿 4개를 가져갔고, 정민이가 바구니에 초콜릿 5개를 더 넣었습니다. 바구니 안에 있는 초콜릿은 모두 몇 개입니까?",
+        "Answer": 14,
+        "Equation": "func_add(func_minus(num0,num1),num2)"
+    },
+    {
+        "Question": "복숭아와 자두와 참외가 모두 합해서 100개 있습니다. 복숭아는 자두보다 12개가 적고 참외는 자두보다 8개가 적습니다. 참외는 모두 몇 개 있습니까?",
+        "Answer": 32,
+        "Equation": "func_minus(func_divide(func_add(func_add(num0,num1),num2),3),num2)"
+    },
+    {
+        "Question": "오렌지를 5명에게 나누어주면 한 사람당 4개씩 가지게 되고, 2개의 오렌지가 남습니다. 만약 이 오렌지를 6명에게 나누어 줄 경우 남게 되는 오렌지는 몇 개입니까?",
+        "Answer": 4,
+        "Equation": "func_mod(func_add(func_multiply(num0,func_divide(num2,num1)),num3),num4)"
+    },
+    {
+        "Question": "메론과 딸기와 키위가 모두 합해서 150개 있습니다. 메른은 딸기보다 10개 더 적고, 키위는 메론보다 19개 더 적습니다. 키위는 모두 몇 개 있습니까?",
+        "Answer": 34,
+        "Equation": "func_minus(func_minus(func_divide(func_add(func_add(num0,num1),func_add(num1,num2)),3),num1),num2)"
+    },
+    {
+        "Question": "민호는 한 상자에 8개씩 들어 있는 초콜릿 6상자를 똑같이 4묶음으로 나누어 두 묶음을 가졌습니다. 이 중에서 6개를 동생에게 주고, 4개를 누나에게서 받았다면 민호가 가지고 있는 구슬은 몇 개입니까?",
+        "Answer": 22,
+        "Equation": "func_add(func_minus(func_multiply(func_divide(func_multiply(func_divide(num1,num0),num2),num3),num4),num5),num6)"
+    },
+    {
+        "Question": "과자 2봉지에 2800원, 초콜릿은 2봉지에 4000원, 빵은 1개에 1400원입니다. 과자 1봉지와 초콜릿 1봉지의 값은 빵 2개의 값보다 얼마나 더 비쌉니까?",
+        "Answer": 600,
+        "Equation": "func_minus(func_add(func_multiply(func_divide(num1,num0),num6),func_multiply(func_divide(num3,num2),num7)),func_multiply(func_divide(num5,num4),num8))"
+    },
+    {
+        "Question": "수영이의 나이는 11살이고, 동생은 수영이보다 2살이 적습니다. 어머니의 나이는 동생의 나이의 4배보다 2살이 더 많고, 아버지의 나이는 어머니의 나이보다 3살이 더 많습니다. 아버지의 나이는 몇 살입니까?",
+        "Answer": 41,
+        "Equation": "func_add(func_add(func_multiply(func_minus(num0,num1),num2),num3),num4)"
+    },
+    {
+        "Question": "초콜릿을 8명에게 똑같이 나누어 주어야 할 것을 잘못하여 7명에게 똑같이 나누어 주었더니 한 사람당 12개씩 주고 3개가 남았습니다. 이 초콜릿을 8명에게 똑같이 나누어 주면 한 사람당 최대한 몇 개씩 가지게 됩니까?",
+        "Answer": 10,
+        "Equation": "func_multiply(func_floor(func_divide(func_add(func_multiply(num1,func_divide(num3,num2)),num4),num0),none),num6)"
+    },
+    {
+        "Question": "명선이네 반 전체 학생 수는 32명입니다. 그 중에서 남학생은 전체의 5/8입니다. 남학생 중에서 안경을 낀 학생은 남학생 전체의 3/4이고, 여학생 중에서 안경을 끼지 않은 학생은 여학생 전체의 1/4입니다. 명선이의 반에서 안경을 낀 학생은 모두 몇 명입니까?",
+        "Answer": 24,
+        "Equation": "func_multiply(num0,func_add(func_multiply(num1,num2),func_multiply(func_minus(1,num1),func_minus(1,num3))))"
+    },
+    {
+        "Question": "바구니에 고구마가 있습니다. 동훈이는 바구니에서 3개의 고구마를 꺼내었습니다. 종국이는 바구니에 고구마 2개를 더 넣었습니다. 바구니에 있는 고구마를 지효와 광수가 반씩 나누어 가졌더니 각각 6개를 가지게 되었습니다. 처음에 바구니에 들어 있던 고구마는 몇 개입니까?",
+        "Answer": 13,
+        "Equation": "func_add(func_minus(func_multiply(num2,2),num1),num0)"
+    },
+    {
+        "Question": "냉장고에 귤이 10개씩 4묶음과 낱개로 5개가 들어 있습니다. 소영이가 귤을 6개 꺼내 먹었다면 냉장고에 남은 귤은 몇 개입니까?",
+        "Answer": 39,
+        "Equation": "func_minus(func_add(func_multiply(num0,num1),num2),num3)"
+    },
+    {
+        "Question": "혜진이의 나이는 12살이고, 어머니의 나이는 혜진이의 나이의 3배보다 4살이 더 많습니다. 아버지의 나이는 어머니의 나이보다 2살이 더 많은 동시에 동생의 나이에 6배일 때, 동생의 나이는 혜진이의 나이보다 몇 살이 더 적습니까?",
+        "Answer": 5,
+        "Equation": "func_minus(num0,func_divide(func_add(func_add(func_multiply(num0,num1),num2),num3),num4))"
+    },
+    {
+        "Question": "감을 현수는 하루에 43개, 재일이는 3일동안 183개, 수빈이는 5일동안 240개를 땄습니다. 재일이와 수빈이가 매일 같은 개수의 감을 땄다면 현수와 수빈이가 하루에 딴 감의 수의 합은 재일이가 하루에 딴 감의 수보다 몇 개 더 많습니까?",
+        "Answer": 30,
+        "Equation": "func_minus(func_add(func_divide(num0,1),func_divide(num4,num3)),func_divide(num2,num1))"
+    },
+    {
+        "Question": "54cm인 종이테이프를 3등분 한 것 중의 한 도막과 16cm인 종이테이프를 4cm가 겹치도록 이어 붙였습니다. 이어 붙인 종이테이프의 전체 길이는 몇 cm입니까?",
+        "Answer": 30,
+        "Equation": "func_add(func_multiply(func_divide(num0,num1),num3),func_minus(num4,num5))"
+    },
+    {
+        "Question": "민서는 매일 3시간 30분씩 수학 공부를 합니다. 월요일부터 목요일까지 민서가 수학 공부를 한 시간은 모두 몇 시간입니까?",
+        "Answer": 14,
+        "Equation": "func_min2hr(func_multiply(func_hr2min(num0,num1),4),none)"
+    },
+    {
+        "Question": "가 자동차는 1분에 1.5km, 나 자동차는 1분에 1.86km를 갑니다. 각각 같은 빠르기로 가와 나 자동차가 같은 지점에서 같은 방향으로 동시에 출발하여 5분 36초 동안 달렸다면 두 자동차 사이의 거리는 몇 km입니까?",
+        "Answer": 2.02,
+        "Equation": "func_multiply(func_minus(func_divide(num3,num2),func_divide(num1,num0)),func_min2hr(func_hr2min(num4,num5),none))"
+    },
+    {
+        "Question": "현수와 아버지는 매일 아침 운동장을 4바퀴 반씩 달립니다. 운동장의 둘레가 386m 일 때, 현수와 아버지가 1주일 동안 달린 거리의 합는 몇 m입니까?",
+        "Answer": 12159,
+        "Equation": "func_multiply(func_multiply(func_multiply(num1,func_add(num0,0.5)),7),num2)"
+    },
+    {
+        "Question": "은빈이는 중국으로 여행을 가기 전에 환전하려고 합니다. 환전하는 날의 환율은 우리나라 돈 1000원이 중국 돈 5.43위안일 때 우리나라 돈 86000원으로 환전할 수 있는 중국 돈은 몇 위안입니까?",
+        "Answer": 466.98,
+        "Equation": "func_multiply(num2,func_divide(num1,num0))"
+    },
+    {
+        "Question": "떨어진 높이의 0.8배만큼 튀어 오르는 공이 있습니다. 이 공을 8m의 높이에서 떨어뜨렸을 때, 공이 세 번째로 튀어 오른 높이는 몇 m입니까?",
+        "Answer": 4.1,
+        "Equation": "func_multiply(num1,func_exp(num0,num2))"
+    },
+    {
+        "Question": "한 시간에 70km를 가는 자동차가 있습니다. 이 자동차는 1km를 가는 데 휘발유가 0.16l 필요하다고 합니다. 이 자동차가 3시간 30분 동안 가는데 필요한 휘발유는 몇 l입니까?",
+        "Answer": 39.2,
+        "Equation": "func_multiply(func_multiply(func_divide(num1,num0),func_divide(num3,num2)),func_min2hr(func_hr2min(num4,num5),none))"
+    },
+    {
+        "Question": "서준이네 학교 4학년 학생의 3/5는 남학생입니다. 4학년 남학생 중에서 3/4이 운동을 좋아하고 그 중에서 1/3은 수영을 좋아합니다.  서준이네 학교 4학년은 모두 120명일 때, 수영을 좋아하는 4학년 남학생은 몇 명입니까?",
+        "Answer": 18,
+        "Equation": "func_multiply(func_multiply(func_multiply(num6,num1),num3),num4)"
+    },
+    {
+        "Question": "영민이는 가지고 있던 딱지 32개 중 3/8을 동생에게 주고 4개를 잃어버렸습니다. 영민이에게 남은 딱지는 몇 개입니까?",
+        "Answer": 16,
+        "Equation": "func_minus(func_multiply(num0,func_minus(1,num1)),num2)"
+    },
+    {
+        "Question": "전체 넓이가 280m²인 밭에 전체의 1/4만큼 고구마를 심고, 나머지 밭에 3/5만큼 고추를 심었습니다. 그리고 남은 밭에는 옥수수를 심었습니다. 옥수수를 심은 밭의 넓이는 몇 m²입니까?",
+        "Answer": 84,
+        "Equation": "func_multiply(func_multiply(num0,func_minus(1,num1)),func_minus(1,num2))"
+    },
+    {
+        "Question": "소리는 공기 중에서 2초 동안에 0.72km를 간다고 합니다. 은수는 불꽃 축제가 있는 날 불꽃을 보고 나서 5.5초 후에 폭죽 소리를 들었습니다. 소리를 들은 곳은 불꽃 축제가 있는 곳에서 몇 km 떨어져 있습니까?",
+        "Answer": 1.98,
+        "Equation": "func_multiply(func_divide(num1,num0),num2)"
+    },
+    {
+        "Question": "진수는 어제 책 한권의 1/4을 읽었습니다. 그리고 오늘은 어제 읽고 난 나머지의 4/7를 읽었습니다. 책 한권이 280쪽일 때, 어제와 오늘 읽고 난 나머지는 몇 쪽입니까?",
+        "Answer": 90,
+        "Equation": "func_multiply(func_multiply(num3,func_minus(1,num1)),func_minus(1,num2))"
+    },
+    {
+        "Question": "준민이네 집에서 윤진이네 집까지의 거리는 2.8km입니다. 두 사람이 각자의 집에서 동시에 출발하여 일정한 빠르기로 서로의 집을 향해 걸어갔습니다. 준민이는 1분에 0.08km를 걷고 윤진이는 한 시간에 2.4km를 걸을 때 15분 후 두 사람 사이의 거리는 몇 km입니까?",
+        "Answer": 1,
+        "Equation": "func_minus(num0,func_multiply(func_add(func_divide(num4,num3),func_divide(num5,func_hr2min(1,none))),num6))"
+    },
+    {
+        "Question": "영미네 반 학급 문고 전체의 3/7은 역사 도서이고, 그 중 2/3은 위인전입니다. 영미네 반 학급 문고에 84권의 책이 있을 때, 위인전은 모두 몇 권입니까?",
+        "Answer": 24,
+        "Equation": "func_multiply(func_multiply(num2,num0),num1)"
+    },
+    {
+        "Question": "직사각형 모양 종이의 1/2만큼을 빨간색으로 색칠하고, 나머지 부분의 1/5만큼을 파란색으로 색칠하였습니다.  색칠하지 않은 부분은 얼마입니까?",
+        "Answer": 0.4,
+        "Equation": "func_multiply(func_minus(1,num1),func_minus(1,num2))"
+    },
+    {
+        "Question": "오늘 놀이동산에 입장한 사람은 350명입니다. 그 중에서 어린이는 전체 입장객의 4/7입니다. 어린이의 1/3은 7세 미만이고, 그 중 3/5는 남자 어린이입니다. 오늘 놀이동산에 입장한 7세 미만인 남자 어린이는 몇 명입니까?",
+        "Answer": 40,
+        "Equation": "func_multiply(func_multiply(func_multiply(num0,num1),num2),num4)"
+    },
+    {
+        "Question": "가로가 12/5cm, 세로가 13/4cm인 직사각형이 있습니다. 이 직사각형의 전체의 5/6를 잘라 냈다면 잘라낸 부분의 넓이는 몇 ㎠입니까?",
+        "Answer": 6.5,
+        "Equation": "func_multiply(func_multiply(num0,num1),num4)"
+    },
+    {
+        "Question": "학생들에게 사탕을 나눠주려고 하는데, 한 학생에게 5개씩 나누어 주면 3개가 남고 7개씩 나누어 주면 7개가 모자랍니다. 사탕의 개수는 몇개입니까?",
+        "Answer": 28.0,
+        "Equation": "func_divide(func_add(func_multiply(num1,num4),func_multiply(num3,num2)),func_minus(num3,num1))"
+    },
+    {
+        "Question": "학생 7명에게 사탕을 나누어 주려고 합니다. 한 사람당 3개씩 나누어 주었더니 7개가 남았습니다. 사탕을 학생들에게 똑같이 나누어 주려면 한 사람당 몇 개씩 주어야 합니까?",
+        "Answer": 4.0,
+        "Equation": "func_multiply(func_divide(func_add(func_multiply(num0,func_divide(num2,num1)),num3),num0),num4)"
+    },
+    {
+        "Question": "어떤 영화관의 티켓 3개의 값은 27000원입니다. 민수와 영희가 이 영화관에서 영화를 보려면 얼마를 지불해야 합니까?",
+        "Answer": 18000.0,
+        "Equation": "func_multiply(func_divide(num1,num0),2)"
+    },
+    {
+        "Question": "바구니에 사과가 8개 있습니다. 정국이가 바구니에 사과 7개를 더 넣었습니다. 바구니 안에 있는 사과는 모두 몇 개입니까?",
+        "Answer": 15.0,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "유정이는 가지고 있던 사탕 중에서 언니에게 7개를 주고 동생에게 6개를 주었더니 15개가 남았습니다. 처음에 유정이가 가지고 있던 사탕은 몇 개입니까?",
+        "Answer": 28.0,
+        "Equation": "func_add(func_add(num2,num0),num1)"
+    },
+    {
+        "Question": "감과 귤이 모두 합해서 129개 있습니다. 감이 귤보다 43개 더 적다면 감은 몇 개 있습니까?",
+        "Answer": 43.0,
+        "Equation": "func_divide(func_minus(num0,num1),2)"
+    },
+    {
+        "Question": "색종이를 4명에게 똑같이 나누어 주어야 할 것을 잘못하여 5명에게 똑같이 나누어 주었더니 한 사람당 15장씩 주고 2장이 남았습니다. 이 색종이를 4명에게 똑같이 나누어 주면 한 사람당 최대한 몇 장씩 가지게 됩니까?",
+        "Answer": 19,
+        "Equation": "func_drop(func_divide(func_add(func_multiply(num1,func_divide(num3,num2)),num4),num5),none)"
+    },
+    {
+        "Question": "윤기네 반 전체 학생 수는 32명입니다. 그중에서 남학생은 전체의 5/8입니다. 남학생 중에서 안경을 낀 학생은 남학생 전체의 3/4입니다. 윤기네 반에서 안경을 끼지 않은 남학생은 몇 명입니까?",
+        "Answer": 5.0,
+        "Equation": "func_multiply(func_multiply(num0,num1),func_minus(1,num2))"
+    }
+]

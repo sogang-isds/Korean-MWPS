@@ -1,0 +1,1847 @@
+[
+    {
+        "Question": "한 변의 길이가 9cm인 정삼각형이 있습니다. 이 정삼각형의 세 변의 길이의 합은 몇 cm입니까?",
+        "Answer": 27,
+        "Equation": "func_multiply(num1,num4)"
+    },
+    {
+        "Question": "세 변의 길이의 합이 45cm인 정삼각형의 한 변은 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_divide(num1,num0)"
+    },
+    {
+        "Question": "두 각의 크기가 각각 60°인 삼각형이 있습니다. 이 삼각형의 한 변의 길이가 12cm일 때, 세 변의 길이의 합은 몇 cm입니까?",
+        "Answer": 36,
+        "Equation": "func_multiply(num5,num6)"
+    },
+    {
+        "Question": "한 각의 크기가 110°인 이등변삼각형이 있습니다. 나머지 한 각의 크기는 몇 °입니까?",
+        "Answer": 35,
+        "Equation": "func_divide(func_triangle_angle_minus(num1,none),num2)"
+    },
+    {
+        "Question": "한 각의 크기가 30°인 직각삼각형이 있습니다. 나머지 한 각의 크기는 몇 °입니까?",
+        "Answer": 60,
+        "Equation": "func_righttriangle_angle_minus(num1, none)"
+    },
+    {
+        "Question": "윤기는 철사를 40cm 가지고 있습니다. 이 철사를 사용하여 긴 변이 8cm, 짧은 변이 7cm인 평행사변형 1개를 겹치는 부분 없이 만들었습니다. 만들고 남은 철사는 몇 cm입니까?",
+        "Answer": 10,
+        "Equation": "func_minus(num0,func_multiply(func_multiply(func_add(num1,num2),2),num4))"
+    },
+    {
+        "Question": "끈을 겹치는 부분 없이 모두 사용하여 한 변의 길이가 10cm인 마름모를 만들었습니다. 이 끈으로 다시 겹치는 부분 없이 모두 사용하여 긴 변이 12cm 평행사변형을 만들 때, 짧은 변은 몇 cm로 해야합니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_divide(func_multiply(num1,4),2),num2)"
+    },
+    {
+        "Question": "한 변의 길이가 8cm인 마름모가 있습니다. 이 마름모의 네 변의 길이의 합은 몇 cm입니까?",
+        "Answer": 32,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "길이가 64cm인 끈을 겹치지 않게 모두 사용하여 마름모 한 개 만들었습니다. 마름모의 한 변은 몇 cm입니까?",
+        "Answer": 16,
+        "Equation": "func_multiply(func_divide(num0,4),num1)"
+    },
+    {
+        "Question": "네 변의 길이의 합이 50cm인 직사각형을 그리려고 합니다. 긴 변의 길이가 18cm로 그리려고 할 때, 짧은 변의 길이는 몇 cm로 해야합니까?",
+        "Answer": 7,
+        "Equation": "func_minus(func_divide(num1,2),num3)"
+    },
+    {
+        "Question": "한 변의 길이가 5cm인 정오각형의 둘레는 몇 cm입니까?",
+        "Answer": 25,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "한 변의 길이가 7cm인 정육각형과 한 변의 길이가 5cm인 정칠각형의 둘레의 합은 몇 cm입니까?",
+        "Answer": 77,
+        "Equation": "func_add(func_multiply(num1,num2), func_multiply(num4,num5))"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 정팔각형과 한 변의 길이가 9cm인 정구각형이 있습니다. 두 도형의 둘레의 차는 몇 cm입니까?",
+        "Answer": 1,
+        "Equation": "func_difference(func_multiply(num1,num2), func_multiply(num4,num5))"
+    },
+    {
+        "Question": "둘레의 길이가 24cm인 정육각형과 정십이각형이 있습니다. 두 도형의 한 변의 길이의 합은 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_add(func_divide(num0,num1),func_divide(num0,num2))"
+    },
+    {
+        "Question": "둘레의 길이가 같은 정육각형과 정구각형이 있습니다. 정육각형의 한 변의 길이가 12cm일 때, 정구각형의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_divide(func_multiply(num2,num4),num1)"
+    },
+    {
+        "Question": "가로가 40cm, 세로가 20cm인 직사각형 모양의 종이의 둘레는 몇 cm입니까?",
+        "Answer": 120,
+        "Equation": "func_multiply(func_add(num0,num1),2)"
+    },
+    {
+        "Question": "가로가 8cm, 세로가 12cm인 직사각형이 있습니다. 가로의 길이를 2배로 늘리면 이 직사각형의 둘레는 몇 cm가 됩니까?",
+        "Answer": 56,
+        "Equation": "func_multiply(func_add(func_multiply(num0,num3),num1), 2)"
+    },
+    {
+        "Question": "세로의 길이가 가로의 길이보다 8cm 더 긴 직사각형이 있습니다. 이 직사각형의 가로의 길이가 10cm일 때, 둘레는 몇 cm입니까?",
+        "Answer": 56,
+        "Equation": "func_multiply(func_add(func_add(num0,num3),num3),2)"
+    },
+    {
+        "Question": "둘레가 26cm인 직사각형이 있습니다. 이 직사각형의 세로의 길이가 8cm일 때, 가로의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_minus(func_divide(num0,2),num3)"
+    },
+    {
+        "Question": "가로가 12cm인 직사각형을 길이가 40cm인 끈을 겹치지 않게 모두 사용하여 한 개 만들었습니다. 이 직사각형의 세로의 길이는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_divide(func_divide(num2,num3),2),num0)"
+    },
+    {
+        "Question": "한 변의 길이가 25cm이고, 다른 한 변의 길이가 10cm인 평행사변형의 둘레는 몇 cm입니까?",
+        "Answer": 70,
+        "Equation": "func_multiply(func_add(num1,num3),2)"
+    },
+    {
+        "Question": "둘레가 48cm인 평행사변형이 있습니다. 이 평행사변형의 한 변의 길이가 15cm 일 때, 다른 한 변의 길이는 몇 cm입니까?",
+        "Answer": 9,
+        "Equation": "func_minus(func_divide(num0,2),num4)"
+    },
+    {
+        "Question": "한 변의 길이가 14cm이고, 다른 한 변의 길이가 11cm인 평행사변형 (가)와 둘레의 길이가 같은 평행사변형 (나)가 있습니다. 평행사변형 (나)의 한 변의 길이가 10cm일 때, 다른 한 변의 길이는 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_minus(func_add(num1,num3),num8)"
+    },
+    {
+        "Question": "둘레가 36cm인 평행사변형이 있습니다. 이 평행사변형의 한 변의 길이가 다른 한 변의 길이보다 4cm 더 길 때, 한 변의 길이는 몇 cm입니까?",
+        "Answer": 11,
+        "Equation": "func_multiply(func_divide(func_add(func_divide(num0,2),num5),2),num6)"
+    },
+    {
+        "Question": "한 변의 길이가 20cm인 마름모의 둘레는 몇 cm입니까?",
+        "Answer": 80,
+        "Equation": "func_multiply(num1,4)"
+    },
+    {
+        "Question": "한 변의 길이가 8cm인 마름모와 한 변의 길이가 10cm인 마름모가 있습니다. 두 마름모의 둘레의 차는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_difference(func_multiply(num1,4), func_multiply(num3,4))"
+    },
+    {
+        "Question": "한 변의 길이가 12cm인 마름모의 네 변의 길이를 각각 1/3로 줄였을 때, 마름모의 둘레는 몇 cm만큼 줄어듭니까?",
+        "Answer": 32,
+        "Equation": "func_multiply(func_minus(num1,func_multiply(num1, num3)),num2)"
+    },
+    {
+        "Question": "둘레가 400m인 마름모 모양의 공원이 있습니다. 이 공원의 한 변의 길이는 몇 m입니까?",
+        "Answer": 100,
+        "Equation": "func_divide(num0,4)"
+    },
+    {
+        "Question": "가로와 세로가 각각 10cm, 16cm인 직사각형이 있습니다. 이 직사각형과 둘레가 같은 마름모의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 13,
+        "Equation": "func_divide(func_multiply(func_add(num0, num1),2),4)"
+    },
+    {
+        "Question": "한 변의 길이가 7cm인 마름모와 한 변의 길이가 10cm인 평행사변형이 있습니다. 마름모와 평행사변형의 둘레가 같을 때, 평행사변형의 다른 한변의 길이는 몇 cm입니까?",
+        "Answer": 4,
+        "Equation": "func_minus(func_divide(func_multiply(num1,4),2), num3)"
+    },
+    {
+        "Question": "가로가 10센티미터이고 세로가 7센티미터인 직사각형의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 70,
+        "Equation": "func_multiply(num0,num1)"
+    },
+    {
+        "Question": "우진이는 가로가 36센티미터, 세로가 25센티미터인 직사각형 모양의 도화지에 그림을 그렸습니다. 우진이가 그린 도화지의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 900,
+        "Equation": "func_multiply(num0,num1)"
+    },
+    {
+        "Question": "세로가 10센티미터이고, 넓이가 140제곱센티미터인 직사각형이 있습니다. 이 직사각형의 가로의 길이는 몇 센티미터입니까?",
+        "Answer": 14,
+        "Equation": "func_divide(num1, num0)"
+    },
+    {
+        "Question": "인숙이의 책상은 가로가 120센티미터이고, 넓이가 9600제곱센티미터인 직사각형 모양입니다. 인숙이의 책상의 세로는 몇 센티미터입니까?",
+        "Answer": 80,
+        "Equation": "func_divide(num1,num0)"
+    },
+    {
+        "Question": "가로가 5센티미터, 세로가 12센티미터인 직사각형과 둘레가 16센티미터 가로가 5센티미터인 직사각형이 있습니다. 이 두 직사각형의 넓이의 합은 몇 제곱센티미터입니까?",
+        "Answer": 75,
+        "Equation": "func_add(func_multiply(num0,num1), func_multiply(func_minus(func_divide(num3,2),num4),num4))"
+    },
+    {
+        "Question": "가로가 12센티미터, 세로가 18센티미터인 직사각형 (가)와 가로의 길이가 6센티미터인 직사각형 (나)가 있습니다. 직사각형 (가)의 넓이는 직사각형 (나)의 넓이의 3배 일 때, 직사각형 (나)의 세로의 길이는 몇 센티미터입니까?",
+        "Answer": 12,
+        "Equation": "func_divide(func_divide(func_multiply(num0, num1),num7),num3)"
+    },
+    {
+        "Question": "둘레가 28센티미터인 직사각형이 있습니다. 이 직사각형의 가로의 길이가 10센티미터일 때, 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 40,
+        "Equation": "func_multiply(func_minus(func_divide(num0,2),num3),num3)"
+    },
+    {
+        "Question": "가로가 세로보다 20센티미터 더 긴 직사각형이 있습니다. 이 직사각형의 둘레가 240센티미터일 때, 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 3500,
+        "Equation": "func_multiply(func_divide(func_minus(func_divide(num3,2),num0),2), func_divide(func_add(func_divide(num3,2),num0),2))"
+    },
+    {
+        "Question": "길이가 38센티미터인 철사를 가지고 가로가 10센티미터인 직사각형을 겹치는 부분 없이 만들었습니다. 이 직사각형의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 90,
+        "Equation": "func_multiply(func_minus(func_divide(num0,2),num1),num1)"
+    },
+    {
+        "Question": "둘레가 20센티미터이고, 넓이가 21제곱센티미터인 직사각형이 있습니다. 이 직사각형의 가로가 세로보다 길 때, 가로의 길이는 몇 센티미터입니까?",
+        "Answer": 7,
+        "Equation": "func_roundareatoedge(num0,num1)"
+    },
+    {
+        "Question": "한 변의 길이가 7cm인 정사각형의 넓이를 구하세요.",
+        "Answer": 49,
+        "Equation": "func_square(num1, none)"
+    },
+    {
+        "Question": "한 변의 길이가 20cm인 액자가 있습니다. 이 액자의 넓이는 몇 ㎠입니까?",
+        "Answer": 400,
+        "Equation": "func_square(num1, none)"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 정사각형과 한 변의 길이가 12cm인 정사각형이 있습니다. 두 정사각형의 넓이의 차는 몇 ㎠입니까?",
+        "Answer": 44,
+        "Equation": "func_difference(func_square(num1, none), func_square(num4, none))"
+    },
+    {
+        "Question": "가로와 세로가 각각 30cm, 24cm인 직사각형 모양의 종이가 있습니다. 이 종이를 잘라 가장 큰 정사각형 모양을 한 개 만들었습니다. 만든 정사각형의 넓이는 몇 ㎠입니까?",
+        "Answer": 576,
+        "Equation": "func_square(func_whichsmall(num0,num1),none)"
+    },
+    {
+        "Question": "한 변의 길이가 6cm인 정사각형 (가)로 한 변의 길이가 12cm인 정사각형을 만들려고 합니다. 정사각형 (가)는 모두 몇 개 필요합니까?",
+        "Answer": 4,
+        "Equation": "func_square(func_divide(num4,num1),none)"
+    },
+    {
+        "Question": "한 변의 길이가 15cm인 정사각형 (가)는 한 변의 길이가 5cm인 정사각형 (나)의 넓이의 몇 배입니까?",
+        "Answer": 9,
+        "Equation": "func_square(func_divide(num1,num4),none)"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 직사각형 모양의 종이가 있습니다. 이 종이를 잘라 내어 한 변의 길이가 5cm인 정사각형 모양을 만들려고 합니다. 만들 수 있는 정사각형은 최대 몇 개입니까?",
+        "Answer": 4,
+        "Equation": "func_square(func_divide(num1,num4),none)"
+    },
+    {
+        "Question": "한 변의 길이가 80m인 정사각형 모양의 밭이 있습니다. 이 밭을 4등분 하여 무, 배추, 고추, 감자를 심었습니다. 배추를 심은 밭의 넓이는 몇 ㎡입니까?",
+        "Answer": 1600,
+        "Equation": "func_divide(func_square(num1, none),num3)"
+    },
+    {
+        "Question": "한 변의 길이가 7cm인 정사각형의 네 변의 길이를 3cm씩 늘이면 정사각형의 넓이는 몇 ㎠이 됩니까?",
+        "Answer": 100,
+        "Equation": "func_square(func_add(num1,num4),none)"
+    },
+    {
+        "Question": "한 변의 길이가 12cm인 정사각형의 네 변의 길이를 4cm씩 줄이면 정사각형의 넓이는 몇 ㎠ 줄어듭니까?",
+        "Answer": 80,
+        "Equation": "func_difference(func_square(num1, none), func_square(func_minus(num1,num4),none))"
+    },
+    {
+        "Question": "넓이가 49제곱센티미터인 정사각형의 한 변의 길이는 몇 센티미터입니까?",
+        "Answer": 7,
+        "Equation": "func_sqrt(num0,none)"
+    },
+    {
+        "Question": "넓이가 100제곱센티미터인 정사각형 모양의 색종이가 있습니다. 이 색종이의 한 변의 길이는 몇 센티미터입니까?",
+        "Answer": 10,
+        "Equation": "func_sqrt(num0,none)"
+    },
+    {
+        "Question": "가로가 4센티미터, 세로가 9센티미터인 직사각형이 있습니다. 이 직사각형과 넓이가 같은 정사각형의 한 변의 길이는 몇 센티미터입니까?",
+        "Answer": 6,
+        "Equation": "func_sqrt(func_multiply(num0,num1),none)"
+    },
+    {
+        "Question": "가로가 3센티미터이고, 둘레가 60센티미터인 직사각형이 있습니다. 이 직사각형과 넓이가 같은 정사각형의 한 변의 길이는 몇 센티미터입니까?",
+        "Answer": 9,
+        "Equation": "func_sqrt(func_multiply(func_minus(func_divide(num1, 2),num0),num0),none)"
+    },
+    {
+        "Question": "둘레가 32센티미터인 정사각형의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 64,
+        "Equation": "func_square(func_divide(num0,num1),none)"
+    },
+    {
+        "Question": "한 변의 길이가 10센티미터인 정사각형 (가)와 둘레가 32센티미터인 정사각형 (나)가 있습니다. 정사각형 (가)와 정사각형 (나)의 넓이의 합은 몇 제곱센티미터입니까?",
+        "Answer": 164,
+        "Equation": "func_add(func_square(num1, none), func_square(func_divide(num3,num4),none))"
+    },
+    {
+        "Question": "둘레가 60센티미터인 정사각형과 둘레가 40센티미터, 세로가 8센티미터인 직사각형이 있습니다. 정사각형과 직사각형의 넓이의 차는 몇 제곱센티미터입니까?",
+        "Answer": 129,
+        "Equation": "func_difference(func_square(func_divide(num0,num1),none), func_multiply(func_minus(func_divide(num2,2),num3),num3))"
+    },
+    {
+        "Question": "둘레가 80센티미터인 정사각형 모양의 타일이 있습니다. 이 타일 5개의 넓이의 합은 몇 제곱센티미터입니까?",
+        "Answer": 2000,
+        "Equation": "func_multiply(func_square(func_divide(num0,num1),none),num2)"
+    },
+    {
+        "Question": "한 변의 길이가 30센티미터인 정사각형 모양의 타일을 겹치지 않게 8개씩 10줄로 이어 붙였습니다. 이어 붙인 타일 전체의 넓이는 몇 제곱미터입니까?",
+        "Answer": 7.2,
+        "Equation": "func_multiply(func_multiply(func_square(func_cm2m(num1,none),none),num3),num4)"
+    },
+    {
+        "Question": "가로가 2킬로미터, 세로가 3킬로미터인 직사각형 모양의 땅이 있습니다. 이 땅에 100제곱미터는 몇 번 들어갑니까?",
+        "Answer": 60000,
+        "Equation": "func_divide(func_multiply(func_km2m(num0,none),func_km2m(num1,none)),num3)"
+    },
+    {
+        "Question": "넓이가 144cm인 정사각형을 크기가 같은 직사각형 3개로 나누었습니다. 직사각형 한 개의 둘레는 몇 cm입니까?",
+        "Answer": 32,
+        "Equation": "func_multiply(func_add(func_divide(func_sqrt(num0,none),num3),func_sqrt(num0,none)),2)"
+    },
+    {
+        "Question": "가로가 3cm, 세로가 4cm인 직사각형의 넓이의 3배인 정사각형을 만들려고 합니다. 만든 정사각형의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_sqrt(func_multiply(func_multiply(num0,num1),num3),none)"
+    },
+    {
+        "Question": "가로가 20cm인 직사각형 모양의 종이가 있습니다. 이 종이를 잘라 내어 가장 큰 정사각형 모양을 한 개 만들었더니, 넓이가 144㎠이었습니다. 처음 직사각형의 넓이는 몇 ㎠입니까?",
+        "Answer": 240,
+        "Equation": "func_multiply(func_sqrt(num4,none),num0)"
+    },
+    {
+        "Question": "정삼각형과 한 변의 길이가 같은 정사각형, 정오각형이 있습니다. 세 도형의 둘레의 합이 60cm일 때, 정오각형의 둘레의 길이는 몇 cm입니까?",
+        "Answer": 25,
+        "Equation": "func_multiply(func_divide(num5,func_add(func_add(num0,num2),num3)),num6)"
+    },
+    {
+        "Question": "넓이가 169㎠인 정사각형 모양의 종이가 있습니다. 이 종이의 가로와 세로를 각각 3cm, 5cm 잘라내었습니다. 잘라 내고 남은 색종이의 넓이는 몇 ㎠입니까?",
+        "Answer": 80,
+        "Equation": "func_multiply(func_minus(func_sqrt(num0,none),num2),func_minus(func_sqrt(num0,none),num3))"
+    },
+    {
+        "Question": "정사각형 3개를 겹치지 않게 이어 붙여 직사각형을 한 개 만들었습니다. 이어 붙인 직사각형의 넓이가 243㎠일 때, 이 직사각형의 둘레의 길이는 몇 cm입니까?",
+        "Answer": 72,
+        "Equation": "func_multiply(func_add(func_sqrt(func_divide(num5,num1),none),func_multiply(func_sqrt(func_divide(num5,num1),none),num1)),2)"
+    },
+    {
+        "Question": "밑변의 길이가 20cm, 높이가 12cm인 평행사변형의 넓이는 ㎠입니까?",
+        "Answer": 240,
+        "Equation": "func_multiply(num0,num1)"
+    },
+    {
+        "Question": "넓이가 180㎠인 평행사변형 모양의 색종이가 있습니다. 이 색종이의 밑변의 길이가 15cm일 때, 이 색종이의 높이는 몇 cm입니까?",
+        "Answer": 12,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "높이가 24cm이고, 밑변의 길이가 30cm인 삼각형의 넓이는 몇 ㎠입니까?",
+        "Answer": 360,
+        "Equation": "func_divide(func_multiply(num0,num1),2)"
+    },
+    {
+        "Question": "은솔이는 넓이가 36㎠이고, 밑변의 길이가 8cm인 삼각자를 가지고 있습니다. 은솔이가 가지고 있는 삼각자의 높이는 몇 cm입니까?",
+        "Answer": 9,
+        "Equation": "func_divide(func_multiply(num0,2),num1)"
+    },
+    {
+        "Question": "대각선의 길이가 각각 10센티미터, 12센티미터인 마름모의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 60,
+        "Equation": "func_divide(func_multiply(num0,num1),2)"
+    },
+    {
+        "Question": "준호는 마름모 모양의 팻말을 만들었습니다. 팻말은 한 대각선의 길이가 100센티미터이고, 다른 대각선의 길이가 80센티미터입니다. 팻말의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 4000,
+        "Equation": "func_divide(func_multiply(num1,num2),2)"
+    },
+    {
+        "Question": "넓이가 66제곱센티미터이고, 한 대각선의 길이가 11센티미터인 마름모의 다른 대각선의 길이는 몇 센티미터입니까?",
+        "Answer": 12,
+        "Equation": "func_divide(func_multiply(num0,2),num2)"
+    },
+    {
+        "Question": "진이는 동아리 활동에서 사용할 넓이가 2400㎠인 안내 표지판을 만들었습니다. 안내 표지판의 한 변의 길이가 60cm라면 다른 변의 길이는 몇 cm입니까?",
+        "Answer": 40,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "한 대각선의 길이가 10cm이고, 다른 대각선의 길이가 12cm인 마름모 (가)와 마름모 (가)의 넓이의 2배인 마름모 (나)의 한 대각선의 길이가 8cm일 때, 다른 대각선의 길이는 몇 cm입니까?",
+        "Answer": 30,
+        "Equation": "func_divide(func_multiply(func_multiply(num1,num2),num3),num5)"
+    },
+    {
+        "Question": "윗변, 아랫변, 높이의 길이가 각각 5센티미터, 8센티미터, 4센티미터인 사다리꼴의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 26,
+        "Equation": "func_divide(func_multiply(func_add(num0,num1),num2),2)"
+    },
+    {
+        "Question": "윗변의 길이가 14센티미터, 아랫변의 길이가 20센티미터, 두 변 사이의 거리가 12센티미터인 사다리꼴 모양의 종이의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 204,
+        "Equation": "func_divide(func_multiply(func_add(num0,num1),num3),2)"
+    },
+    {
+        "Question": "높이가 90센티미터, 윗변과 아랫변의 길이의 합이 46센티미터인 사다리꼴의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 2070,
+        "Equation": "func_divide(func_multiply(num0,num1),2)"
+    },
+    {
+        "Question": "아랫변의 길이가 9미터, 윗변의 길이가 10미터, 넓이가 76제곱미터인 사다리꼴 모양의 땅의 높이는 몇 미터입니까?",
+        "Answer": 8,
+        "Equation": "func_divide(func_multiply(num2,2),func_add(num0,num1))"
+    },
+    {
+        "Question": "넓이가 16제곱센티미터인 사다리꼴이 있습니다. 이 사다리꼴의 아래 변의 길이가 3센티미터, 높이가 4센티미터일 때, 윗 변의 길이는 몇 센티미터입니까?",
+        "Answer": 5,
+        "Equation": "func_minus(func_divide(func_multiply(num0,2),num4),num3)"
+    },
+    {
+        "Question": "직육면체의 면과 모서리와 꼭짓점의 수의 합은 모두 몇 개입니까?",
+        "Answer": 26,
+        "Equation": "func_add(func_add(func_plane(num0,none),func_edge(num0,none)),func_vertex(num0,none))"
+    },
+    {
+        "Question": "직육면체의 모서리의 수는 직육면체의 한 면의 꼭짓점의 수의 몇 배입니까?",
+        "Answer": 3,
+        "Equation": "func_divide(func_edge(num0,none),func_vertex(num1,num2))"
+    },
+    {
+        "Question": "직육면체를 위에서 본 도형의 꼭짓점의 수는 몇 개입니까?",
+        "Answer": 4,
+        "Equation": "func_vertex(num0, 1)"
+    },
+    {
+        "Question": "직육면체 모양의 상자의 겉면을 물감으로 서로 평행한 면에만 같은 색을 칠할 때, 몇 가지 색의 물감이 필요합니까?",
+        "Answer": 3,
+        "Equation": "func_divide(num0,2)"
+    },
+    {
+        "Question": "정육면체의 모서리와 꼭짓점의 수의 합은 모두 몇 개입니까?",
+        "Answer": 20,
+        "Equation": "func_add(func_edge(num0,none),func_vertex(num0,none))"
+    },
+    {
+        "Question": "정육면체의 꼭짓점의 수는 직육면체의 한 면의 모서리의 수의 몇 배입니까?",
+        "Answer": 2,
+        "Equation": "func_divide(func_vertex(num0,none),func_edge(num1,num2))"
+    },
+    {
+        "Question": "정육면체를 앞에서 본 도형의 꼭짓점의 수는 몇 개입니까?",
+        "Answer": 4,
+        "Equation": "func_vertex(num0,1)"
+    },
+    {
+        "Question": "정육면체 모양의 박스의 겉면을 페인트로 색칠하려고 합니다. 서로 평행한 면에만 같은 색을 칠하려면 몇 가지 색의 페인트가 필요합니까?",
+        "Answer": 3,
+        "Equation": "func_divide(num0,2)"
+    },
+    {
+        "Question": "한 모서리의 길이가 6cm인 정육면체 모양의 주사위의 모서리의 길이의 합은 몇 입니까?",
+        "Answer": 72,
+        "Equation": "func_multiply(func_edge(num2,none),func_divide(num1,num0))"
+    },
+    {
+        "Question": "모든 모서리의 길이의 합이 60cm인 정육면체가 있습니다. 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_divide(num0,func_edge(num1,none))"
+    },
+    {
+        "Question": "정육면체 모양의 주사위가 있습니다. 이 주사위에서 평행한 두 면의 눈의 수의 합은 7입니다. 눈의 수가 2인 면과 서로 마주보고 있는 면의 눈의 수는 몇입니까?",
+        "Answer": 5,
+        "Equation": "func_minus(num2,num3)"
+    },
+    {
+        "Question": "평행한 두 면의 눈의 수의 합이 7인 주사위가 있습니다. 눈의 수가 1인 면과 수직인 면들의 눈의 수의 합은 몇입니까?",
+        "Answer": 14,
+        "Equation": "func_multiply(num1,2)"
+    },
+    {
+        "Question": "모든 모서리의 길이의 합이 72cm인 정육면체가 있습니다. 이 정육면체를 위에서 본 도형의 둘레는 몇 cm입니까?",
+        "Answer": 24,
+        "Equation": "func_multiply(func_divide(num0,func_edge(num1,none)),func_edge(num2,1))"
+    },
+    {
+        "Question": "밑면이 정삼각형인 각기둥의 모서리의 수는 몇 개입니까?",
+        "Answer": 9,
+        "Equation": "func_multiply(num0,3)"
+    },
+    {
+        "Question": "사각기둥에서 꼭짓점의 수와 면의 수의 합은 몇 개입니까?",
+        "Answer": 14,
+        "Equation": "func_add(func_multiply(num0,2),func_add(num0,2))"
+    },
+    {
+        "Question": "면이 10개인 각기둥의 한 밑면의 변의 수는 몇 개입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(num0,2)"
+    },
+    {
+        "Question": "모서리가 18개인 각기둥 (가)와 면이  5개인 각기둥 (나)가 있습니다. 두 각기둥 (가)와 (나)의 한 밑면의 변의 수의 차는 몇 개입니까?",
+        "Answer": 3,
+        "Equation": "func_difference(func_divide(num0,3), func_minus(num1,2))"
+    },
+    {
+        "Question": "꼭짓점의 16개인 각기둥의 면은 몇 개입니까?",
+        "Answer": 10,
+        "Equation": "func_add(func_divide(num0,2),2)"
+    },
+    {
+        "Question": "한 변의 길이가 4cm인 정오각형을 한 밑면으로 하는 각기둥이 있습니다. 이 각기둥의 높이가 8cm일 때, 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 80,
+        "Equation": "func_add(func_multiply(func_multiply(num1,num2),2),func_multiply(num4,num2))"
+    },
+    {
+        "Question": "꼭짓점이 12개인 각기둥이 있습니다. 이 각기둥의 한 모서리의 길이는 5cm이고 모든 모서리의 길이가 같을 때, 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 90,
+        "Equation": "func_multiply(func_multiply(func_divide(num0,2),3),num2)"
+    },
+    {
+        "Question": "높이가 10cm인 오각기둥의 옆면에 모두 페인트를 칠한 후 바닥에 놓고 같은 방향으로 두바퀴 굴렸습니다. 이 때, 바닥에 색칠된 부분의 넓이가 400㎠이었습니다. 이 오각기둥의 한 밑면의 둘레는 몇 cm입니까?",
+        "Answer": 4,
+        "Equation": "func_multiply(func_divide(func_divide(num3,num0), func_multiply(num1,num2)),num4)"
+    },
+    {
+        "Question": "정육면체를 펼쳐서 전개도를 만들어보니 전개도의 넓이를 구했더니 150㎠였습니다. 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_sqrt(func_divide(num1,num0),none)"
+    },
+    {
+        "Question": "현석이가 가지고 있는 밑면이 세로가 5cm,  높이가 10cm, 가로가 4cm인 직육면체의 전개도의 넓이는 몇 제곱센티미터일까요?",
+        "Answer": 220,
+        "Equation": "func_cubearea(func_makelist(num0,num1),num2)"
+    },
+    {
+        "Question": "오각뿔에서 꼭짓점의 수는 몇 개입니까?",
+        "Answer": 6,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "밑면이 육각형인 각뿔에서 모서리의 수와 면의 수의 합은 몇 개입니까?",
+        "Answer": 19,
+        "Equation": "func_add(func_multiply(num0,2),func_add(num0,1))"
+    },
+    {
+        "Question": "꼭짓점이 11개인 각뿔의 밑면의 변의 수는 몇 개입니까?",
+        "Answer": 10,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "모서리가 20개인 각뿔의 꼭짓점의 수는 몇 개입니까?",
+        "Answer": 11,
+        "Equation": "func_add(func_divide(num0,2),1)"
+    },
+    {
+        "Question": "꼭짓점의 수와 모서리의 수의 합이 28개인 각뿔의 밑면의 변의 수는 몇 개입니까?",
+        "Answer": 9,
+        "Equation": "func_divide(func_minus(num0,1),3)"
+    },
+    {
+        "Question": "모서리의 수와 면의 수의 차가 9인 각뿔의 밑면의 변의 수는 몇 개입니까?",
+        "Answer": 10,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "오각기둥의 모서리의 수와 오각뿔의 모서리의 수의 차는 몇 개입니까?",
+        "Answer": 5,
+        "Equation": "func_difference(func_multiply(num0,3), func_multiply(num1,2))"
+    },
+    {
+        "Question": "모서리의 수가 18개인 각기둥의 한 밑면의 변의 수와 꼭짓점의 수가 5개인 각뿔의 밑면의 변의 수의 합은 몇 개입니까?",
+        "Answer": 10,
+        "Equation": "func_add(func_multiply(func_divide(num0,3),num1), func_minus(num2,1))"
+    },
+    {
+        "Question": "꼭짓점의 수가 10개인 각기둥 (가)와 모서리의 수가 10개인 각뿔 (나)가 있습니다. 각기둥 (가)의 모서리의 수와 각뿔 (나)의 면의 수의 차는 몇 개입니까?",
+        "Answer": 9,
+        "Equation": "func_difference(func_multiply(func_divide(num0,2),3), func_add(func_divide(num1,2),1))"
+    },
+    {
+        "Question": "모서리의 길이가 8cm인 각뿔이 있습니다. 이 각뿔의 밑면이 한 변의 길이가 8cm인 정오각형 일 때, 이 각뿔의 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 80,
+        "Equation": "func_multiply(func_multiply(num3,2),num2)"
+    },
+    {
+        "Question": "모든 모서리의 길이의 합이 75cm인 각뿔이 있습니다. 이 각뿔의 한 모서리의 길이가 7cm이고 밑면의 모양이 정오각형일 때, 이 각뿔의 밑면의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_divide(func_minus(num0,func_multiply(func_divide(num2,num1),num3)),num3),num4)"
+    },
+    {
+        "Question": "밑면의 한 변의 길이가 10cm이고 모든 모서리의 길이의 합이 108cm인 각뿔이 있습니다. 이 각뿔의 모서리의 수가 12개 일 때, 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_divide(func_minus(num2,func_multiply(func_divide(num3,2),num1)),func_divide(num3,2)),num4)"
+    },
+    {
+        "Question": "밑면이 10cm이고, 나머지 두 변이 각각 13cm인 이등변삼각형이 있습니다. 옆면이 이 이등변삼각형 6개로 이루어진 각뿔이 있을 때, 이 각뿔의 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 138,
+        "Equation": "func_add(func_multiply(num0,num7), func_multiply(num2,num7))"
+    },
+    {
+        "Question": "옆면이 한 변의 길이가 10cm인 정삼각형으로 이루어진 각뿔이 있습니다. 이 각뿔의 꼭짓점의 수가 8개 일 때, 밑면의 둘레는 몇 cm입니까?",
+        "Answer": 70,
+        "Equation": "func_multiply(num1,func_minus(num3,1))"
+    },
+    {
+        "Question": "칠각기둥의 면의 수와 밑면의 모양이 육각형인 각뿔의 면의 수의 합은 몇 개입니까?",
+        "Answer": 16,
+        "Equation": "func_add(func_add(num0,2),func_add(num1,1))"
+    },
+    {
+        "Question": "면의 수가 8개인 각기둥과 꼭짓점의 수가 7개인 각뿔이 있습니다. 이 각기둥과 각뿔의 모든 모서리의 수의 합은 몇 개입니까?",
+        "Answer": 30,
+        "Equation": "func_add(func_multiply(func_minus(num0,2),3), func_multiply(func_minus(num1,1),2))"
+    },
+    {
+        "Question": "모서리가 12개인 각뿔과 밑면의 모양이 같은 각기둥의 모서리는 몇 개입니까?",
+        "Answer": 18,
+        "Equation": "func_multiply(func_divide(num0,2),3)"
+    },
+    {
+        "Question": "삼각기둥의 모서리의 수와 오각뿔의 모서리의 수의 합은 몇 개입니까?",
+        "Answer": 19,
+        "Equation": "func_add(func_multiply(num0,3),func_multiply(num1,2))"
+    },
+    {
+        "Question": "가로가 10cm, 세로가 5cm, 높이가 8cm인 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 400,
+        "Equation": "func_multiply(func_multiply(num0,num1),num2)"
+    },
+    {
+        "Question": "밑면의 넓이가 30㎠이고 높이가 10cm인 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 300,
+        "Equation": "func_multiply(num0,num1)"
+    },
+    {
+        "Question": "높이가 20cm인 직육면체가 있습니다. 이 직육면체를 위에서 본 모양의 넓이가 20㎠일 때, 이 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 400,
+        "Equation": "func_multiply(num0,num3)"
+    },
+    {
+        "Question": "정훈이는 직육면체 모양의 상자를 가지고 있습니다. 이 상자의 바닥은 한 변의 길이가 50cm인 정사각형 모양이고 높이는 120cm일 때, 이 상자의 부피는 몇 m³입니까?",
+        "Answer": 0.3,
+        "Equation": "func_multiply(func_multiply(func_cm2m(num2,none),func_cm2m(num2,none)),func_cm2m(num4,none))"
+    },
+    {
+        "Question": "가로, 세로, 높이가 각각 6cm, 8cm, 10cm인 직육면체가 있습니다. 이 직육면체에는 부피가 1cm³인 직육면체가 몇 개 들어갑니까?",
+        "Answer": 480,
+        "Equation": "func_divide(func_multiply(func_multiply(num0,num1),num2),num5)"
+    },
+    {
+        "Question": "높이가 10cm이고, 밑에 놓인 면의 둘레가 24cm인 직육면체를 만들려고 합니다. 밑에 놓은 면의 넓이가 가장 넓은 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 360,
+        "Equation": "func_multiply(func_multiply(func_divide(func_divide(num1,2),2),func_divide(func_divide(num1,2),2)),num0)"
+    },
+    {
+        "Question": "모든 모서리의 길이의 합이 72cm인 직육면체가 있습니다. 이 직육면체의 가로와 세로의 길이가 각각 10cm, 2cm일 때, 이 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 240,
+        "Equation": "func_multiply(func_multiply(num3,num4), func_divide(func_multiply(func_multiply(func_add(num3,num4),2),2),4))"
+    },
+    {
+        "Question": "가로와 세로가 각각 10cm, 12cm이고 부피가 1800cm³ 직육면체의 높이는 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_divide(num2,func_multiply(num0,num1))"
+    },
+    {
+        "Question": "부피가 1040cm³인 직육면체 모양의 백과사전이 있습니다. 이 백과사전의 가로와 세로가 각각 13cm, 4cm일 때, 높이는 몇 cm입니까?",
+        "Answer": 20,
+        "Equation": "func_divide(num0,func_multiply(num2, num3))"
+    },
+    {
+        "Question": "가로, 세로, 높이가 각각 4cm, 5cm, 10cm인 직육면체 (가)와 가로, 세로가 각각 4cm, 2cm인 직육면체 (나)가 있습니다. 두 직육면체 (가)와 (나)의 부피가 같을 때, 직육면체 (나)의 높이는 몇 cm입니까?",
+        "Answer": 25,
+        "Equation": "func_divide(func_multiply(func_multiply(num0,num1),num2),func_multiply(num4,num5))"
+    },
+    {
+        "Question": "한 모서리의 길이가 6cm인 정육면체의 부피는 몇 cm³입니까?",
+        "Answer": 216,
+        "Equation": "func_cube(num1,none)"
+    },
+    {
+        "Question": "밑면의 넓이가 81㎠인 정육면체의 부피는 몇 cm³입니까?",
+        "Answer": 729,
+        "Equation": "func_cube(func_sqrt(num0,none),none)"
+    },
+    {
+        "Question": "한 모서리의 길이가 13cm인 정육면체의 각 모서리의 길이를 3배로 늘인다면 정육면체의 부피는 처음 부피의 몇 배가 됩니까?",
+        "Answer": 27,
+        "Equation": "func_cube(num3,none)"
+    },
+    {
+        "Question": "가로가 15cm, 세로가 12cm, 높이가 18cm인 직육면체 모양의 두부가 있습니다. 이 두부를 잘라서 정육면체 모양을 만들려고 할 때, 가장 큰 정육면체 모양의 부피는 몇 cm³입니까?",
+        "Answer": 1728,
+        "Equation": "func_cube(func_whichsmall(func_whichsmall(num0,num1),num2),none)"
+    },
+    {
+        "Question": "한 밑면의 둘레가 40cm인 정육면체의 부피는 몇 cm³입니까?",
+        "Answer": 1000,
+        "Equation": "func_cube(func_divide(num1,4),none)"
+    },
+    {
+        "Question": "부피가 216cm³인 정육면체가 있습니다. 이 정육면체의 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_cuberoot(num0,none)"
+    },
+    {
+        "Question": "작은 정육면체 27개를 쌓아 큰 정육면체를 만들었습니다. 쌓은 큰 정육면체의 부피가 216cm³일 때, 작은 정육면체 1개의 부피는 몇 cm³입니까?",
+        "Answer": 8,
+        "Equation": "func_divide(num4,num1)"
+    },
+    {
+        "Question": "한 변의 길이가 4cm인 정육면체와 가로와 세로가 각각 8cm, 2cm인 직육면체가 있습니다. 정육면체와 직육면체의 부피가 같을 때, 직육면체의 높이는 몇 cm입니까?",
+        "Answer": 4,
+        "Equation": "func_divide(func_cube(num1,none),func_multiply(num3,num4))"
+    },
+    {
+        "Question": "부피가 125cm³인 작은 정육면체 8개를 정육면체 모양으로 쌓았습니다. 쌓은 정육면체의 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 10,
+        "Equation": "func_cuberoot(func_multiply(num0,num2),none)"
+    },
+    {
+        "Question": "가로와 세로가 각각 70cm, 50cm인 수조에 물이 담겨져 있습니다. 희진이가 이 수조에 장난감 기차를 넣었더니 물의 높이가 4cm 늘어났습니다. 장난감 기차의 부피는 몇 cm³입니까? (단, 수조의 두께는 생각하지 않습니다.)",
+        "Answer": 14000,
+        "Equation": "func_multiply(func_multiply(num0,num1),num2)"
+    },
+    {
+        "Question": "돌멩이가 들어 있는 수조에서 돌멩이를 빼었더니 물의 높이가 3cm 줄어들었습니다. 이 수조의 가로와 세로가 각각 60cm, 45cm일 때, 돌멩이의 부피는 몇 cm³입니까?",
+        "Answer": 8100,
+        "Equation": "func_multiply(func_multiply(num1,num2),num0)"
+    },
+    {
+        "Question": "가로가 5cm, 세로가 6cm, 높이가 7cm인 직육면체가 있습니다. 이 직육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 214,
+        "Equation": "func_cubearea(func_makelist(num0,num1),num2)"
+    },
+    {
+        "Question": "가로가 3cm, 세로가 4cm, 높이가 5cm인 직육면체 (가)와 가로가 4cm, 세로가 2cm, 높이가 6cm인 직육면체 (나)가 있습니다. 이 두 직육면체 (가)와 (나)의 겉넓이의 합은 몇 ㎠입니까?",
+        "Answer": 182,
+        "Equation": "func_add(func_cubearea(func_makelist(num0,num1),num2),func_cubearea(func_makelist(num4,num5),num6))"
+    },
+    {
+        "Question": "밑에 놓인 면의 넓이가 25㎠이고, 겉넓이가 210㎠인 직육면체가 있습니다. 밑에 놓이 면이 정사각형일 때, 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 200,
+        "Equation": "func_multiply(num0,func_divide(func_minus(num1,func_multiply(num0,2)), func_multiply(func_sqrt(num0,none),num3)))"
+    },
+    {
+        "Question": "높이가 8cm이고, 겉넓이가 200㎠인 직육면체가 있습니다. 밑에 놓인 면의 둘레가 20cm일 때, 이 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 160,
+        "Equation": "func_multiply(num0,func_divide(func_minus(num1,func_multiply(num0,num3)),2))"
+    },
+    {
+        "Question": "밑에 놓인 면의 둘레가 20cm이고, 높이가 8cm인 직육면체가 있습니다. 이 직육면체의 겉넓이가 200㎠일 때, 밑에 놓인 면의 넓이는 몇 ㎠입니까?",
+        "Answer": 20,
+        "Equation": "func_divide(func_minus(num4,func_multiply(num0,num1)),2)"
+    },
+    {
+        "Question": "원철이는 가로와 세로가 각각 3cm인 정사각형 2개와 가로가 5cm 세로가 3cm인 직사각형 4개를 남는 부분 없이 모두 사용하여 직육면체를 만들었습니다. 이 직육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 78,
+        "Equation": "func_cubearea(func_makelist(num0,num3),num4)"
+    },
+    {
+        "Question": "밑에 놓인 면이 둘레가 16cm이고 넓이가 15㎠인 직육면체가 있습니다. 이 직육면체의 겉넓이가 126㎠일 때 높이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_divide(func_minus(num4,func_multiply(num1,2)),num0)"
+    },
+    {
+        "Question": "부피가 180cm³인 직육면체가 있습니다. 이 직육면체의 밑에 놓인 면의 둘레가 16cm이고, 넓이가 15㎠일 때 겉넓이는 몇 ㎠입니까?",
+        "Answer": 222,
+        "Equation": "func_add(func_multiply(num3,func_divide(num0,num4)),func_multiply(num4,2))"
+    },
+    {
+        "Question": "한 모서리의 길이가 5cm인 정육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 150,
+        "Equation": "func_multiply(func_square(num1,none),num2)"
+    },
+    {
+        "Question": "한 면의 넓이가 9㎠인 정육면체 모양의 주사위가 있습니다. 이 주사위의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 54,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "한 면의 둘레가 20cm인 정육면체가 있습니다. 이 정육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 150,
+        "Equation": "func_multiply(func_square(func_divide(num1,4),none),num2)"
+    },
+    {
+        "Question": "가로, 세로, 높이가 각각 10cm, 13cm, 8cm인 직육면체 모양의 도토리묵이 있습니다. 이 도토리묵을 잘라서 만들 수 있는 가장 큰 정육면체 모양의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 384,
+        "Equation": "func_multiply(func_square(func_whichsmall(func_whichsmall(num0,num1),num2),none),num3)"
+    },
+    {
+        "Question": "겉넓이가 726㎠인 정육면체가 있습니다. 이 정육면체의 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 11,
+        "Equation": "func_multiply(func_sqrt(func_divide(num0,num1),none),num3)"
+    },
+    {
+        "Question": "겉넓이가 726㎠인 정육면체가 있습니다. 이 정육면체의 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 132,
+        "Equation": "func_multiply(func_sqrt(func_divide(num0,num1),none),func_edge(num2,none))"
+    },
+    {
+        "Question": "지름이 8cm인 원의 원주와 반지름이 5cm인 원의 원주의 합은 몇 cm입니까? (원주율: 3)",
+        "Answer": 54,
+        "Equation": "func_add(func_multiply(num0,num2),func_multiply(func_multiply(num1,2),num2))"
+    },
+    {
+        "Question": "진주는 길이가 8cm인 끈을 사용하여 그릴 수 있는 가장 큰 원을 그렸습니다. 진주가 그린 원의 원주는 몇 cm입니까? (원주율: 3.1)",
+        "Answer": 49.6,
+        "Equation": "func_multiply(func_multiply(num0,2),num1)"
+    },
+    {
+        "Question": "지름이 20cm인 원에 4cm간격으로 점을 찍으려고 합니다. 점은 모두 몇 개 찍을 수 있습니까? (원주율: 3)",
+        "Answer": 15,
+        "Equation": "func_divide(func_multiply(num0,num2),num1)"
+    },
+    {
+        "Question": "원주가 48cm인 원의 지름과 원주가 54cm인 원의 반지름의 차는 몇 cm입니까? (원주율: 3)",
+        "Answer": 7,
+        "Equation": "func_difference(func_divide(num0,num2), func_divide(func_divide(num1,num2),2))"
+    },
+    {
+        "Question": "원 (가)와 원 (나)가 있습니다. 원 (가)의 원주는 43.4cm이고 원 (나)의 원주는 원 (가)의 원주의 2배일 때 원 (나)의 반지름 몇 cm입니까? (원주율: 3.1)",
+        "Answer": 14,
+        "Equation": "func_divide(func_divide(func_multiply(num0,num1),num2),2)"
+    },
+    {
+        "Question": "지름이 10cm인 원의 넓이와 반지름이 3cm인 원의 넓이의 차는 몇 ㎠입니까? (원주율: 3.14)",
+        "Answer": 50.24,
+        "Equation": "func_difference(func_circlearea(func_divide(num0,2),num2),func_circlearea(num1,num2))"
+    },
+    {
+        "Question": "가로와 세로가 각각 50cm, 60cm인 직사각형이 있습니다. 이 직사각형을 잘라 가장 큰 원으로 만들었습니다. 이 원의 넓이는 몇 ㎠입니까? (원주율: 3.14)",
+        "Answer": 1962.5,
+        "Equation": "func_circlearea(func_divide(func_whichsmall(num0,num1),2),num4)"
+    },
+    {
+        "Question": "넓이가 432㎠인 원 모양의 피자를 밑면이 정사각형 모양인 직육면체 모양의 상자에 포장하려고 합니다. 상자의 밑면의 한 변의 길이는 적어도 몇 cm이어야 합니까? (원주율: 3)",
+        "Answer": 24,
+        "Equation": "func_multiply(func_sqrt(func_divide(num0,num4),none),2)"
+    },
+    {
+        "Question": "길이가 78cm인 끈을 남기거나 겹치는 부분 없이 모두 사용하여 원을 한 개 만들었습니다. 이 원의 넓이는 몇 ㎠입니까? (원주율: 3)",
+        "Answer": 507,
+        "Equation": "func_circlearea (func_divide(func_divide(func_divide(num0,num1),num2),2),num2)"
+    },
+    {
+        "Question": "가로가 9cm, 세로가 12cm인 직사각형과 넓이가 같은 원이 있습니다. 이 원의 반지름은 몇 cm입니까? (원주율: 3)",
+        "Answer": 6,
+        "Equation": "func_sqrt(func_divide(func_multiply(num0,num1),num3),none)"
+    },
+    {
+        "Question": "삼각형의 변의 개수와 사각형의 변의 개수의 합을 구하시오",
+        "Answer": 7,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "한 변의 길이가 5cm인 정삼각형의 둘레는 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "길이가 20cm인 철사로 직사각형을 만들었더니 철사가 남지도 모자라지도 않았습니다. 직사각형의 가로 길이가 4cm일 때, 세로 길이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_minus(func_divide(num0,2),num3)"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 정사각형과 둘레가 같은 정팔각형이 있습니다. 이 정팔각형의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_divide(func_multiply(num1,num2),num3)"
+    },
+    {
+        "Question": "둘레가 24cm인 직사각형이 있습니다. 이 직사각형의 가로 길이가 세로 길이의 2배일 때 가로는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_divide(func_divide(num0,2),func_add(num3,1)),num3)"
+    },
+    {
+        "Question": "가로와 세로가 각각 3cm인 종이를 이용하여 정육면체를 만들려고 합니다. 정육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 54,
+        "Equation": "func_multiply(func_square(num0,none),num1)"
+    },
+    {
+        "Question": "가로와 세로가 각각 5cm인 종이를 이용하여 정육면체를 만들려고 합니다. 정육면체의 부피는 몇 cm³입니까?",
+        "Answer": 125,
+        "Equation": "func_cube(num0,none)"
+    },
+    {
+        "Question": "색종이로 한 면의 넓이가 10㎠인 정육면체를 만들려고 합니다. 필요한 색종이의 넓이는 모두 몇 ㎠입니까?",
+        "Answer": 60,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "가로. 세로가 각각 25cm이고, 높이가 40cm인 직육면체 모양의 통의 1/2높이만큼 물이 들어 있습니다. 이 통에 들어 있는 물의 부피는 몇 cm³입니까?",
+        "Answer": 12500,
+        "Equation": "func_multiply(func_multiply(func_square(num0,none),num1),num3)"
+    },
+    {
+        "Question": "한 모서리의 길이가 10cm인 정육면체를 쌓는데 부피가 1cm³인 정육면체 몇 개가 필요합니까?",
+        "Answer": 1000,
+        "Equation": "func_divide(func_cube(num1,none),num3)"
+    },
+    {
+        "Question": "작은 정육면체 27개로 큰 정육면체를 쌓았습니다. 큰 정육면체의 부피가 216cm³일 때 작은 정육면체의 한 모서리의 길이는 몇 cm인가요?",
+        "Answer": 2,
+        "Equation": "func_cuberoot(func_divide(num4,num1),none)"
+    },
+    {
+        "Question": "가로가 4m, 세로가 2m, 높이가 3m인 직육면체 모양의 창고가 있습니다. 이 창고에 한 모서리의 길이가 20cm인 정육면체 모양의 상자를 빈틈없이 쌓으려고 합니다. 정육면체 모양의 상자를 몇 개까지 쌓을 수 있습니까?",
+        "Answer": 3000,
+        "Equation": "func_divide(func_multiply(func_multiply(num0,num1),num2),func_cube(func_cm2m(num5,none),none))"
+    },
+    {
+        "Question": "윤기는 가로가 5cm, 세로가 5cm, 높이가 9cm인 직육면체를 만들었고, 호석이는 가로가 7cm, 세로가 2cm, 높이가 10cm인 직육면체를 만들었습니다. 윤기가 만든 상자의 부피는 호석이가 만든 상자의 부피보다 얼마나 더 큽니까?",
+        "Answer": 85,
+        "Equation": "func_minus(func_multiply(func_multiply(num0,num1),num2),func_multiply(func_multiply(num4,num5),num6))"
+    },
+    {
+        "Question": "가로와 세로의 길이가 각각 5cm, 2cm인 직육면체가 있습니다. 이 직육면체의 겉넓이가 160㎠일 때 높이는 몇 cm입니까?",
+        "Answer": 10,
+        "Equation": "func_divide(func_minus(func_divide(num4,2),func_multiply(num0,num1)),func_add(num0,num1))"
+    },
+    {
+        "Question": "가로가 9cm, 세로가 3cm, 높이가 10cm인 직육면체가 있습니다. 이 직육면체와 겉넓이가 같은 정육면체 (가)를 만들려고 합니다. 정육면체 (가)의 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 7,
+        "Equation": "func_sqrt(func_divide(func_cubearea(func_makelist(num0,num1),num2),num5),none)"
+    },
+    {
+        "Question": "삼각형의 변의 개수와 사각형의 변의 개수를 합친 값을 구하시오",
+        "Answer": 7,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "한 변의 길이가 5cm인 정삼각형의 둘레의 길이는 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "길이가 20cm인 줄로 직사각형을 만들었더니 줄이 남지도 모자라지도 않았을 때 직사각형의 가로 길이가 4cm일 때, 세로 길이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_minus(func_divide(num0,2),num3)"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 정사각형과 둘레가 같은 정팔각형이 있다면 이 도형의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_divide(func_multiply(num1,num2),num3)"
+    },
+    {
+        "Question": "한 변의 길이가 9cm인 정삼각형의 세 변의 길이의 합은 몇 cm입니까?",
+        "Answer": 27,
+        "Equation": "func_multiply(num1,num3)"
+    },
+    {
+        "Question": "둘레가 45cm인 정삼각형의 한 변은 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_divide(num0,num1)"
+    },
+    {
+        "Question": "두 각의 크기가 각각 60°인 삼각형의 한 변의 길이가 12cm일 때, 세 변의 길이의 합은 몇 cm입니까?",
+        "Answer": 36,
+        "Equation": "func_multiply(num4,num5)"
+    },
+    {
+        "Question": "한 각의 크기가 110°인 이등변삼각형에서 나머지 한 각의 크기는 몇 °입니까?",
+        "Answer": 35,
+        "Equation": "func_divide(func_triangle_angle_minus(num1,none),num2)"
+    },
+    {
+        "Question": "한 각의 크기가 30°인 직각삼각형에서 나머지 한 각의 크기는 몇 °입니까?",
+        "Answer": 60,
+        "Equation": "func_righttriangle_angle_minus(num1, none)"
+    },
+    {
+        "Question": "윤기는 철사를 40cm를 사용하여 긴 변이 8cm, 짧은 변이 7cm인 평행사변형 1개를 겹치는 부분 없이 만들고 남은 철사는 몇 cm입니까?",
+        "Answer": 10,
+        "Equation": "func_minus(num0,func_multiply(func_multiply(func_add(num1,num2),2),num4))"
+    },
+    {
+        "Question": "끈을 남김 없이 모두 사용하여 한 변의 길이가 10cm인 마름모를 만들었습니다. 이 끈으로 다시 겹치는 부분 없이 모두 사용하여 긴 변이 12cm 평행사변형을 만들 때, 다른 한 변은 몇 cm로 해야합니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_divide(func_multiply(num1,4),2),num2)"
+    },
+    {
+        "Question": "한 변의 길이가 8cm인 마름모의 네 변의 길이의 합은 몇 cm입니까?",
+        "Answer": 32,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "길이가 64cm인 끈을 겹치지 않게 사용하여 만든 마름모의 한 변은 몇 cm입니까?",
+        "Answer": 16,
+        "Equation": "func_divide(num0,4)"
+    },
+    {
+        "Question": "네 변의 길이의 합이 50cm인 직사각형을 그릴 때, 긴 변의 길이가 18cm이면 짧은 변의 길이는 몇 cm로 해야합니까?",
+        "Answer": 7,
+        "Equation": "func_minus(func_divide(num1,2),num3)"
+    },
+    {
+        "Question": "한 변의 길이가 5cm인 정오각형의 둘레의 길이는 몇 cm입니까?",
+        "Answer": 25,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "한 변의 길이가 7cm인 정육각형의 둘레와 한 변의 길이가 5cm인 정칠각형의 둘레의 합은 몇 cm입니까?",
+        "Answer": 77,
+        "Equation": "func_add(func_multiply(num1,num2), func_multiply(num4,num5))"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 정팔각형과 한 변의 길이가 9cm인 정구각형의 둘레의 차는 몇 cm입니까?",
+        "Answer": 1,
+        "Equation": "func_difference(func_multiply(num1,num2), func_multiply(num4,num5))"
+    },
+    {
+        "Question": "둘레의 길이가 24cm인 정육각형과 정십이각형이 있을 때 각 도형의 한 변의 길이의 합은 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_add(func_divide(num0,num1),func_divide(num0,num2))"
+    },
+    {
+        "Question": "정육각형의 한 변의 길이가 12cm일 때, 둘레의 길이가 같은 정구각형의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_divide(func_multiply(num0,num2),num3)"
+    },
+    {
+        "Question": "가로가 40cm, 세로가 20cm인 직사각형 모양의 모니터의 둘레는 몇 cm입니까?",
+        "Answer": 120,
+        "Equation": "func_multiply(func_add(num0,num1),2)"
+    },
+    {
+        "Question": "가로가 8cm, 세로가 12cm인 직사각형의 가로의 길이를 2배로 늘리면 둘레는 몇 cm가 됩니까?",
+        "Answer": 56,
+        "Equation": "func_multiply(func_add(func_multiply(num0,num3),num1), 2)"
+    },
+    {
+        "Question": "세로의 길이가 가로의 길이보다 8cm 더 긴 직사각형의 가로의 길이가 10cm일 때, 둘레는 몇 cm입니까?",
+        "Answer": 56,
+        "Equation": "func_multiply(func_add(func_add(num0,num2),num2),2)"
+    },
+    {
+        "Question": "둘레가 26cm인 직사각형의 세로의 길이가 8cm일 때, 가로의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_minus(func_divide(num0,2),num2)"
+    },
+    {
+        "Question": "가로가 12cm인 직사각형을 길이가 40cm인 끈을 겹치지 않게 모두 사용하여 만들면 세로의 길이는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(func_divide(num2,2),num0)"
+    },
+    {
+        "Question": "한 변의 길이가 25cm이고, 다른 한 변의 길이가 10cm인 평행사변형의 모든 변의 합은 몇 cm입니까?",
+        "Answer": 70,
+        "Equation": "func_multiply(func_add(num1,num3),2)"
+    },
+    {
+        "Question": "둘레가 48cm인 평행사변형의 한 변의 길이가 15cm 일 때, 다른 변의 길이는 몇 cm입니까?",
+        "Answer": 9,
+        "Equation": "func_minus(func_divide(num0,2),num3)"
+    },
+    {
+        "Question": "두 변의 길이가 14cm, 11cm인 평행사변형와 둘레의 길이가 같은 평행사변형의 한 변의 길이가 10cm일 때, 다른 한 변의 길이는 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_minus(func_add(num1,num2),num6)"
+    },
+    {
+        "Question": "둘레가 36cm인 평행사변형의 한 변의 길이가 다른 한 변의 길이보다 4cm 더 길 때, 다른 한 변의 길이는 몇 cm입니까?",
+        "Answer": 11,
+        "Equation": "func_multiply(func_divide(func_add(func_divide(num0,2),num4),2),num5)"
+    },
+    {
+        "Question": "한 변이 20cm 인 마름모의 둘레는 몇 cm입니까?",
+        "Answer": 80,
+        "Equation": "func_multiply(num1,4)"
+    },
+    {
+        "Question": "한 변의 길이가 8cm인 마름모와 한 변의 길이가 10cm인 마름모의 둘레의 차는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_difference(func_multiply(num1,4), func_multiply(num3,4))"
+    },
+    {
+        "Question": "한 변의 길이가 12cm인 마름모의 네 변의 길이를 각각 1/3로 줄이면, 둘레는 몇 cm만큼 줄어듭니까?",
+        "Answer": 32,
+        "Equation": "func_multiply(func_minus(num1,func_multiply(num1, num3)),num2)"
+    },
+    {
+        "Question": "둘레가 400m인 마름모 모양의 공원의 한 변의 길이는 몇 m입니까?",
+        "Answer": 100,
+        "Equation": "func_divide(num0,4)"
+    },
+    {
+        "Question": "가로와 세로가 각각 10cm, 16cm인 직사각형이 있습니다. 이 직사각형과 둘레가 같은 마름모의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 13,
+        "Equation": "func_divide(func_multiply(func_add(num0, num1),2),4)"
+    },
+    {
+        "Question": "한 변의 길이가 7cm인 마름모와 한 변의 길이가 10cm인 평행사변형이 있습니다. 마름모와 평행사변형의 둘레가 같다면 평행사변형의 나머지 한 변의 길이는 몇 cm입니까?",
+        "Answer": 4,
+        "Equation": "func_minus(func_divide(func_multiply(num1,4),2), num3)"
+    },
+    {
+        "Question": "세로가 7센티미터이고 가로가 10센티미터인 직사각형의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 70,
+        "Equation": "func_multiply(num0,num1)"
+    },
+    {
+        "Question": "우진이는 가로가 36센티미터, 세로가 25센티미터인 직사각형 모양의 도화지에 그림을 그렸습니다. 도화지의 넓이이는 몇 제곱센티미터입니까?",
+        "Answer": 900,
+        "Equation": "func_multiply(num0,num1)"
+    },
+    {
+        "Question": "세로가 10센티미터이고, 넓이가 140제곱센티미터인 직사각형의 가로의 길이는 몇 센티미터입니까?",
+        "Answer": 14,
+        "Equation": "func_divide(num1, num0)"
+    },
+    {
+        "Question": "인숙이의 책상은 가로가 120센티미터이고, 넓이가 9600제곱센티미터인 직사각형입니다. 책상의 세로는 몇 센티미터입니까?",
+        "Answer": 80,
+        "Equation": "func_divide(num1,num0)"
+    },
+    {
+        "Question": "가로가 5센티미터, 세로가 12센티미터인 직사각형과 둘레가 16센티미터 가로가 5센티미터인 직사각형의 넓이의 합은 몇 제곱센티미터입니까?",
+        "Answer": 75,
+        "Equation": "func_add(func_multiply(num0,num1), func_multiply(func_minus(func_divide(num3,2),num4),num4))"
+    },
+    {
+        "Question": "가로가 12센티미터인 직사각형과 변의 길이가 6센티미터인 정사각형이 있습니다. 직사각형의 넓이는 정사각형의 넓이의 3배 일 때, 직사각형의 세로의 길이는 몇 센티미터입니까?",
+        "Answer": 9,
+        "Equation": "func_divide(func_multiply(func_square(num2,none),num6),num0)"
+    },
+    {
+        "Question": "둘레가 28센티미터인 직사각형의 가로의 길이가 10센티미터일 때, 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 40,
+        "Equation": "func_multiply(func_minus(func_divide(num0,2),num2),num2)"
+    },
+    {
+        "Question": "가로가 세로보다 20센티미터 더 긴 직사각형의 둘레가 240센티미터일 때, 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 3500,
+        "Equation": "func_multiply(func_divide(func_minus(func_divide(num2,2),num0),2), func_divide(func_add(func_divide(num2,2),num0),2))"
+    },
+    {
+        "Question": "길이가 38센티미터인 철사를 가지고 가로가 10센티미터인 직사각형을 겹치는 부분 없이 만들면 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 90,
+        "Equation": "func_multiply(func_minus(func_divide(num0,2),num1),num1)"
+    },
+    {
+        "Question": "둘레가 20센티미터이고, 넓이가 21제곱센티미터인 직사각형이 있습니다. 가로가 세로보다 길 때, 가로의 길이는 몇 센티미터입니까?",
+        "Answer": 7,
+        "Equation": "func_roundareatoedge(num0,num1)"
+    },
+    {
+        "Question": "한 변의 길이가 7cm인 정사각형의 넓이는 몇 ㎠입니까?",
+        "Answer": 49,
+        "Equation": "func_square(num1, none)"
+    },
+    {
+        "Question": "한 변의 길이가 20cm인 액자의 넓이는 몇 ㎠입니까?",
+        "Answer": 400,
+        "Equation": "func_square(num1, none)"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 정사각형과 한 변의 길이가 12cm인 정사각형의 넓이의 차는 몇 ㎠입니까?",
+        "Answer": 44,
+        "Equation": "func_difference(func_square(num1, none), func_square(num4, none))"
+    },
+    {
+        "Question": "가로와 세로가 각각 30cm, 24cm인 직사각형 모양의 종이를 잘라 만든 가장 큰 정사각형의 넓이는 몇 ㎠입니까?",
+        "Answer": 576,
+        "Equation": "func_square(func_whichsmall(num0,num1),none)"
+    },
+    {
+        "Question": "한 변의 길이가 6cm인 정사각형으로 한 변의 길이가 12cm인 정사각형을 만들려고 합니다. 정사각형은 모두 몇 개 필요합니까?",
+        "Answer": 4,
+        "Equation": "func_square(func_divide(num4,num1),none)"
+    },
+    {
+        "Question": "한 변의 길이가 15cm인 정사각형는 한 변의 길이가 5cm인 정사각형의 넓이의 몇 배입니까?",
+        "Answer": 9,
+        "Equation": "func_square(func_divide(num1,num4),none)"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 직사각형 모양의 종이를 잘라 내어 한 변의 길이가 5cm인 정사각형을 최대 몇 개 만들 수 입습니까?",
+        "Answer": 4,
+        "Equation": "func_square(func_divide(num1,num4),none)"
+    },
+    {
+        "Question": "한 변의 길이가 80m인 정사각형 모양의 밭이 있습니다. 이 밭을 4등분 하여 각 각 다른 채소를 심으려고 할 때 한 밭의 넓이는 몇 ㎡입니까?",
+        "Answer": 1600,
+        "Equation": "func_divide(func_square(num1, none),num3)"
+    },
+    {
+        "Question": "한 변의 길이가 7cm인 정사각형의 네 변의 길이를 3cm씩 늘리면 넓이는 몇 ㎠이 됩니까?",
+        "Answer": 100,
+        "Equation": "func_square(func_add(num1,num4),none)"
+    },
+    {
+        "Question": "한 변의 길이가 12cm인 정사각형의 네 변의 길이를 4cm씩 줄이면 넓이는 몇 ㎠ 줄어듭니까?",
+        "Answer": 80,
+        "Equation": "func_difference(func_square(num1, none), func_square(func_minus(num1,num4),none))"
+    },
+    {
+        "Question": "정사각형의 넓이가 49제곱센티미터 일 때 한 변의 길이는 몇 센티미터입니까?",
+        "Answer": 7,
+        "Equation": "func_sqrt(num1,none)"
+    },
+    {
+        "Question": "넓이가 100제곱센티미터인 정사각형 모양의 색종이의 한 변의 길이는 몇 센티미터입니까?",
+        "Answer": 10,
+        "Equation": "func_sqrt(num0,none)"
+    },
+    {
+        "Question": "가로가 4센티미터, 세로가 9센티미터인 직사각형과 넓이가 같은 정사각형의 한 변의 길이는 몇 센티미터입니까?",
+        "Answer": 6,
+        "Equation": "func_sqrt(func_multiply(num0,num1),none)"
+    },
+    {
+        "Question": "가로가 3센티미터이고, 둘레가 60센티미터인 직사각형과 넓이가 같은 정사각형의 한 변의 길이는 몇 센티미터입니까?",
+        "Answer": 9,
+        "Equation": "func_sqrt(func_multiply(func_minus(func_divide(num1, 2),num0),num0),none)"
+    },
+    {
+        "Question": "정사각형의 둘레가 32센티미터일때  넓이는 몇 제곱센티미터입니까?",
+        "Answer": 64,
+        "Equation": "func_square(func_divide(num1,num0),none)"
+    },
+    {
+        "Question": "한 변의 길이가 10센티미터인 정사각형 (가)와 둘레가 32센티미터인 정사각형 (나)가 있습니다. 두 도형의 넓이의 합은 몇 제곱센티미터입니까?",
+        "Answer": 164,
+        "Equation": "func_add(func_square(num1, none), func_square(func_divide(num3,num4),none))"
+    },
+    {
+        "Question": "둘레가 60센티미터인 정사각형과 둘레가 40센티미터, 세로가 8센티미터인 직사각형이 있습니다. 두 도형의 넓이의 차는 몇 제곱센티미터입니까?",
+        "Answer": 129,
+        "Equation": "func_difference(func_square(func_divide(num0,num1),none), func_multiply(func_minus(func_divide(num2,2),num3),num3))"
+    },
+    {
+        "Question": "둘레가 80센티미터인 정사각형 모양의 타일 5개의 넓이의 합은 몇 제곱센티미터입니까?",
+        "Answer": 2000,
+        "Equation": "func_multiply(func_square(func_divide(num0,num1),none),num2)"
+    },
+    {
+        "Question": "한 변의 길이가 30cm인 정사각형 모양의 타일을 겹치지 않게 8개씩 10줄로 이어 붙였습니다. 이어 붙인 타일 전체의 넓이는 몇 ㎡입니까?",
+        "Answer": 7.2,
+        "Equation": "func_multiply(func_multiply(func_square(func_cm2m(num1,none),none),num3),num4)"
+    },
+    {
+        "Question": "가로가 2km, 세로가 3km인 직사각형 모양의 땅이 있습니다. 이 땅에 100㎡는 몇 번 들어갑니까?",
+        "Answer": 60000,
+        "Equation": "func_divide(func_multiply(func_km2m(num0,none),func_km2m(num1,none)),num3)"
+    },
+    {
+        "Question": "넓이가 144cm인 정사각형을 크기가 같도록 직사각형 3개로 나누었을 때 사각형 한 개의 둘레는 몇 cm입니까?",
+        "Answer": 32,
+        "Equation": "func_multiply(func_add(func_divide(func_sqrt(num0,none),num3),func_sqrt(num0,none)),2)"
+    },
+    {
+        "Question": "가로가 3cm, 세로가 4cm인 직사각형의 넓이의 3배인 정사각형의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_sqrt(func_multiply(func_multiply(num0,num1),num3),none)"
+    },
+    {
+        "Question": "가로가 20cm인 직사각형 모양의 종이가 있습니다. 이 종이로 잘라 낼 수 있는 가장 큰 정사각형 모양을 한 개 만들었더니, 넓이가 144㎠이었습니다. 자르기 전 직사각형의 넓이는 몇 ㎠입니까?",
+        "Answer": 240,
+        "Equation": "func_multiply(func_sqrt(num4,none),num0)"
+    },
+    {
+        "Question": " 한 변의 길이가 같은 정삼각형과 정사각형, 정오각형이 있습니다. 세 도형의 둘레의 합이 60cm일 때, 정오각형의 둘레의 길이는 몇 cm입니까?",
+        "Answer": 25,
+        "Equation": "func_multiply(func_divide(num5,func_add(func_add(num1,num2),num3)),num6)"
+    },
+    {
+        "Question": "넓이가 169㎠인 정사각형 모양의 종이가 있습니다. 이 종이의 가로와 세로를 각각 3cm, 5cm 잘라내고 남은 색종이의 넓이는 몇 ㎠입니까?",
+        "Answer": 80,
+        "Equation": "func_multiply(func_minus(func_sqrt(num0,none),num2),func_minus(func_sqrt(num0,none),num3))"
+    },
+    {
+        "Question": "정사각형 3개를 겹치지 않게 이어 붙여 직사각형을 한 개 만들었습니다. 이어 붙인 직사각형의 넓이가 243㎠일 때, 둘레의 길이는 몇 cm입니까?",
+        "Answer": 72,
+        "Equation": "func_multiply(func_add(func_sqrt(func_divide(num5,num1),none),func_multiply(func_sqrt(func_divide(num5,num1),none),num1)),2)"
+    },
+    {
+        "Question": "평행사변형의 밑변의 길이가 20cm, 높이가 12cm일때 넓이는 몇 ㎠입니까?",
+        "Answer": 240,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "넓이가 180㎠인 평행사변형 모양의 색종이의 밑변의 길이가 15cm일 때,높이는 몇 cm입니까?",
+        "Answer": 12,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "삼각형의 높이가 24cm이고, 밑변의 길이가 30cm일때 넓이는 몇 ㎠입니까?",
+        "Answer": 360,
+        "Equation": "func_divide(func_multiply(num2,num1),2)"
+    },
+    {
+        "Question": "넓이가 36㎠이고, 밑변의 길이가 8cm인 삼각자의 높이는 몇 cm입니까?",
+        "Answer": 9,
+        "Equation": "func_divide(func_multiply(num0,2),num1)"
+    },
+    {
+        "Question": "대각선의 길이가 각각 10cm, 12cm인 마름모의 넓이는 몇 ㎠입니까?",
+        "Answer": 60,
+        "Equation": "func_divide(func_multiply(num0,num1),2)"
+    },
+    {
+        "Question": "준호는 마름모 모양의 팻말을 만들었습니다. 팻말은 한 대각선의 길이가 100cm이고, 다른 대각선의 길이가 80cm입니다. 팻말의 넓이는 몇 ㎠입니까?",
+        "Answer": 4000,
+        "Equation": "func_divide(func_multiply(num1,num2),2)"
+    },
+    {
+        "Question": "마름모의 넓이가 66㎠이고, 한 대각선의 길이가 11cm이면 다른 대각선의 길이는 몇 cm입니까?",
+        "Answer": 12,
+        "Equation": "func_divide(func_multiply(num0,2),num2)"
+    },
+    {
+        "Question": "진이는 동아리 활동에서 사용할 넓이가 2400제곱센티미터인 안내 표지판을 만들었습니다. 안내 표지판의 한 변의 길이가 60센티미터라면 다른 변의 길이는 몇 센티미터입니까?",
+        "Answer": 40,
+        "Equation": "func_divide(num0,num2)"
+    },
+    {
+        "Question": "한 대각선의 길이가 10센티미터이고, 다른 대각선의 길이가 12센티미터인 마름모 (가)와 마름모 (가)의 넓이의 2배인 마름모 (나)가 있습니다. 마름모 (나)의 한 대각선의 길이가 8센티미터일 때, 다른 대각선의 길이는 몇 센티미터입니까?",
+        "Answer": 30,
+        "Equation": "func_divide(func_multiply(func_multiply(num1,num2),num3),num5)"
+    },
+    {
+        "Question": "윗변의 길이가 5센티미터, 아랫변의 길이가 8센티미터, 높이가 4센티미터인 사다리꼴의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 26,
+        "Equation": "func_divide(func_multiply(func_add(num0,num1),num2),2)"
+    },
+    {
+        "Question": "윗변의 길이가 14센티미터, 아랫변의 길이가 20센티미터, 두 밑변 사이의 거리가 12센티미터인 사다리꼴 모양의 종이가 있습니다. 이 종이의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 204,
+        "Equation": "func_divide(func_multiply(func_add(num0,num1),num3),2)"
+    },
+    {
+        "Question": "높이가 90센티미터, 윗변과 아랫변의 길이의 합이 46센티미터인 사다리꼴이 있습니다. 이 사다리꼴의 넓이는 몇 제곱센티미터입니까?",
+        "Answer": 2070,
+        "Equation": "func_divide(func_multiply(num0,num1),2)"
+    },
+    {
+        "Question": "윗변의 길이가 9미터, 아랫변의 길이가 10미터, 넓이가 76제곱미터인 사다리꼴 모양의 땅의 높이는 몇 미터입니까?",
+        "Answer": 8,
+        "Equation": "func_divide(func_multiply(num2,2),func_add(num0,num1))"
+    },
+    {
+        "Question": "넓이가 16제곱센티미터인 사다리꼴이 있습니다. 이 사다리꼴의 윗변의 길이가 3센티미터이고 높이가 4센티미터일 때, 아랫변의 길이는 몇 센티미터입니까?",
+        "Answer": 5,
+        "Equation": "func_minus(func_divide(func_multiply(num0,2),num4),num3)"
+    },
+    {
+        "Question": "직육면체의 면, 모서리, 꼭짓점의 수의 합은 모두 몇 개입니까?",
+        "Answer": 26,
+        "Equation": "func_add(func_add(func_plane(num0,none),func_edge(num0,none)),func_vertex(num0,none))"
+    },
+    {
+        "Question": "직육면체의 모서리의 수는 직육면체의 한 면의 꼭짓점의 수의 몇 배입니까?",
+        "Answer": 3,
+        "Equation": "func_divide(func_edge(num0,none),func_vertex(num1,num2))"
+    },
+    {
+        "Question": "직육면체를 위에서 본 도형의 꼭짓점의 수는 몇 개입니까?",
+        "Answer": 4,
+        "Equation": "func_vertex(num0, 1)"
+    },
+    {
+        "Question": "직육면체 모양의 상자의 겉면을 물감으로 색칠하려고 합니다. 서로 평행한 면에만 같은 색을 칠할 때, 몇 가지 색의 물감이 필요합니까?",
+        "Answer": 3,
+        "Equation": "func_divide(num0,2)"
+    },
+    {
+        "Question": "정육면체의 모서리와 꼭짓점의 수의 합은 모두 몇 개입니까?",
+        "Answer": 20,
+        "Equation": "func_add(func_edge(num0,none),func_vertex(num0,none))"
+    },
+    {
+        "Question": "정육면체의 꼭짓점의 개수는 직육면체의 한 면의 모서리의 수의 몇 배입니까?",
+        "Answer": 2,
+        "Equation": "func_divide(func_vertex(num0,none),func_edge(num1,num2))"
+    },
+    {
+        "Question": "정육면체를 위에서 본 도형의 꼭짓점의 수는 몇 개입니까?",
+        "Answer": 4,
+        "Equation": "func_vertex(num0,1)"
+    },
+    {
+        "Question": "정육면체 모양의 박스의 겉면을 색연필로 색칠하는데 평행한 면에만 같은 색을 칠하려면 몇 가지 색의 페인트가 필요합니까?",
+        "Answer": 3,
+        "Equation": "func_divide(num0,2)"
+    },
+    {
+        "Question": "한 모서리의 길이가 6cm인 정육면체 모양의 주사위의 모서리의 길이의 합은 몇 입니까?",
+        "Answer": 72,
+        "Equation": "func_multiply(func_edge(num2,none),func_divide(num1,num0))"
+    },
+    {
+        "Question": "모든 모서리의 길이의 합이 60cm인 정육면체가 있습니다. 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_divide(num0,func_edge(num1,none))"
+    },
+    {
+        "Question": "정육면체 모양의 주사위에서 평행한 두 면의 눈의 수의 합은 7입니다. 눈의 수가 2인 면과 마주보고 있는 면의 눈의 수는 몇입니까?",
+        "Answer": 5,
+        "Equation": "func_minus(num2,num3)"
+    },
+    {
+        "Question": "평행한 두 면의 눈의 수의 합이 7인 주사위가 있습니다. 눈의 수가 1인 면의 옆면들의 눈의 수의 합은 몇입니까?",
+        "Answer": 14,
+        "Equation": "func_multiply(num1,2)"
+    },
+    {
+        "Question": "모든 모서리의 길이의 합이 72cm인 정육면체를 위에서 본 도형의 둘레는 몇 cm입니까?",
+        "Answer": 24,
+        "Equation": "func_multiply(func_divide(num0,func_edge(num1,none)),func_edge(num1,1))"
+    },
+    {
+        "Question": "밑이 정삼각형인 각기둥의 모서리의 개수는 몇 개입니까?",
+        "Answer": 9,
+        "Equation": "func_multiply(num0,3)"
+    },
+    {
+        "Question": "사각기둥에서 면의 수와 꼭짓점의 수의 합은 몇 개입니까?",
+        "Answer": 14,
+        "Equation": "func_add(func_multiply(num0,2),func_add(num0,2))"
+    },
+    {
+        "Question": "면이 10개인 각기둥의 한 밑면의 변의 수는 모두 몇 개입니까?",
+        "Answer": 8,
+        "Equation": "func_minus(num0,2)"
+    },
+    {
+        "Question": "모서리가 18개인 각기둥 (가)와 면이  5개인 각기둥 (나)가 있습니다. 두 각기둥의 한 밑면의 변의 수의 차는 몇 개입니까?",
+        "Answer": 3,
+        "Equation": "func_difference(func_divide(num0,3), func_minus(num1,2))"
+    },
+    {
+        "Question": "꼭짓점의 16개인 각기둥의 면은 몇 개입니까?",
+        "Answer": 10,
+        "Equation": "func_add(func_divide(num0,2),2)"
+    },
+    {
+        "Question": "한 변의 길이가 4cm인 정오각형을 한 밑면으로 하는 각기둥의 높이가 8cm일 때, 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 80,
+        "Equation": "func_add(func_multiply(func_multiply(num1,num2),2),func_multiply(num4,num2))"
+    },
+    {
+        "Question": "꼭짓점이 12개인 각기둥의 한 모서리의 길이는 5cm이고 모든 모서리의 길이가 같습니다. 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 90,
+        "Equation": "func_multiply(func_multiply(func_divide(num0,2),3),num2)"
+    },
+    {
+        "Question": "높이가 10cm인 오각기둥의 옆면에 모두 페인트를 칠한 후 바닥에 놓고 같은 방향으로 두바퀴 굴렸을 때, 바닥에 색칠된 부분의 넓이가 400㎠이었습니다. 이 도형의 밑면의 둘레는 몇 cm입니까?",
+        "Answer": 4,
+        "Equation": "func_divide(func_divide(num3,num0), func_multiply(num1,num2))"
+    },
+    {
+        "Question": "정육면체의 전개도의 넓이를 구했더니 150㎠였습니다. 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_sqrt(func_divide(num1,num0),none)"
+    },
+    {
+        "Question": "밑면이 가로가 4cm, 세로가 5cm, 높이가 10cm인 직육면체의 전개도의 넓이는 몇 제곱센티미터일까요?",
+        "Answer": 220,
+        "Equation": "func_cubearea(func_makelist(num0,num1),num2)"
+    },
+    {
+        "Question": "오각뿔에서 꼭짓점의 수는 몇 개입니까?",
+        "Answer": 6,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "밑면이 육각형인 각뿔에서 모서리의 수와 면의 수의 합은 몇 개입니까?",
+        "Answer": 19,
+        "Equation": "func_add(func_multiply(num0,2),func_add(num0,1))"
+    },
+    {
+        "Question": "꼭짓점이 11개인 각뿔의 밑면의 변의 수는 몇 개입니까?",
+        "Answer": 10,
+        "Equation": "func_minus(num0,1)"
+    },
+    {
+        "Question": "모서리가 20개인 각뿔의 꼭짓점의 수는 몇 개입니까?",
+        "Answer": 11,
+        "Equation": "func_add(func_divide(num0,2),1)"
+    },
+    {
+        "Question": "꼭짓점의 수와 모서리의 수의 합이 28개인 각뿔의 밑면의 변의 수는 몇 개입니까?",
+        "Answer": 9,
+        "Equation": "func_divide(func_minus(num0,1),3)"
+    },
+    {
+        "Question": "모서리의 수와 면의 수의 차가 9인 각뿔의 밑면의 변의 수는 몇 개입니까?",
+        "Answer": 10,
+        "Equation": "func_add(num0,1)"
+    },
+    {
+        "Question": "오각기둥의 모서리의 수와 오각뿔의 모서리의 수의 차는 몇 개입니까?",
+        "Answer": 5,
+        "Equation": "func_difference(func_multiply(num0,3), func_multiply(num1,2))"
+    },
+    {
+        "Question": "모서리의 수가 18개인 각기둥의 한 밑면의 변의 수와 꼭짓점의 수가 5개인 각뿔의 밑면의 변의 수의 합은 몇 개입니까?",
+        "Answer": 10,
+        "Equation": "func_add(func_multiply(func_divide(num0,3),num1), func_minus(num2,1))"
+    },
+    {
+        "Question": "꼭짓점의 수가 10개인 각기둥 (가)와 모서리의 수가 10개인 각뿔 (나)가 있습니다. 각뿔 (나)의 면의 수와 각기둥 (가)의 모서리의 수의 차는 몇 개입니까?",
+        "Answer": 9,
+        "Equation": "func_difference(func_multiply(func_divide(num0,2),3), func_add(func_divide(num1,2),1))"
+    },
+    {
+        "Question": "모서리의 길이가 8cm인 각뿔의 밑면이 한 변의 길이가 8cm인 정오각형 일 때, 이 각뿔의 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 80,
+        "Equation": "func_multiply(func_multiply(num3,2),num2)"
+    },
+    {
+        "Question": "모든 모서리의 길이의 합이 75cm인 각뿔이 있습니다. 이 각뿔의 한 모서리의 길이가 7cm이고 밑면의 모양이 정오각형일 때, 이 각뿔의 밑면의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_divide(func_minus(num0,func_multiply(func_divide(num2,num1),num3)),num3),num4)"
+    },
+    {
+        "Question": "밑면의 한 변의 길이가 10cm이고 모든 모서리의 길이의 합이 108cm인 각뿔이 있습니다. 이 각뿔의 모서리의 수가 12개 일 때, 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_divide(func_minus(num2,func_multiply(func_divide(num3,2),num1)),func_divide(num3,2)),num4)"
+    },
+    {
+        "Question": "밑면이 10cm이고, 나머지 두 변이 각각 13cm인 이등변삼각형이 있습니다. 옆면이 모두 이 이등변삼각형 6개로 이루어진 각뿔의 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 138,
+        "Equation": "func_add(func_multiply(num0,num7), func_multiply(num2,num7))"
+    },
+    {
+        "Question": "옆면이 한 변의 길이가 10cm인 정삼각형으로 이루어진 각뿔의 짓점의 수가 8개 일 때, 밑면의 둘레는 몇 cm입니까?",
+        "Answer": 70,
+        "Equation": "func_multiply(num1,func_minus(num3,1))"
+    },
+    {
+        "Question": "밑면의 모양이 육각형인 각뿔의 면의 수와 칠각기둥의 면의 수의 합은 몇 개입니까?",
+        "Answer": 16,
+        "Equation": "func_add(func_add(num0,2),func_add(num1,1))"
+    },
+    {
+        "Question": "면의 수가 8개인 각기둥과 꼭짓점의 수가 7개인 각뿔이 있습니다. 이 각기둥과 각뿔의 모든 모서리의 수의 합은 몇 개입니까?",
+        "Answer": 30,
+        "Equation": "func_add(func_multiply(func_minus(num0,2),3), func_multiply(func_minus(num1,1),2))"
+    },
+    {
+        "Question": "모서리가 12개인 각뿔과 각기둥의 밑면의 모양이 같을 때 각기둥의 모서리는 몇 개입니까?",
+        "Answer": 18,
+        "Equation": "func_multiply(func_divide(num0,2),3)"
+    },
+    {
+        "Question": "삼각기둥의 모서리의 개수와 오각뿔의 모서리의 개수의 합은 몇 개입니까?",
+        "Answer": 19,
+        "Equation": "func_add(func_multiply(num0,3),func_multiply(num1,2))"
+    },
+    {
+        "Question": "세로가 5cm,가로가 10cm,  높이가 8cm인 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 400,
+        "Equation": "func_multiply(func_multiply(num0,num1),num2)"
+    },
+    {
+        "Question": "높이가 10cm이고 밑면의 넓이가 30㎠인 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 300,
+        "Equation": "func_multiply(num0,num1)"
+    },
+    {
+        "Question": "직육면체를 아래에서 본 모양의 넓이가 20㎠이고,높이가 20cm인 직육면체가 있습니다.  이 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 400,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "정훈이가 가지고 있는 직육면체 모양의 상자의 밑면은 한 변의 길이가 50cm인 정사각형이고 높이는 120cm일 때, 이 상자의 부피는 몇 m³입니까?",
+        "Answer": 0.3,
+        "Equation": "func_multiply(func_multiply(func_cm2m(num2,none),func_cm2m(num2,none)),func_cm2m(num4,none))"
+    },
+    {
+        "Question": "가로, 세로, 높이가 각각 6cm, 8cm, 10cm인 직육면체가 있습니다. 이 직육면체에는 부피가 1cm³인 직육면체가 빠짐없이 몇 개 들어갑니까?",
+        "Answer": 480,
+        "Equation": "func_divide(func_multiply(func_multiply(num0,num1),num2),num5)"
+    },
+    {
+        "Question": "높이가 10cm이고, 밑면의 둘레가 24cm인 직육면체를 만들려고 합니다. 밑면의 넓이가 가장 넓은 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 360,
+        "Equation": "func_multiply(func_multiply(func_divide(func_divide(num1,2),2),func_divide(func_divide(num1,2),2)),num0)"
+    },
+    {
+        "Question": "모든 모서리의 길이의 합이 72cm인 직육면체가 있습니다. 이 직육면체의 가로와 세로의 길이가 각각 10cm, 2cm일 때, 부피는 몇 cm³입니까?",
+        "Answer": 240,
+        "Equation": "func_multiply(func_multiply(num3,num4), func_divide(func_multiply(func_multiply(func_add(num3,num4),2),2),4))"
+    },
+    {
+        "Question": "가로와 세로가 각각 10cm, 12cm이고 부피가 1800cm³ 인 직육면체의 높이는 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_divide(num2,func_multiply(num0,num1))"
+    },
+    {
+        "Question": "부피가 1040cm³인 직육면체 모양의 책의 가로와 세로가 각각 13cm, 4cm일 때, 높이는 몇 cm입니까?",
+        "Answer": 20,
+        "Equation": "func_divide(num0,func_multiply(num2, num3))"
+    },
+    {
+        "Question": "가로, 세로, 높이가 각각 4cm, 5cm, 10cm인 직육면체 (가)와 가로, 세로가 각각 4cm, 2cm인 직육면체 (나)가 있습니다.(가)와 (나)의 부피가 같을 때, (나)의 높이는 몇 cm입니까?",
+        "Answer": 25,
+        "Equation": "func_divide(func_multiply(func_multiply(num0,num1),num2),func_multiply(num4,num5))"
+    },
+    {
+        "Question": "밑면의 넓이가 81㎠인 정육면체의 부피는 몇 cm³입니까?",
+        "Answer": 729,
+        "Equation": "func_cube(func_sqrt(num0,none),none)"
+    },
+    {
+        "Question": "한 모서리의 길이가 13cm인 정육면체의 모든 모서리의 길이를 3배로 늘인다면 정육면체의 부피는 늘리기 전의 부피의 몇 배가 됩니까?",
+        "Answer": 27,
+        "Equation": "func_cube(num3,none)"
+    },
+    {
+        "Question": "가로가 15cm, 세로가 12cm, 높이가 18cm인 직육면체 모양의 두부가 있습니다. 이 두부를 잘라서 정육면체 모양을 만들려고 할 때, 가장 큰 정육면체 모양의 부피는 몇 cm³입니까?",
+        "Answer": 1728,
+        "Equation": "func_cube(func_whichsmall(func_whichsmall(num0,num1),num2),none)"
+    },
+    {
+        "Question": "한 밑면의 둘레가 40cm인 정육면체의 부피는 몇 cm³입니까?",
+        "Answer": 1000,
+        "Equation": "func_cube(func_divide(num1,4),none)"
+    },
+    {
+        "Question": "부피가 216cm³인 정육면체가 있습니다. 이 정육면체의 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_cuberoot(num0,none)"
+    },
+    {
+        "Question": "작은 정육면체 27개를 쌓아 큰 정육면체를 만들었습니다. 쌓은 큰 정육면체의 부피가 216cm³일 때, 작은 정육면체 1개의 부피는 몇 cm³입니까?",
+        "Answer": 8,
+        "Equation": "func_divide(num4,num1)"
+    },
+    {
+        "Question": "한 변의 길이가 4cm인 정육면체와 가로와 세로가 각각 8cm, 2cm인 직육면체가 있습니다. 정육면체와 직육면체의 부피가 같을 때, 직육면체의 높이는 몇 cm입니까?",
+        "Answer": 4,
+        "Equation": "func_divide(func_cube(num1,none),func_multiply(num3,num4))"
+    },
+    {
+        "Question": "부피가 125cm³인 작은 정육면체 8개를 정육면체 모양으로 쌓았습니다. 쌓은 정육면체의 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 10,
+        "Equation": "func_cuberoot(func_multiply(num0,num2),none)"
+    },
+    {
+        "Question": "가로와 세로가 각각 70cm, 50cm인 수조에 물이 담겨져 있습니다. 희진이가 이 수조에 장난감 기차를 넣었더니 물의 높이가 4cm 늘어났습니다. 장난감 기차의 부피는 몇 cm³입니까? (단, 수조의 두께는 생각하지 않습니다.)",
+        "Answer": 14000,
+        "Equation": "func_multiply(func_multiply(num0,num1),num2)"
+    },
+    {
+        "Question": "돌멩이가 들어 있는 수조에서 돌멩이를 빼었더니 물의 높이가 3cm 줄어들었습니다. 이 수조의 가로와 세로가 각각 60cm, 45cm일 때, 돌멩이의 부피는 몇 cm³입니까?",
+        "Answer": 8100,
+        "Equation": "func_multiply(func_multiply(num1,num2),num0)"
+    },
+    {
+        "Question": "가로가 5cm, 세로가 6cm, 높이가 7cm인 직육면체가 있습니다. 이 직육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 214,
+        "Equation": "func_cubearea(func_makelist(num0,num1),num2)"
+    },
+    {
+        "Question": "가로가 3cm, 세로가 4cm, 높이가 5cm인 직육면체 (가)와 가로가 4cm, 세로가 2cm, 높이가 6cm인 직육면체 (나)가 있습니다. 이 두 직육면체 (가)와 (나)의 겉넓이의 합은 몇 ㎠입니까?",
+        "Answer": 182,
+        "Equation": "func_add(func_cubearea(func_makelist(num0,num1),num2),func_cubearea(func_makelist(num4,num5),num6))"
+    },
+    {
+        "Question": "밑면의 넓이가 25㎠이고, 겉넓이가 210㎠인 직육면체가 있습니다. 밑에 놓이 면이 정사각형일 때, 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 200,
+        "Equation": "func_multiply(num0,func_divide(func_minus(num1,func_multiply(num0,2)), func_multiply(func_sqrt(num0,none),num3)))"
+    },
+    {
+        "Question": "높이가 8cm이고, 겉넓이가 200㎠인 직육면체가 있습니다. 밑면의 둘레가 20cm일 때, 이 직육면체의 부피는 몇 cm³입니까?",
+        "Answer": 160,
+        "Equation": "func_multiply(num0,func_divide(func_minus(num1,func_multiply(num0,num3)),2))"
+    },
+    {
+        "Question": "밑면의 둘레가 20cm이고, 높이가 8cm인 직육면체가 있습니다. 이 직육면체의 겉넓이가 200㎠일 때, 밑면의 넓이는 몇 ㎠입니까?",
+        "Answer": 20,
+        "Equation": "func_divide(func_minus(num4,func_multiply(num0,num1)),2)"
+    },
+    {
+        "Question": "원철이는 가로와 세로가 각각 3cm인 정사각형 2개와 가로가 5cm 세로가 3cm인 직사각형 4개를 남김 없이 사용하여 직육면체를 만들었습니다. 이 직육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 78,
+        "Equation": "func_cubearea(func_makelist(num0,num3),num4)"
+    },
+    {
+        "Question": "밑면이 둘레가 16cm이고 넓이가 15㎠인 직육면체가 있고 이 직육면체의 겉넓이가 126㎠일 때 높이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_divide(func_minus(num4,func_multiply(num1,2)),num0)"
+    },
+    {
+        "Question": "부피가 180cm³인 직육면체가 있습니다. 이 직육면체의 밑면의 둘레가 16cm이고, 넓이가 15㎠일 때 겉넓이는 몇 ㎠입니까?",
+        "Answer": 222,
+        "Equation": "func_add(func_multiply(num3,func_divide(num0,num4)),func_multiply(num4,2))"
+    },
+    {
+        "Question": "한 모서리의 길이가 5cm인 정육면체의 모든 면의 넓이의 합은 몇 ㎠입니까?",
+        "Answer": 150,
+        "Equation": "func_multiply(func_square(num1,none),num2)"
+    },
+    {
+        "Question": "한 면의 넓이가 9㎠인 정육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 54,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "한 면의 둘레가 20cm인 정육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 150,
+        "Equation": "func_multiply(func_square(func_divide(num1,4),none),num2)"
+    },
+    {
+        "Question": "가로, 세로, 높이가 각각 10cm, 13cm, 8cm인 직육면체 모양의 두부를 잘라서 만들 수 있는 가장 큰 정육면체 모양의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 384,
+        "Equation": "func_multiply(func_square(func_whichsmall(func_whichsmall(num0,num1),num2),none),num3)"
+    },
+    {
+        "Question": "겉넓이가 726㎠인 정육면체의 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 11,
+        "Equation": "func_multiply(func_sqrt(func_divide(num0,num1),none),num2)"
+    },
+    {
+        "Question": "겉넓이가 726㎠인 정육면체의 모든 모서리의 길이의 합은 몇 cm입니까?",
+        "Answer": 132,
+        "Equation": "func_multiply(func_sqrt(func_divide(num0,num1),none),func_edge(num1,none))"
+    },
+    {
+        "Question": "지름이 8cm인 원의 둘레와 반지름이 5cm인 원의 둘레의 합은 몇 cm입니까? (원주율: 3)",
+        "Answer": 54,
+        "Equation": "func_add(func_multiply(num0,num2),func_multiply(func_multiply(num1,2),num2))"
+    },
+    {
+        "Question": "진주는 길이가 8cm인 끈에 펜을 달아 중심을 고정한 뒤 그릴 수 있는 가장 큰 원을 그렸습니다. 진주가 그린 원의 원주는 몇 cm입니까? (원주율: 3.1)",
+        "Answer": 49.6,
+        "Equation": "func_multiply(func_multiply(num0,2),num1)"
+    },
+    {
+        "Question": "반지름이 48cm인 원의 지름과 원주가 54cm인 원의 지름의 차는 몇 cm입니까? (원주율: 3)",
+        "Answer": 78,
+        "Equation": "func_difference(func_multiply(num0,2), func_divide(num1,num2))"
+    },
+    {
+        "Question": "원 (가)와 원 (나)가 있습니다. 원 (가)의 원주는 43.4cm이고 원 (나)의 원주는 원 (가)의 원주의 2배일 때 원 (나)의 반지름 몇 cm입니까? (원주율: 3.1)",
+        "Answer": 14,
+        "Equation": "func_divide(func_divide(func_multiply(num0,num1),num2),2)"
+    },
+    {
+        "Question": "반지름이 10cm인 원의 넓이와 반지름이 3cm인 원의 넓이의 차는 몇 ㎠입니까? (원주율: 3.14)",
+        "Answer": 285.74,
+        "Equation": "func_difference(func_circlearea(num0,num2),func_circlearea(num1,num2))"
+    },
+    {
+        "Question": "가로와 세로가 각각 50cm, 60cm인 직사각형이 있습니다. 이 직사각형을 잘라 만들 수 있는 가장 큰 원의 넓이는 몇 ㎠입니까? (원주율: 3.14)",
+        "Answer": 1962.5,
+        "Equation": "func_circlearea(func_divide(func_whichsmall(num0,num1),2),num4)"
+    },
+    {
+        "Question": "넓이가 432㎠인 원 모양의 파이를 밑면이 정사각형 모양인 직육면체 모양의 상자에 포장하려고 할 때 상자의 밑면의 한 변의 길이는 적어도 몇 cm이어야 할까요? (원주율: 3)",
+        "Answer": 24,
+        "Equation": "func_multiply(func_sqrt(func_divide(num0,num4),none),2)"
+    },
+    {
+        "Question": "길이가 78cm인 끈을 남기거나 겹치는 부분 없이 모두 사용하여 만든 원의 넓이는 몇 ㎠입니까? (원주율: 3)",
+        "Answer": 507,
+        "Equation": "func_circlearea(func_divide(func_divide(num0,num1),2),num1)"
+    },
+    {
+        "Question": "가로가 9cm, 세로가 12cm인 직사각형과 넓이가 같은 원의 반지름은 몇 cm입니까? (원주율: 3)",
+        "Answer": 6,
+        "Equation": "func_sqrt(func_divide(func_multiply(num0,num1),num3),none)"
+    },
+    {
+        "Question": "삼각형의 변의 개수와 사각형의 변의 개수를 합하면?",
+        "Answer": 7,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "한 변의 길이가 5cm인 정삼각형의 모든 변의 합은 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "길이가 20cm인 철사로 직사각형을 만들었더니 철사를 남김없이 사용했습니다. 직사각형의 가로 길이가 4cm일 때, 세로 길이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_minus(func_divide(num0,2),num3)"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 정사각형과 둘레가 같은 정팔각형의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_divide(func_multiply(num1,num2),num3)"
+    },
+    {
+        "Question": "둘레가 24cm인 직사각형이 있습니다. 이 직사각형의 세로의 길이가 가로의 길이의 2배일 때 세로는 몇 cm입니까?",
+        "Answer": 8,
+        "Equation": "func_multiply(func_divide(func_divide(num0,2),func_add(num3,1)),num3)"
+    },
+    {
+        "Question": "가로와 세로가 각각 3cm인 종이로 각 면을 구성해서 정육면체를 만들려고 합니다. 정육면체의 겉넓이는 몇 ㎠입니까?",
+        "Answer": 54,
+        "Equation": "func_multiply(func_square(num0,none),num1)"
+    },
+    {
+        "Question": "가로와 세로가 각각 5cm인 종이를 이용하여 정육면체를 만들 때 정육면체의 부피는 몇 cm³입니까?",
+        "Answer": 125,
+        "Equation": "func_cube(num0,none)"
+    },
+    {
+        "Question": "색종이로 한 면의 넓이가 10㎠인 정육면체를 만들려고 합니다. 필요한 색종이의 넓이의 합은 몇 ㎠입니까?",
+        "Answer": 60,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "가로, 세로가 각각 25cm이고, 높이가 40cm인 직육면체 모양의 통의 높이의 1/2 배 높이만큼 물이 들어 있다면 이 통에 들어 있는 물의 부피는 몇 cm³입니까?",
+        "Answer": 12500,
+        "Equation": "func_multiply(func_multiply(func_square(num0,none),num1),num3)"
+    },
+    {
+        "Question": "부피가 1cm³인 정육면체로 한 모서리의 길이가 10cm인 정육면체를 만드려면 몇 개의 작은 정육면체가 필요합니까?",
+        "Answer": 1000,
+        "Equation": "func_divide(func_cube(num3,none),num0)"
+    },
+    {
+        "Question": "작은 정육면체 27개로 큰 정육면체를 만들었습니다. 큰 정육면체의 부피가 216cm³일 때 작은 정육면체의 한 모서리의 길이는 몇 cm인가요?",
+        "Answer": 2,
+        "Equation": "func_cuberoot(func_divide(num4,num1),none)"
+    },
+    {
+        "Question": "작은 정육면체 27개로 큰 정육면체를 만들었습니다. 큰 정육면체의 부피가 216cm³일 때 작은 정육면체의 한 면의 넓이는 몇 제곱센티미터일까요?",
+        "Answer": 4,
+        "Equation": "func_square(func_cuberoot(func_divide(num4,num1),none),none)"
+    },
+    {
+        "Question": "가로가 4m, 세로가 2m, 높이가 3m인 직육면체 모양의 창고 내부에 한 모서리의 길이가 20cm인 정육면체 모양의 상자를 빈틈없이 쌓으려고 합니다. 정육면체 모양의 상자를 모두 몇 개까지 쌓을 수 있습니까?",
+        "Answer": 3000,
+        "Equation": "func_divide(func_multiply(func_multiply(num0,num1),num2),func_cube(func_cm2m(num5,none),none))"
+    },
+    {
+        "Question": "윤기는 가로가 5cm, 세로가 5cm, 높이가 9cm인 직육면체를 만들었고, 호석이는 가로가 7cm, 세로가 2cm, 높이가 10cm인 직육면체를 만들었습니다. 윤기가 만든 상자의 부피가 얼마나 더 큽니까?",
+        "Answer": 85,
+        "Equation": "func_minus(func_multiply(func_multiply(num0,num1),num2),func_multiply(func_multiply(num4,num5),num6))"
+    },
+    {
+        "Question": "가로와 세로의 길이가 각각 5cm, 2cm인 직육면체의 겉넓이가 160㎠일 때 높이는 몇 cm입니까?",
+        "Answer": 10,
+        "Equation": "func_divide(func_minus(func_divide(num3,2),func_multiply(num0,num1)),func_add(num0,num1))"
+    },
+    {
+        "Question": "가로가 9cm, 세로가 3cm, 높이가 10cm인 직육면체와 겉넓이가 같은 정육면체를 만들려고 합니다. 정육면체의 한 모서리의 길이는 몇 cm입니까?",
+        "Answer": 7,
+        "Equation": "func_sqrt(func_divide(func_cubearea(func_makelist(num0,num1),num2),num5),none)"
+    },
+    {
+        "Question": "삼각형의 변의 개수와 사각형의 변의 개수를 모두 합친 값을 구하시오",
+        "Answer": 7,
+        "Equation": "func_add(num0,num1)"
+    },
+    {
+        "Question": "한 변의 길이가 5cm인 정삼각형의 모든 변의 길이의 합은 몇 cm입니까?",
+        "Answer": 15,
+        "Equation": "func_multiply(num1,num2)"
+    },
+    {
+        "Question": "길이가 20cm인 밧줄로 직사각형을 만들었더니 줄이 남지도 모자라지도 않는다고 한다. 직사각형의 세로 길이가 4cm일 때, 가로 길이는 몇 cm입니까?",
+        "Answer": 6,
+        "Equation": "func_minus(func_divide(num0,2),num3)"
+    },
+    {
+        "Question": "한 변의 길이가 10cm인 정사각형의 둘레의 길이와 둘레가 같은 정팔각형이 있다면 이 도형의 한 변의 길이는 몇 cm입니까?",
+        "Answer": 5,
+        "Equation": "func_divide(func_multiply(num1,num2),num3)"
+    }
+]

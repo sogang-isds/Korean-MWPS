@@ -1,0 +1,17 @@
+gensim             
+jieba              
+nltk               
+numpy              
+scikit-learn       
+scipy              
+sklearn            
+torch            
+torchvision        
+tqdm              
+transformers==3.0.2
+konlpy
+tweepy==3.10.0
+pandas
+timeout_timer
+torchtext
+
